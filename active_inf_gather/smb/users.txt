@@ -1,0 +1,421 @@
+Checking: , 10.11.1.5
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:28 BST
+Nmap scan report for 10.11.1.5
+Host is up (0.40s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 19.28 seconds
+Checking: , 10.11.1.8
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:28 BST
+Nmap scan report for 10.11.1.8
+Host is up (0.42s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|_  Couldn't find any account names, sorry!
+
+Nmap done: 1 IP address (1 host up) scanned in 11.68 seconds
+Checking: , 10.11.1.22
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:28 BST
+Nmap scan report for 10.11.1.22
+Host is up (0.47s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.95 seconds
+Checking: , 10.11.1.24
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:28 BST
+Nmap scan report for 10.11.1.24
+Host is up (0.37s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|   PAYDAY\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Normal user account
+|   PAYDAY\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Normal user account
+|   PAYDAY\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Normal user account
+|   PAYDAY\dhcp (RID: 1200)
+|     Flags:       Normal user account
+|   PAYDAY\dovecot (RID: 1208)
+|     Full name:   Dovecot mail server,,,
+|     Flags:       Normal user account
+|   PAYDAY\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Normal user account
+|   PAYDAY\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Normal user account
+|   PAYDAY\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Normal user account
+|   PAYDAY\klog (RID: 1204)
+|     Flags:       Normal user account
+|   PAYDAY\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Normal user account
+|   PAYDAY\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Normal user account
+|   PAYDAY\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Normal user account
+|   PAYDAY\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Normal user account
+|   PAYDAY\mysql (RID: 1206)
+|     Full name:   MySQL Server,,,
+|     Flags:       Normal user account
+|   PAYDAY\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Normal user account
+|   PAYDAY\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Normal user account
+|   PAYDAY\postfix (RID: 1210)
+|     Flags:       Normal user account
+|   PAYDAY\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Normal user account
+|   PAYDAY\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Normal user account
+|   PAYDAY\sshd (RID: 1212)
+|     Flags:       Normal user account
+|   PAYDAY\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Normal user account
+|   PAYDAY\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Normal user account
+|   PAYDAY\syslog (RID: 1202)
+|     Flags:       Normal user account
+|   PAYDAY\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Normal user account
+|   PAYDAY\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 11.57 seconds
+Checking: , 10.11.1.31
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:28 BST
+Nmap scan report for 10.11.1.31
+Host is up (0.73s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 15.75 seconds
+Checking: , 10.11.1.49
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:29 BST
+Nmap scan report for 10.11.1.49
+Host is up (0.40s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 10.85 seconds
+Checking: , 10.11.1.50
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:29 BST
+Nmap scan report for 10.11.1.50
+Host is up (0.52s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 11.87 seconds
+Checking: , 10.11.1.115
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:29 BST
+Nmap scan report for 10.11.1.115
+Host is up (0.47s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.43 seconds
+Checking: , 10.11.1.128
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:29 BST
+Nmap scan report for 10.11.1.128
+Host is up (0.35s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|   DJ\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Normal user account, Password does not expire
+|   DJ\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   DJ\IUSR_SRV2 (RID: 1020)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   DJ\IWAM_SRV2 (RID: 1019)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services out of process applications
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   DJ\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password not required, Normal user account, Password does not expire
+
+Nmap done: 1 IP address (1 host up) scanned in 21.37 seconds
+Checking: , 10.11.1.136
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:29 BST
+Nmap scan report for 10.11.1.136
+Host is up (0.43s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|   SUFFERANCE\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Normal user account
+|   SUFFERANCE\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Normal user account
+|   SUFFERANCE\bob (RID: 3002)
+|     Flags:       Normal user account
+|   SUFFERANCE\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Normal user account
+|   SUFFERANCE\Debian-exim (RID: 1200)
+|     Flags:       Normal user account
+|   SUFFERANCE\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Normal user account
+|   SUFFERANCE\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Normal user account
+|   SUFFERANCE\identd (RID: 1204)
+|     Flags:       Normal user account
+|   SUFFERANCE\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Normal user account
+|   SUFFERANCE\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Normal user account
+|   SUFFERANCE\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Normal user account
+|   SUFFERANCE\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Normal user account
+|   SUFFERANCE\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Normal user account
+|   SUFFERANCE\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Normal user account
+|   SUFFERANCE\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Normal user account
+|   SUFFERANCE\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Normal user account
+|   SUFFERANCE\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Normal user account
+|   SUFFERANCE\sshd (RID: 1206)
+|     Flags:       Normal user account
+|   SUFFERANCE\statd (RID: 1202)
+|     Flags:       Normal user account
+|   SUFFERANCE\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Normal user account
+|   SUFFERANCE\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Normal user account
+|   SUFFERANCE\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Normal user account
+|   SUFFERANCE\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 12.99 seconds
+Checking: , 10.11.1.202
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:30 BST
+Nmap scan report for 10.11.1.202
+Host is up (0.40s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|   ORACLE\admin (RID: 1004)
+|     Flags:       Normal user account
+|   ORACLE\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Password does not expire, Normal user account
+|   ORACLE\alison (RID: 1005)
+|     Flags:       Normal user account
+|   ORACLE\backd00r (RID: 1012)
+|     Flags:       Normal user account
+|   ORACLE\backup (RID: 1006)
+|     Flags:       Normal user account
+|   ORACLE\david (RID: 1007)
+|     Flags:       Normal user account
+|   ORACLE\dba (RID: 1011)
+|     Flags:       Normal user account
+|   ORACLE\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Account disabled, Password not required, Password does not expire, Normal user account
+|   ORACLE\IUSR_ORACLE (RID: 1001)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   ORACLE\IWAM_ORACLE (RID: 1002)
+|     Full name:   Launch IIS Process Account
+|     Description: Built-in account for Internet Information Services to start out of process applications
+|     Flags:       Password not required, Password does not expire, Normal user account
+|   ORACLE\john (RID: 1008)
+|     Flags:       Normal user account
+|   ORACLE\lisa (RID: 1009)
+|     Flags:       Normal user account
+|   ORACLE\mark (RID: 1010)
+|     Flags:       Normal user account
+|   ORACLE\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password not required, Password does not expire, Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 19.34 seconds
+Checking: , 10.11.1.220
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:30 BST
+Nmap scan report for 10.11.1.220
+Host is up (0.44s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 6.55 seconds
+Checking: , 10.11.1.223
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:30 BST
+Nmap scan report for 10.11.1.223
+Host is up (0.36s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 4.74 seconds
+Checking: , 10.11.1.227
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:30 BST
+Nmap scan report for 10.11.1.227
+Host is up (0.41s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-users: 
+|   JD\admin (RID: 1007)
+|     Flags:       Normal user account
+|   JD\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Password does not expire, Normal user account
+|   JD\backup (RID: 1006)
+|     Full name:   backup
+|     Flags:       Password does not expire, Normal user account
+|   JD\david (RID: 1009)
+|     Flags:       Normal user account
+|   JD\gary (RID: 1013)
+|     Full name:   gary
+|     Flags:       Normal user account
+|   JD\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Password does not expire, Password not required, Normal user account
+|   JD\homer (RID: 1017)
+|     Full name:   homer
+|     Flags:       Normal user account
+|   JD\IUSR_SRV2 (RID: 1020)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password does not expire, Password not required, Normal user account
+|   JD\IWAM_SRV2 (RID: 1019)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services out of process applications
+|     Flags:       Password does not expire, Password not required, Normal user account
+|   JD\john (RID: 1010)
+|     Flags:       Normal user account
+|   JD\lee (RID: 1015)
+|     Full name:   lee
+|     Flags:       Normal user account
+|   JD\lisa (RID: 1011)
+|     Flags:       Normal user account
+|   JD\mark (RID: 1012)
+|     Flags:       Normal user account
+|   JD\ned (RID: 1016)
+|     Full name:   ned
+|     Flags:       Normal user account
+|   JD\nick (RID: 1014)
+|     Full name:   nick
+|     Flags:       Normal user account
+|   JD\simon (RID: 1008)
+|     Flags:       Normal user account
+|   JD\sqlusr (RID: 1005)
+|     Full name:   sqlusr
+|     Flags:       Normal user account
+|   JD\todd (RID: 1018)
+|     Full name:   todd
+|     Flags:       Normal user account
+|   JD\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password does not expire, Password not required, Normal user account
+
+Nmap done: 1 IP address (1 host up) scanned in 18.58 seconds
+Checking: , 10.11.1.229
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:30 BST
+Nmap scan report for 10.11.1.229
+Host is up (0.39s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 12.07 seconds
+Checking: , 10.11.1.230
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-10-05 17:31 BST
+Nmap scan report for 10.11.1.230
+Host is up (0.36s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 4.60 seconds

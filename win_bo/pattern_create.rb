@@ -1,0 +1,1 @@
+/opt/metasploit-framework/embedded/framework/tools/exploit/pattern_create.rb
