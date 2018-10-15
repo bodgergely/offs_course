@@ -1,0 +1,18 @@
+
+https://www.aychedee.com/2012/03/14/etc_shadow-password-hash-formats/
+https://www.cyberciti.biz/faq/understanding-etcshadow-file/
+https://unix.stackexchange.com/questions/81240/manually-generate-password-for-etc-shadow
+
+$./cewl
+
+cewl is a word list generator that can scrape websites.
+
+Once we have the wordlist we can do password mutation on them with john.
+
+
+Hydra
+=====
+
+POST with JSON content:
+
+https://security.stackexchange.com/questions/57839/hydra-bruteforce-and-json

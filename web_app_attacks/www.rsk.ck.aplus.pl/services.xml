@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70SVN scan initiated Sat Oct 13 14:49:14 2018 as: nmap -v -sS -A -oA services -&#45;top-ports 20 77.55.252.135 -->
+<nmaprun scanner="nmap" args="nmap -v -sS -A -oA services -&#45;top-ports 20 77.55.252.135" start="1539438554" startstr="Sat Oct 13 14:49:14 2018" version="7.70SVN" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="20" services="21-23,25,53,80,110-111,135,139,143,443,445,993,995,1723,3306,3389,5900,8080"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1539438555"/>
+<taskend task="NSE" time="1539438555"/>
+<taskbegin task="NSE" time="1539438555"/>
+<taskend task="NSE" time="1539438555"/>
+<taskbegin task="NSE" time="1539438555"/>
+<taskend task="NSE" time="1539438555"/>
+<taskbegin task="Ping Scan" time="1539438555"/>
+<taskend task="Ping Scan" time="1539438555" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1539438555"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1539438555"/>
+<taskbegin task="SYN Stealth Scan" time="1539438555"/>
+<taskend task="SYN Stealth Scan" time="1539438557" extrainfo="20 total ports"/>
+<taskbegin task="Service scan" time="1539438557"/>
+<taskend task="Service scan" time="1539438718" extrainfo="11 services on 1 host"/>
+<taskbegin task="Traceroute" time="1539438722"/>
+<taskend task="Traceroute" time="1539438725"/>
+<taskbegin task="Parallel DNS resolution of 10 hosts." time="1539438725"/>
+<taskend task="Parallel DNS resolution of 10 hosts." time="1539438725"/>
+<taskbegin task="NSE" time="1539438725"/>
+<taskend task="NSE" time="1539438757"/>
+<taskbegin task="NSE" time="1539438757"/>
+<taskend task="NSE" time="1539438826"/>
+<taskbegin task="NSE" time="1539438826"/>
+<taskend task="NSE" time="1539438826"/>
+<host starttime="1539438555" endtime="1539438826"><status state="up" reason="echo-reply" reason_ttl="52"/>
+<address addr="77.55.252.135" addrtype="ipv4"/>
+<hostnames>
+<hostname name="s19.o12.pl" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service><script id="ssl-cert" output="Subject: commonName=*.o12.pl/countryName=PL&#xa;Subject Alternative Name: DNS:*.o12.pl, DNS:o12.pl&#xa;Issuer: commonName=nazwaSSL/organizationName=nazwa.pl sp. z o.o./countryName=PL&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2017-12-05T17:51:33&#xa;Not valid after:  2018-12-05T17:51:33&#xa;MD5:   f241 a1d3 b5cd bb7c aa13 e5c7 ca2a 848d&#xa;SHA-1: c3c5 be61 2f57 0c71 e668 b014 b21d b11b 162b 5ed0"><table key="subject">
+<elem key="countryName">PL</elem>
+<elem key="commonName">*.o12.pl</elem>
+</table>
+<table key="issuer">
+<elem key="countryName">PL</elem>
+<elem key="organizationalUnitName">http://nazwa.pl</elem>
+<elem key="organizationName">nazwa.pl sp. z o.o.</elem>
+<elem key="commonName">nazwaSSL</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x557317ca3da8</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x557317ca3de8</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.certum.pl/nazwassl2sha2.crl&#xa;</elem>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+</table>
+<table>
+<elem key="value">OCSP - URI:http://nazwassl2sha2.ocsp-certum.com&#xa;CA Issuers - URI:http://repository.certum.pl/nazwassl2sha2.cer&#xa;</elem>
+<elem key="name">Authority Information Access</elem>
+</table>
+<table>
+<elem key="value">keyid:54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CE:90:B5:43:21:74:27:42:CD:AA:13:F8:CE:F8:2F:93:99:49:C6:F3</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+</table>
+<table>
+<elem key="value">Policy: 1.2.616.1.113527.2.5.1.9.2.3&#xa;  User Notice:&#xa;    Organization: Unizeto Technologies S.A.&#xa;    Number: 2&#xa;    Explicit Text: Usage of this certificate is strictly subjected to the CERTUM Certification Practice Statement (CPS) incorporated by reference herein and in the repository at https://www.certum.pl/repository.&#xa;</elem>
+<elem key="name">X509v3 Certificate Policies</elem>
+</table>
+<table>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+<elem key="name">X509v3 Extended Key Usage</elem>
+</table>
+<table>
+<elem key="value">SSL Client, SSL Server</elem>
+<elem key="name">Netscape Cert Type</elem>
+</table>
+<table>
+<elem key="value">DNS:*.o12.pl, DNS:o12.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2017-12-05T17:51:33</elem>
+<elem key="notAfter">2018-12-05T17:51:33</elem>
+</table>
+<elem key="md5">f241a1d3b5cdbb7caa13e5c7ca2a848d</elem>
+<elem key="sha1">c3c5be612f570c71e668b014b21db11b162b5ed0</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFhzCCBG+gAwIBAgIQVHWEHk12vL96omsvmKH74jANBgkqhkiG9w0BAQsFADBY&#xa;MQswCQYDVQQGEwJQTDEcMBoGA1UECgwTbmF6d2EucGwgc3AuIHogby5vLjEYMBYG&#xa;A1UECwwPaHR0cDovL25hendhLnBsMREwDwYDVQQDDAhuYXp3YVNTTDAeFw0xNzEy&#xa;MDUxNzUxMzNaFw0xODEyMDUxNzUxMzNaMCAxCzAJBgNVBAYTAlBMMREwDwYDVQQD&#xa;DAgqLm8xMi5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnFMrY/&#xa;uduIrwLXZ2as/47hAJGQQOo6lF8KggOQzAaianzzLAMm/utnyFQslvAffVtjWKgF&#xa;a0mR7xBp5x7dOtybJ2VhABojQ4gSpdCwmDTTMIfEXepnW2HbsR5TRR52WlesM2HF&#xa;hW2+KFG1APjiX1uUjmZIrqKtEtmQ8ErlJg+8BSRDuY6CkO0wqpKsJy7617cuEw5G&#xa;dj7S6EaWSyjfF+6AV/AYS5lle6z5Ij+Ej8jaX1rHbrAptXjEeVke1K8ihMB9ohTI&#xa;K0SRH3Wn0Ut66Un/h9eIHsKoB3yDmTbJxZw1QdS0xSlll8DKNNvC2MmgH6IKKC6F&#xa;SXR9p2CIMCDb5x0CAwEAAaOCAoMwggJ/MAwGA1UdEwEB/wQCMAAwNwYDVR0fBDAw&#xa;LjAsoCqgKIYmaHR0cDovL2NybC5jZXJ0dW0ucGwvbmF6d2Fzc2wyc2hhMi5jcmww&#xa;ewYIKwYBBQUHAQEEbzBtMDAGCCsGAQUFBzABhiRodHRwOi8vbmF6d2Fzc2wyc2hh&#xa;Mi5vY3NwLWNlcnR1bS5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yZXBvc2l0b3J5&#xa;LmNlcnR1bS5wbC9uYXp3YXNzbDJzaGEyLmNlcjAfBgNVHSMEGDAWgBRU3JC7nUcZ&#xa;UcN5aCyE7S7fX0a6xzAdBgNVHQ4EFgQUzpC1QyF0J0LNqhP4zvgvk5lJxvMwDgYD&#xa;VR0PAQH/BAQDAgWgMIIBGAYDVR0gBIIBDzCCAQswggEHBg0qhGgBhvZ3AgUBCQID&#xa;MIH1MIHyBggrBgEFBQcCAjCB5TAgFhlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEu&#xa;MAMCAQIagcBVc2FnZSBvZiB0aGlzIGNlcnRpZmljYXRlIGlzIHN0cmljdGx5IHN1&#xa;YmplY3RlZCB0byB0aGUgQ0VSVFVNIENlcnRpZmljYXRpb24gUHJhY3RpY2UgU3Rh&#xa;dGVtZW50IChDUFMpIGluY29ycG9yYXRlZCBieSByZWZlcmVuY2UgaGVyZWluIGFu&#xa;ZCBpbiB0aGUgcmVwb3NpdG9yeSBhdCBodHRwczovL3d3dy5jZXJ0dW0ucGwvcmVw&#xa;b3NpdG9yeS4wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBEGCWCGSAGG&#xa;+EIBAQQEAwIGwDAbBgNVHREEFDASgggqLm8xMi5wbIIGbzEyLnBsMA0GCSqGSIb3&#xa;DQEBCwUAA4IBAQCeFzFuKb4hoHexQc3jlDMgKYTX/d1Lz6oGX+m4a4MbYv8eLcLn&#xa;rgCMXwENIXQWU9eAwM7d4syxV25egsbWpBjm/QjmeNGSxkIYN0qVqU5NOY9ZZRyc&#xa;sQBO8hSlyCNhOXLttWB7xugsPZ4RSupK/UxZRWK6kj2x+KOMiQT0bznOgr8QBCok&#xa;5hBMhiP+yiLz5Q/LJJCzbvLk/GIlLT4aIu4N2Se1KsI9nvEhdEkGZ0K5WaQFbjkn&#xa;CyCkW8Uyivxt374qymMSzUTUlw+gKZ3MbnbwEycY4+PNaw9kyBrlXA77lnhda7ea&#xa;efJtzTQwl7JSsaXnfCFNXcKk+oXA+G3Appxt&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="ssh" product="OpenSSH" version="7.4" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.4</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 ec:2a:89:11:6f:86:20:ae:8d:10:18:aa:01:a0:dd:99 (RSA)&#xa;  256 49:6c:a6:90:59:ea:4b:68:3e:58:c6:4e:1e:ad:e2:5d (ECDSA)&#xa;  256 07:6b:cd:bf:2d:2f:19:e1:15:98:f5:28:d9:3a:0a:17 (ED25519)"><table>
+<elem key="bits">2048.0</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDQGDsW/Tjenhe4klDkw43YZtG+D2dS5mEcbxxbv2sXKXKkgKASkdP1X56lf5e31hMqKt6NqkWf9yT/fRMb9hfj2O3KyAcO+YADHwMh9eGtEQoMuPOicQj4LGDlNbEAoQi1+O2t2qjlgE3p7Sql8sa5QLshJn7d1UW8ZQaCaH2au2m/B18ntvuU7CYsCrK/2vpglSUUzyC4XJbGxiXWKsq7ZC5CNB7/VpwQjo5GeL2ZlTqcHff1wvz1ptUyYAYkZBG0hxxCgqf9jO+54xDmLXxJjlmCNNWl/LI3M3aetL4AA69fs7hd9u4Ro1SwBV+N5oygGdGpvo2hOY56CxeYkC1L</elem>
+<elem key="fingerprint">ec2a89116f8620ae8d1018aa01a0dd99</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC+EWFFJFwtHEyM1UF4I8cS9rb5REwZ42egZMWVYGtRPaVibi7UpFkM5qt+VUX7gBeZ13dN7nI6pvLqgFG2ZM8U=</elem>
+<elem key="fingerprint">496ca69059ea4b683e58c64e1eade25d</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIBVe31SLZF8yF2UfuXxdXq6G36nEBwlbT+3WYuo25lzs</elem>
+<elem key="fingerprint">076bcdbf2d2f19e11598f528d93a0a17</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="23"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="smtp" method="table" conf="3"/><script id="smtp-commands" output="Couldn&apos;t establish connection on port 25"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="domain" product="ISC BIND" version="9.9.4" extrainfo="RedHat Enterprise Linux 7" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:isc:bind:9.9.4</cpe><cpe>cpe:/o:redhat:enterprise_linux:7</cpe></service><script id="dns-nsid" output="&#xa;  bind.version: 9.9.4-RedHat-9.9.4-61.el7"><elem key="bind.version">9.9.4-RedHat-9.9.4-61.el7</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: POST OPTIONS HEAD GET"><table key="Supported Methods">
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+<elem>GET</elem>
+</table>
+</script><script id="http-server-header" output="Apache"><elem>Apache</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="pop3" product="Dovecot pop3d" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="pop3-capabilities" output="STLS TOP RESP-CODES PIPELINING SASL(PLAIN LOGIN) USER AUTH-RESP-CODE UIDL CAPA"/><script id="ssl-cert" output="Subject: commonName=*.o12.pl/countryName=PL&#xa;Subject Alternative Name: DNS:*.o12.pl, DNS:o12.pl&#xa;Issuer: commonName=nazwaSSL/organizationName=nazwa.pl sp. z o.o./countryName=PL&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2017-12-05T17:51:33&#xa;Not valid after:  2018-12-05T17:51:33&#xa;MD5:   f241 a1d3 b5cd bb7c aa13 e5c7 ca2a 848d&#xa;SHA-1: c3c5 be61 2f57 0c71 e668 b014 b21d b11b 162b 5ed0"><table key="subject">
+<elem key="countryName">PL</elem>
+<elem key="commonName">*.o12.pl</elem>
+</table>
+<table key="issuer">
+<elem key="countryName">PL</elem>
+<elem key="organizationalUnitName">http://nazwa.pl</elem>
+<elem key="organizationName">nazwa.pl sp. z o.o.</elem>
+<elem key="commonName">nazwaSSL</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x557319a6f898</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x557319a6f8d8</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.certum.pl/nazwassl2sha2.crl&#xa;</elem>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+</table>
+<table>
+<elem key="value">OCSP - URI:http://nazwassl2sha2.ocsp-certum.com&#xa;CA Issuers - URI:http://repository.certum.pl/nazwassl2sha2.cer&#xa;</elem>
+<elem key="name">Authority Information Access</elem>
+</table>
+<table>
+<elem key="value">keyid:54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CE:90:B5:43:21:74:27:42:CD:AA:13:F8:CE:F8:2F:93:99:49:C6:F3</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+</table>
+<table>
+<elem key="value">Policy: 1.2.616.1.113527.2.5.1.9.2.3&#xa;  User Notice:&#xa;    Organization: Unizeto Technologies S.A.&#xa;    Number: 2&#xa;    Explicit Text: Usage of this certificate is strictly subjected to the CERTUM Certification Practice Statement (CPS) incorporated by reference herein and in the repository at https://www.certum.pl/repository.&#xa;</elem>
+<elem key="name">X509v3 Certificate Policies</elem>
+</table>
+<table>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+<elem key="name">X509v3 Extended Key Usage</elem>
+</table>
+<table>
+<elem key="value">SSL Client, SSL Server</elem>
+<elem key="name">Netscape Cert Type</elem>
+</table>
+<table>
+<elem key="value">DNS:*.o12.pl, DNS:o12.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2017-12-05T17:51:33</elem>
+<elem key="notAfter">2018-12-05T17:51:33</elem>
+</table>
+<elem key="md5">f241a1d3b5cdbb7caa13e5c7ca2a848d</elem>
+<elem key="sha1">c3c5be612f570c71e668b014b21db11b162b5ed0</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFhzCCBG+gAwIBAgIQVHWEHk12vL96omsvmKH74jANBgkqhkiG9w0BAQsFADBY&#xa;MQswCQYDVQQGEwJQTDEcMBoGA1UECgwTbmF6d2EucGwgc3AuIHogby5vLjEYMBYG&#xa;A1UECwwPaHR0cDovL25hendhLnBsMREwDwYDVQQDDAhuYXp3YVNTTDAeFw0xNzEy&#xa;MDUxNzUxMzNaFw0xODEyMDUxNzUxMzNaMCAxCzAJBgNVBAYTAlBMMREwDwYDVQQD&#xa;DAgqLm8xMi5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnFMrY/&#xa;uduIrwLXZ2as/47hAJGQQOo6lF8KggOQzAaianzzLAMm/utnyFQslvAffVtjWKgF&#xa;a0mR7xBp5x7dOtybJ2VhABojQ4gSpdCwmDTTMIfEXepnW2HbsR5TRR52WlesM2HF&#xa;hW2+KFG1APjiX1uUjmZIrqKtEtmQ8ErlJg+8BSRDuY6CkO0wqpKsJy7617cuEw5G&#xa;dj7S6EaWSyjfF+6AV/AYS5lle6z5Ij+Ej8jaX1rHbrAptXjEeVke1K8ihMB9ohTI&#xa;K0SRH3Wn0Ut66Un/h9eIHsKoB3yDmTbJxZw1QdS0xSlll8DKNNvC2MmgH6IKKC6F&#xa;SXR9p2CIMCDb5x0CAwEAAaOCAoMwggJ/MAwGA1UdEwEB/wQCMAAwNwYDVR0fBDAw&#xa;LjAsoCqgKIYmaHR0cDovL2NybC5jZXJ0dW0ucGwvbmF6d2Fzc2wyc2hhMi5jcmww&#xa;ewYIKwYBBQUHAQEEbzBtMDAGCCsGAQUFBzABhiRodHRwOi8vbmF6d2Fzc2wyc2hh&#xa;Mi5vY3NwLWNlcnR1bS5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yZXBvc2l0b3J5&#xa;LmNlcnR1bS5wbC9uYXp3YXNzbDJzaGEyLmNlcjAfBgNVHSMEGDAWgBRU3JC7nUcZ&#xa;UcN5aCyE7S7fX0a6xzAdBgNVHQ4EFgQUzpC1QyF0J0LNqhP4zvgvk5lJxvMwDgYD&#xa;VR0PAQH/BAQDAgWgMIIBGAYDVR0gBIIBDzCCAQswggEHBg0qhGgBhvZ3AgUBCQID&#xa;MIH1MIHyBggrBgEFBQcCAjCB5TAgFhlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEu&#xa;MAMCAQIagcBVc2FnZSBvZiB0aGlzIGNlcnRpZmljYXRlIGlzIHN0cmljdGx5IHN1&#xa;YmplY3RlZCB0byB0aGUgQ0VSVFVNIENlcnRpZmljYXRpb24gUHJhY3RpY2UgU3Rh&#xa;dGVtZW50IChDUFMpIGluY29ycG9yYXRlZCBieSByZWZlcmVuY2UgaGVyZWluIGFu&#xa;ZCBpbiB0aGUgcmVwb3NpdG9yeSBhdCBodHRwczovL3d3dy5jZXJ0dW0ucGwvcmVw&#xa;b3NpdG9yeS4wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBEGCWCGSAGG&#xa;+EIBAQQEAwIGwDAbBgNVHREEFDASgggqLm8xMi5wbIIGbzEyLnBsMA0GCSqGSIb3&#xa;DQEBCwUAA4IBAQCeFzFuKb4hoHexQc3jlDMgKYTX/d1Lz6oGX+m4a4MbYv8eLcLn&#xa;rgCMXwENIXQWU9eAwM7d4syxV25egsbWpBjm/QjmeNGSxkIYN0qVqU5NOY9ZZRyc&#xa;sQBO8hSlyCNhOXLttWB7xugsPZ4RSupK/UxZRWK6kj2x+KOMiQT0bznOgr8QBCok&#xa;5hBMhiP+yiLz5Q/LJJCzbvLk/GIlLT4aIu4N2Se1KsI9nvEhdEkGZ0K5WaQFbjkn&#xa;CyCkW8Uyivxt374qymMSzUTUlw+gKZ3MbnbwEycY4+PNaw9kyBrlXA77lnhda7ea&#xa;efJtzTQwl7JSsaXnfCFNXcKk+oXA+G3Appxt&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="imap-capabilities" output="AUTH=LOGINA0001 capabilities LITERAL+ listed LOGIN-REFERRALS Pre-login ID NAMESPACE SASL-IR OK post-login more STARTTLS IDLE have IMAP4rev1 AUTH=PLAIN ENABLE"/><script id="ssl-cert" output="Subject: commonName=*.o12.pl/countryName=PL&#xa;Subject Alternative Name: DNS:*.o12.pl, DNS:o12.pl&#xa;Issuer: commonName=nazwaSSL/organizationName=nazwa.pl sp. z o.o./countryName=PL&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2017-12-05T17:51:33&#xa;Not valid after:  2018-12-05T17:51:33&#xa;MD5:   f241 a1d3 b5cd bb7c aa13 e5c7 ca2a 848d&#xa;SHA-1: c3c5 be61 2f57 0c71 e668 b014 b21d b11b 162b 5ed0"><table key="subject">
+<elem key="countryName">PL</elem>
+<elem key="commonName">*.o12.pl</elem>
+</table>
+<table key="issuer">
+<elem key="countryName">PL</elem>
+<elem key="organizationalUnitName">http://nazwa.pl</elem>
+<elem key="organizationName">nazwa.pl sp. z o.o.</elem>
+<elem key="commonName">nazwaSSL</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x557318adf2d8</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x55731809f838</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.certum.pl/nazwassl2sha2.crl&#xa;</elem>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+</table>
+<table>
+<elem key="value">OCSP - URI:http://nazwassl2sha2.ocsp-certum.com&#xa;CA Issuers - URI:http://repository.certum.pl/nazwassl2sha2.cer&#xa;</elem>
+<elem key="name">Authority Information Access</elem>
+</table>
+<table>
+<elem key="value">keyid:54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CE:90:B5:43:21:74:27:42:CD:AA:13:F8:CE:F8:2F:93:99:49:C6:F3</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+</table>
+<table>
+<elem key="value">Policy: 1.2.616.1.113527.2.5.1.9.2.3&#xa;  User Notice:&#xa;    Organization: Unizeto Technologies S.A.&#xa;    Number: 2&#xa;    Explicit Text: Usage of this certificate is strictly subjected to the CERTUM Certification Practice Statement (CPS) incorporated by reference herein and in the repository at https://www.certum.pl/repository.&#xa;</elem>
+<elem key="name">X509v3 Certificate Policies</elem>
+</table>
+<table>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+<elem key="name">X509v3 Extended Key Usage</elem>
+</table>
+<table>
+<elem key="value">SSL Client, SSL Server</elem>
+<elem key="name">Netscape Cert Type</elem>
+</table>
+<table>
+<elem key="value">DNS:*.o12.pl, DNS:o12.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2017-12-05T17:51:33</elem>
+<elem key="notAfter">2018-12-05T17:51:33</elem>
+</table>
+<elem key="md5">f241a1d3b5cdbb7caa13e5c7ca2a848d</elem>
+<elem key="sha1">c3c5be612f570c71e668b014b21db11b162b5ed0</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFhzCCBG+gAwIBAgIQVHWEHk12vL96omsvmKH74jANBgkqhkiG9w0BAQsFADBY&#xa;MQswCQYDVQQGEwJQTDEcMBoGA1UECgwTbmF6d2EucGwgc3AuIHogby5vLjEYMBYG&#xa;A1UECwwPaHR0cDovL25hendhLnBsMREwDwYDVQQDDAhuYXp3YVNTTDAeFw0xNzEy&#xa;MDUxNzUxMzNaFw0xODEyMDUxNzUxMzNaMCAxCzAJBgNVBAYTAlBMMREwDwYDVQQD&#xa;DAgqLm8xMi5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnFMrY/&#xa;uduIrwLXZ2as/47hAJGQQOo6lF8KggOQzAaianzzLAMm/utnyFQslvAffVtjWKgF&#xa;a0mR7xBp5x7dOtybJ2VhABojQ4gSpdCwmDTTMIfEXepnW2HbsR5TRR52WlesM2HF&#xa;hW2+KFG1APjiX1uUjmZIrqKtEtmQ8ErlJg+8BSRDuY6CkO0wqpKsJy7617cuEw5G&#xa;dj7S6EaWSyjfF+6AV/AYS5lle6z5Ij+Ej8jaX1rHbrAptXjEeVke1K8ihMB9ohTI&#xa;K0SRH3Wn0Ut66Un/h9eIHsKoB3yDmTbJxZw1QdS0xSlll8DKNNvC2MmgH6IKKC6F&#xa;SXR9p2CIMCDb5x0CAwEAAaOCAoMwggJ/MAwGA1UdEwEB/wQCMAAwNwYDVR0fBDAw&#xa;LjAsoCqgKIYmaHR0cDovL2NybC5jZXJ0dW0ucGwvbmF6d2Fzc2wyc2hhMi5jcmww&#xa;ewYIKwYBBQUHAQEEbzBtMDAGCCsGAQUFBzABhiRodHRwOi8vbmF6d2Fzc2wyc2hh&#xa;Mi5vY3NwLWNlcnR1bS5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yZXBvc2l0b3J5&#xa;LmNlcnR1bS5wbC9uYXp3YXNzbDJzaGEyLmNlcjAfBgNVHSMEGDAWgBRU3JC7nUcZ&#xa;UcN5aCyE7S7fX0a6xzAdBgNVHQ4EFgQUzpC1QyF0J0LNqhP4zvgvk5lJxvMwDgYD&#xa;VR0PAQH/BAQDAgWgMIIBGAYDVR0gBIIBDzCCAQswggEHBg0qhGgBhvZ3AgUBCQID&#xa;MIH1MIHyBggrBgEFBQcCAjCB5TAgFhlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEu&#xa;MAMCAQIagcBVc2FnZSBvZiB0aGlzIGNlcnRpZmljYXRlIGlzIHN0cmljdGx5IHN1&#xa;YmplY3RlZCB0byB0aGUgQ0VSVFVNIENlcnRpZmljYXRpb24gUHJhY3RpY2UgU3Rh&#xa;dGVtZW50IChDUFMpIGluY29ycG9yYXRlZCBieSByZWZlcmVuY2UgaGVyZWluIGFu&#xa;ZCBpbiB0aGUgcmVwb3NpdG9yeSBhdCBodHRwczovL3d3dy5jZXJ0dW0ucGwvcmVw&#xa;b3NpdG9yeS4wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBEGCWCGSAGG&#xa;+EIBAQQEAwIGwDAbBgNVHREEFDASgggqLm8xMi5wbIIGbzEyLnBsMA0GCSqGSIb3&#xa;DQEBCwUAA4IBAQCeFzFuKb4hoHexQc3jlDMgKYTX/d1Lz6oGX+m4a4MbYv8eLcLn&#xa;rgCMXwENIXQWU9eAwM7d4syxV25egsbWpBjm/QjmeNGSxkIYN0qVqU5NOY9ZZRyc&#xa;sQBO8hSlyCNhOXLttWB7xugsPZ4RSupK/UxZRWK6kj2x+KOMiQT0bznOgr8QBCok&#xa;5hBMhiP+yiLz5Q/LJJCzbvLk/GIlLT4aIu4N2Se1KsI9nvEhdEkGZ0K5WaQFbjkn&#xa;CyCkW8Uyivxt374qymMSzUTUlw+gKZ3MbnbwEycY4+PNaw9kyBrlXA77lnhda7ea&#xa;efJtzTQwl7JSsaXnfCFNXcKk+oXA+G3Appxt&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script><script id="ssl-cert" output="Subject: commonName=taniprad.org.pl&#xa;Subject Alternative Name: DNS:taniprad.org.pl, DNS:a2410406.aplus.pl, DNS:mail.a2410406.aplus.pl, DNS:mail.taniprad.org.pl, DNS:www.a2410406.aplus.pl, DNS:www.taniprad.org.pl&#xa;Issuer: commonName=taniprad.org.pl&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-04-26T07:55:42&#xa;Not valid after:  2019-04-26T07:55:42&#xa;MD5:   ed70 a20c 729a 0576 cecd 2623 7552 f643&#xa;SHA-1: d14a 5055 f511 32b5 d823 75ae 4dce 8885 5466 4640"><table key="subject">
+<elem key="commonName">taniprad.org.pl</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">taniprad.org.pl</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x557319bd1b28</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x557319bd1b68</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">B8:2B:62:A5:BF:8E:66:96:73:38:F5:4D:9D:70:BC:E1:B1:32:5A:72</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">keyid:B8:2B:62:A5:BF:8E:66:96:73:38:F5:4D:9D:70:BC:E1:B1:32:5A:72&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">DNS:taniprad.org.pl, DNS:a2410406.aplus.pl, DNS:mail.a2410406.aplus.pl, DNS:mail.taniprad.org.pl, DNS:www.a2410406.aplus.pl, DNS:www.taniprad.org.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-04-26T07:55:42</elem>
+<elem key="notAfter">2019-04-26T07:55:42</elem>
+</table>
+<elem key="md5">ed70a20c729a0576cecd26237552f643</elem>
+<elem key="sha1">d14a5055f51132b5d82375ae4dce888554664640</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDjTCCAnWgAwIBAgIFAfTye3owDQYJKoZIhvcNAQELBQAwGjEYMBYGA1UEAwwP&#xa;dGFuaXByYWQub3JnLnBsMB4XDTE4MDQyNjA3NTU0MloXDTE5MDQyNjA3NTU0Mlow&#xa;GjEYMBYGA1UEAwwPdGFuaXByYWQub3JnLnBsMIIBIjANBgkqhkiG9w0BAQEFAAOC&#xa;AQ8AMIIBCgKCAQEAxYOZxzT9uEcT3yhlshdgFF5IcDdkJC/y2FSUOekugB0xhe0M&#xa;aAhPKy1ECGyLPYjPFf9+2cZyervlu1FKmBlQnpTe95xHBp3SLDhYDh8zq6kopN8X&#xa;dspukgl1Dr10mgjaquQGcAVFscIf4fLHQWOUF97/csht3I79rnNPSVHRi7EQZET/&#xa;ZBbZVhhLn7SPijAHQwV3azO9bHKODwkljHtyKwMBWXWU6lqmwPEPWMYHUoQe2muW&#xa;HfLfdpV0R52N7CiU8JNjR3YwHTj7fQ6YV86gs3yAZnrteR9vYzMBEI5K+8UETWSk&#xa;LL2SzjXAFnogS8EHaRh+L6E/u4OzLQZtfwm0EQIDAQABo4HZMIHWMB0GA1UdDgQW&#xa;BBS4K2Klv45mlnM49U2dcLzhsTJacjAfBgNVHSMEGDAWgBS4K2Klv45mlnM49U2d&#xa;cLzhsTJacjAJBgNVHRMEAjAAMIGIBgNVHREEgYAwfoIPdGFuaXByYWQub3JnLnBs&#xa;ghFhMjQxMDQwNi5hcGx1cy5wbIIWbWFpbC5hMjQxMDQwNi5hcGx1cy5wbIIUbWFp&#xa;bC50YW5pcHJhZC5vcmcucGyCFXd3dy5hMjQxMDQwNi5hcGx1cy5wbIITd3d3LnRh&#xa;bmlwcmFkLm9yZy5wbDANBgkqhkiG9w0BAQsFAAOCAQEAFPtkswHAO0G/yTjS8FkJ&#xa;MeQ0TNfJPGDiq6D5on3njojQk6/vjmw+1Pw49psOKdAmhx/pfrC2sFqpzcJ0BD0Y&#xa;saP6+9haCcDKX9fBIaHiZMC/xKMhrqOW9Clxs1Llw/U4pHWOAJHheYVYIBoL5YCO&#xa;FzrYPP4w4vp/AdALJ497v1muO+W4HVSK9qmTxpqtdSCE/OiARFeUKgjLVU23Unjb&#xa;tT7LHkOx+KbO7itJYB5fpoc4J+t5s36XmYy5njOIWbTsBweffDIM2/92gYlGRzRe&#xa;KovDu8XId91eg3l+Zsb9h3N7O4Dj0SzIDFcb9Qdpt0ABpUbO4ieHyUQ9Ig/S5kX0&#xa;Kg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="imap-capabilities" output="AUTH=LOGINA0001 capabilities LITERAL+ listed LOGIN-REFERRALS Pre-login ID NAMESPACE SASL-IR OK post-login have IDLE more IMAP4rev1 AUTH=PLAIN ENABLE"/><script id="ssl-cert" output="Subject: commonName=*.o12.pl/countryName=PL&#xa;Subject Alternative Name: DNS:*.o12.pl, DNS:o12.pl&#xa;Issuer: commonName=nazwaSSL/organizationName=nazwa.pl sp. z o.o./countryName=PL&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2017-12-05T17:51:33&#xa;Not valid after:  2018-12-05T17:51:33&#xa;MD5:   f241 a1d3 b5cd bb7c aa13 e5c7 ca2a 848d&#xa;SHA-1: c3c5 be61 2f57 0c71 e668 b014 b21d b11b 162b 5ed0"><table key="subject">
+<elem key="countryName">PL</elem>
+<elem key="commonName">*.o12.pl</elem>
+</table>
+<table key="issuer">
+<elem key="countryName">PL</elem>
+<elem key="organizationalUnitName">http://nazwa.pl</elem>
+<elem key="organizationName">nazwa.pl sp. z o.o.</elem>
+<elem key="commonName">nazwaSSL</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x55731905fe28</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x55731905fe68</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.certum.pl/nazwassl2sha2.crl&#xa;</elem>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+</table>
+<table>
+<elem key="value">OCSP - URI:http://nazwassl2sha2.ocsp-certum.com&#xa;CA Issuers - URI:http://repository.certum.pl/nazwassl2sha2.cer&#xa;</elem>
+<elem key="name">Authority Information Access</elem>
+</table>
+<table>
+<elem key="value">keyid:54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CE:90:B5:43:21:74:27:42:CD:AA:13:F8:CE:F8:2F:93:99:49:C6:F3</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+</table>
+<table>
+<elem key="value">Policy: 1.2.616.1.113527.2.5.1.9.2.3&#xa;  User Notice:&#xa;    Organization: Unizeto Technologies S.A.&#xa;    Number: 2&#xa;    Explicit Text: Usage of this certificate is strictly subjected to the CERTUM Certification Practice Statement (CPS) incorporated by reference herein and in the repository at https://www.certum.pl/repository.&#xa;</elem>
+<elem key="name">X509v3 Certificate Policies</elem>
+</table>
+<table>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+<elem key="name">X509v3 Extended Key Usage</elem>
+</table>
+<table>
+<elem key="value">SSL Client, SSL Server</elem>
+<elem key="name">Netscape Cert Type</elem>
+</table>
+<table>
+<elem key="value">DNS:*.o12.pl, DNS:o12.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2017-12-05T17:51:33</elem>
+<elem key="notAfter">2018-12-05T17:51:33</elem>
+</table>
+<elem key="md5">f241a1d3b5cdbb7caa13e5c7ca2a848d</elem>
+<elem key="sha1">c3c5be612f570c71e668b014b21db11b162b5ed0</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFhzCCBG+gAwIBAgIQVHWEHk12vL96omsvmKH74jANBgkqhkiG9w0BAQsFADBY&#xa;MQswCQYDVQQGEwJQTDEcMBoGA1UECgwTbmF6d2EucGwgc3AuIHogby5vLjEYMBYG&#xa;A1UECwwPaHR0cDovL25hendhLnBsMREwDwYDVQQDDAhuYXp3YVNTTDAeFw0xNzEy&#xa;MDUxNzUxMzNaFw0xODEyMDUxNzUxMzNaMCAxCzAJBgNVBAYTAlBMMREwDwYDVQQD&#xa;DAgqLm8xMi5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnFMrY/&#xa;uduIrwLXZ2as/47hAJGQQOo6lF8KggOQzAaianzzLAMm/utnyFQslvAffVtjWKgF&#xa;a0mR7xBp5x7dOtybJ2VhABojQ4gSpdCwmDTTMIfEXepnW2HbsR5TRR52WlesM2HF&#xa;hW2+KFG1APjiX1uUjmZIrqKtEtmQ8ErlJg+8BSRDuY6CkO0wqpKsJy7617cuEw5G&#xa;dj7S6EaWSyjfF+6AV/AYS5lle6z5Ij+Ej8jaX1rHbrAptXjEeVke1K8ihMB9ohTI&#xa;K0SRH3Wn0Ut66Un/h9eIHsKoB3yDmTbJxZw1QdS0xSlll8DKNNvC2MmgH6IKKC6F&#xa;SXR9p2CIMCDb5x0CAwEAAaOCAoMwggJ/MAwGA1UdEwEB/wQCMAAwNwYDVR0fBDAw&#xa;LjAsoCqgKIYmaHR0cDovL2NybC5jZXJ0dW0ucGwvbmF6d2Fzc2wyc2hhMi5jcmww&#xa;ewYIKwYBBQUHAQEEbzBtMDAGCCsGAQUFBzABhiRodHRwOi8vbmF6d2Fzc2wyc2hh&#xa;Mi5vY3NwLWNlcnR1bS5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yZXBvc2l0b3J5&#xa;LmNlcnR1bS5wbC9uYXp3YXNzbDJzaGEyLmNlcjAfBgNVHSMEGDAWgBRU3JC7nUcZ&#xa;UcN5aCyE7S7fX0a6xzAdBgNVHQ4EFgQUzpC1QyF0J0LNqhP4zvgvk5lJxvMwDgYD&#xa;VR0PAQH/BAQDAgWgMIIBGAYDVR0gBIIBDzCCAQswggEHBg0qhGgBhvZ3AgUBCQID&#xa;MIH1MIHyBggrBgEFBQcCAjCB5TAgFhlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEu&#xa;MAMCAQIagcBVc2FnZSBvZiB0aGlzIGNlcnRpZmljYXRlIGlzIHN0cmljdGx5IHN1&#xa;YmplY3RlZCB0byB0aGUgQ0VSVFVNIENlcnRpZmljYXRpb24gUHJhY3RpY2UgU3Rh&#xa;dGVtZW50IChDUFMpIGluY29ycG9yYXRlZCBieSByZWZlcmVuY2UgaGVyZWluIGFu&#xa;ZCBpbiB0aGUgcmVwb3NpdG9yeSBhdCBodHRwczovL3d3dy5jZXJ0dW0ucGwvcmVw&#xa;b3NpdG9yeS4wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBEGCWCGSAGG&#xa;+EIBAQQEAwIGwDAbBgNVHREEFDASgggqLm8xMi5wbIIGbzEyLnBsMA0GCSqGSIb3&#xa;DQEBCwUAA4IBAQCeFzFuKb4hoHexQc3jlDMgKYTX/d1Lz6oGX+m4a4MbYv8eLcLn&#xa;rgCMXwENIXQWU9eAwM7d4syxV25egsbWpBjm/QjmeNGSxkIYN0qVqU5NOY9ZZRyc&#xa;sQBO8hSlyCNhOXLttWB7xugsPZ4RSupK/UxZRWK6kj2x+KOMiQT0bznOgr8QBCok&#xa;5hBMhiP+yiLz5Q/LJJCzbvLk/GIlLT4aIu4N2Se1KsI9nvEhdEkGZ0K5WaQFbjkn&#xa;CyCkW8Uyivxt374qymMSzUTUlw+gKZ3MbnbwEycY4+PNaw9kyBrlXA77lnhda7ea&#xa;efJtzTQwl7JSsaXnfCFNXcKk+oXA+G3Appxt&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="pop3" product="Dovecot pop3d" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="pop3-capabilities" output="USER UIDL PIPELINING SASL(PLAIN LOGIN) RESP-CODES AUTH-RESP-CODE TOP CAPA"/><script id="ssl-cert" output="Subject: commonName=*.o12.pl/countryName=PL&#xa;Subject Alternative Name: DNS:*.o12.pl, DNS:o12.pl&#xa;Issuer: commonName=nazwaSSL/organizationName=nazwa.pl sp. z o.o./countryName=PL&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2017-12-05T17:51:33&#xa;Not valid after:  2018-12-05T17:51:33&#xa;MD5:   f241 a1d3 b5cd bb7c aa13 e5c7 ca2a 848d&#xa;SHA-1: c3c5 be61 2f57 0c71 e668 b014 b21d b11b 162b 5ed0"><table key="subject">
+<elem key="countryName">PL</elem>
+<elem key="commonName">*.o12.pl</elem>
+</table>
+<table key="issuer">
+<elem key="countryName">PL</elem>
+<elem key="organizationalUnitName">http://nazwa.pl</elem>
+<elem key="organizationName">nazwa.pl sp. z o.o.</elem>
+<elem key="commonName">nazwaSSL</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">BIGNUM: 0x55731957fe88</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BIGNUM: 0x557319bccb08</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Basic Constraints</elem>
+</table>
+<table>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.certum.pl/nazwassl2sha2.crl&#xa;</elem>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+</table>
+<table>
+<elem key="value">OCSP - URI:http://nazwassl2sha2.ocsp-certum.com&#xa;CA Issuers - URI:http://repository.certum.pl/nazwassl2sha2.cer&#xa;</elem>
+<elem key="name">Authority Information Access</elem>
+</table>
+<table>
+<elem key="value">keyid:54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7&#xa;</elem>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+</table>
+<table>
+<elem key="value">CE:90:B5:43:21:74:27:42:CD:AA:13:F8:CE:F8:2F:93:99:49:C6:F3</elem>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+</table>
+<table>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+</table>
+<table>
+<elem key="value">Policy: 1.2.616.1.113527.2.5.1.9.2.3&#xa;  User Notice:&#xa;    Organization: Unizeto Technologies S.A.&#xa;    Number: 2&#xa;    Explicit Text: Usage of this certificate is strictly subjected to the CERTUM Certification Practice Statement (CPS) incorporated by reference herein and in the repository at https://www.certum.pl/repository.&#xa;</elem>
+<elem key="name">X509v3 Certificate Policies</elem>
+</table>
+<table>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+<elem key="name">X509v3 Extended Key Usage</elem>
+</table>
+<table>
+<elem key="value">SSL Client, SSL Server</elem>
+<elem key="name">Netscape Cert Type</elem>
+</table>
+<table>
+<elem key="value">DNS:*.o12.pl, DNS:o12.pl</elem>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2017-12-05T17:51:33</elem>
+<elem key="notAfter">2018-12-05T17:51:33</elem>
+</table>
+<elem key="md5">f241a1d3b5cdbb7caa13e5c7ca2a848d</elem>
+<elem key="sha1">c3c5be612f570c71e668b014b21db11b162b5ed0</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFhzCCBG+gAwIBAgIQVHWEHk12vL96omsvmKH74jANBgkqhkiG9w0BAQsFADBY&#xa;MQswCQYDVQQGEwJQTDEcMBoGA1UECgwTbmF6d2EucGwgc3AuIHogby5vLjEYMBYG&#xa;A1UECwwPaHR0cDovL25hendhLnBsMREwDwYDVQQDDAhuYXp3YVNTTDAeFw0xNzEy&#xa;MDUxNzUxMzNaFw0xODEyMDUxNzUxMzNaMCAxCzAJBgNVBAYTAlBMMREwDwYDVQQD&#xa;DAgqLm8xMi5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnFMrY/&#xa;uduIrwLXZ2as/47hAJGQQOo6lF8KggOQzAaianzzLAMm/utnyFQslvAffVtjWKgF&#xa;a0mR7xBp5x7dOtybJ2VhABojQ4gSpdCwmDTTMIfEXepnW2HbsR5TRR52WlesM2HF&#xa;hW2+KFG1APjiX1uUjmZIrqKtEtmQ8ErlJg+8BSRDuY6CkO0wqpKsJy7617cuEw5G&#xa;dj7S6EaWSyjfF+6AV/AYS5lle6z5Ij+Ej8jaX1rHbrAptXjEeVke1K8ihMB9ohTI&#xa;K0SRH3Wn0Ut66Un/h9eIHsKoB3yDmTbJxZw1QdS0xSlll8DKNNvC2MmgH6IKKC6F&#xa;SXR9p2CIMCDb5x0CAwEAAaOCAoMwggJ/MAwGA1UdEwEB/wQCMAAwNwYDVR0fBDAw&#xa;LjAsoCqgKIYmaHR0cDovL2NybC5jZXJ0dW0ucGwvbmF6d2Fzc2wyc2hhMi5jcmww&#xa;ewYIKwYBBQUHAQEEbzBtMDAGCCsGAQUFBzABhiRodHRwOi8vbmF6d2Fzc2wyc2hh&#xa;Mi5vY3NwLWNlcnR1bS5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yZXBvc2l0b3J5&#xa;LmNlcnR1bS5wbC9uYXp3YXNzbDJzaGEyLmNlcjAfBgNVHSMEGDAWgBRU3JC7nUcZ&#xa;UcN5aCyE7S7fX0a6xzAdBgNVHQ4EFgQUzpC1QyF0J0LNqhP4zvgvk5lJxvMwDgYD&#xa;VR0PAQH/BAQDAgWgMIIBGAYDVR0gBIIBDzCCAQswggEHBg0qhGgBhvZ3AgUBCQID&#xa;MIH1MIHyBggrBgEFBQcCAjCB5TAgFhlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEu&#xa;MAMCAQIagcBVc2FnZSBvZiB0aGlzIGNlcnRpZmljYXRlIGlzIHN0cmljdGx5IHN1&#xa;YmplY3RlZCB0byB0aGUgQ0VSVFVNIENlcnRpZmljYXRpb24gUHJhY3RpY2UgU3Rh&#xa;dGVtZW50IChDUFMpIGluY29ycG9yYXRlZCBieSByZWZlcmVuY2UgaGVyZWluIGFu&#xa;ZCBpbiB0aGUgcmVwb3NpdG9yeSBhdCBodHRwczovL3d3dy5jZXJ0dW0ucGwvcmVw&#xa;b3NpdG9yeS4wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBEGCWCGSAGG&#xa;+EIBAQQEAwIGwDAbBgNVHREEFDASgggqLm8xMi5wbIIGbzEyLnBsMA0GCSqGSIb3&#xa;DQEBCwUAA4IBAQCeFzFuKb4hoHexQc3jlDMgKYTX/d1Lz6oGX+m4a4MbYv8eLcLn&#xa;rgCMXwENIXQWU9eAwM7d4syxV25egsbWpBjm/QjmeNGSxkIYN0qVqU5NOY9ZZRyc&#xa;sQBO8hSlyCNhOXLttWB7xugsPZ4RSupK/UxZRWK6kj2x+KOMiQT0bznOgr8QBCok&#xa;5hBMhiP+yiLz5Q/LJJCzbvLk/GIlLT4aIu4N2Se1KsI9nvEhdEkGZ0K5WaQFbjkn&#xa;CyCkW8Uyivxt374qymMSzUTUlw+gKZ3MbnbwEycY4+PNaw9kyBrlXA77lnhda7ea&#xa;efJtzTQwl7JSsaXnfCFNXcKk+oXA+G3Appxt&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="1723"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="pptp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="mysql" product="MySQL" version="5.5.5-10.1.34-MariaDB" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.5-10.1.34-mariadb</cpe></service><script id="mysql-info" output="&#xa;  Protocol: 10&#xa;  Version: 5.5.5-10.1.34-MariaDB&#xa;  Thread ID: 36218175&#xa;  Capabilities flags: 63487&#xa;  Some Capabilities: IgnoreSigpipes, LongPassword, FoundRows, SupportsTransactions, DontAllowDatabaseTableColumn, ConnectWithDatabase, InteractiveClient, SupportsLoadDataLocal, Support41Auth, Speaks41ProtocolOld, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolNew, LongColumnFlag, ODBCClient, SupportsCompression, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults&#xa;  Status: Autocommit&#xa;  Salt: r\Tr`iotupT3?$5}8&gt;m,&#xa;  Auth Plugin Name: 94"><elem key="Protocol">10</elem>
+<elem key="Version">5.5.5-10.1.34-MariaDB</elem>
+<elem key="Thread ID">36218175</elem>
+<elem key="Capabilities flags">63487</elem>
+<table key="Some Capabilities">
+<elem>IgnoreSigpipes</elem>
+<elem>LongPassword</elem>
+<elem>FoundRows</elem>
+<elem>SupportsTransactions</elem>
+<elem>DontAllowDatabaseTableColumn</elem>
+<elem>ConnectWithDatabase</elem>
+<elem>InteractiveClient</elem>
+<elem>SupportsLoadDataLocal</elem>
+<elem>Support41Auth</elem>
+<elem>Speaks41ProtocolOld</elem>
+<elem>IgnoreSpaceBeforeParenthesis</elem>
+<elem>Speaks41ProtocolNew</elem>
+<elem>LongColumnFlag</elem>
+<elem>ODBCClient</elem>
+<elem>SupportsCompression</elem>
+<elem>SupportsMultipleStatments</elem>
+<elem>SupportsAuthPlugins</elem>
+<elem>SupportsMultipleResults</elem>
+</table>
+<elem key="Status">Autocommit</elem>
+<elem key="Salt">r\Tr`iotupT3?$5}8&gt;m,</elem>
+<elem key="Auth Plugin Name">94</elem>
+</script></port>
+<port protocol="tcp" portid="3389"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5900"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="vnc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<osmatch name="Linux 3.5" accuracy="91" line="65386">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3.5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.2" accuracy="91" line="67022">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:4.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="89" line="67204">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.12" accuracy="88" line="63132">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="87" line="63573">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="87" line="55501">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="87" line="67697">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="86" line="49723">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP" accuracy="86" line="20850">
+<osclass type="WAP" vendor="D-Link" osfamily="embedded" accuracy="86"><cpe>cpe:/h:dlink:dwl-624%2b</cpe><cpe>cpe:/h:dlink:dwl-2000ap</cpe></osclass>
+<osclass type="WAP" vendor="TRENDnet" osfamily="embedded" accuracy="86"><cpe>cpe:/h:trendnet:tew-432brp</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="86" line="63946">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1046144" lastboot="Mon Oct  1 12:18:02 2018"/>
+<distance value="13"/>
+<tcpsequence index="262" difficulty="Good luck!" values="201C845,C7D7068F,8D42635E,71B5F408,FC4D695E,48164AF"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="3E594BFE,3E594C61,3E594CC5,3E594D2A,3E594D8F,3E594DF3"/>
+<trace port="21" proto="tcp">
+<hop ttl="1" ipaddr="192.168.1.1" rtt="3.23" host="_gateway"/>
+<hop ttl="3" ipaddr="78.151.238.65" rtt="36.15" host="host-78-151-238-65.as13285.net"/>
+<hop ttl="4" ipaddr="78.151.238.68" rtt="33.41" host="host-78-151-238-68.as13285.net"/>
+<hop ttl="5" ipaddr="78.144.14.102" rtt="36.21" host="host-78-144-14-102.as13285.net"/>
+<hop ttl="6" ipaddr="195.66.224.89" rtt="33.54" host="uk-lon01b-ri1-ae-0-0.aorta.net"/>
+<hop ttl="7" ipaddr="195.66.236.89" rtt="32.88" host="uk-lon02a-ri3-ae-1-0.aorta.net"/>
+<hop ttl="9" ipaddr="84.116.136.142" rtt="67.95" host="pl-waw04a-rc1-ae10-0.aorta.net"/>
+<hop ttl="10" ipaddr="84.116.136.142" rtt="68.84" host="pl-waw04a-rc1-ae10-0.aorta.net"/>
+<hop ttl="11" ipaddr="84.116.193.21" rtt="62.51" host="pl-krk07a-ra1-ae0-1499.aorta.net"/>
+<hop ttl="12" ipaddr="94.75.72.78" rtt="63.42" host="krk1-b1-upc.net.nazwa.pl"/>
+<hop ttl="13" ipaddr="77.55.252.135" rtt="66.25" host="s19.o12.pl"/>
+</trace>
+<times srtt="67749" rttvar="1414" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1539438826"/>
+<taskend task="NSE" time="1539438826"/>
+<taskbegin task="NSE" time="1539438826"/>
+<taskend task="NSE" time="1539438826"/>
+<taskbegin task="NSE" time="1539438826"/>
+<taskend task="NSE" time="1539438826"/>
+<runstats><finished time="1539438826" timestr="Sat Oct 13 14:53:46 2018" elapsed="271.76" summary="Nmap done at Sat Oct 13 14:53:46 2018; 1 IP address (1 host up) scanned in 271.76 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,1 +1,1 @@
-keytool -genkey -alias signapplet -keystore mykeystore -keypass mykeypass -storepass password123
+jarsigner -keystore mykeystore -storepass password123 -keypass mykeypass -signedjar SignedJava.jar Java.jar signapplet

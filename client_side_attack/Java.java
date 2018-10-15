@@ -13,7 +13,7 @@ public class Java extends Applet {
     private Object initialized = null;
     public Object isInitialized()
     {
-    return initialized;
+        return initialized;
     }
     public void init() {
         Process f;

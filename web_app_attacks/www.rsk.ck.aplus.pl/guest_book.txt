@@ -1,0 +1,13 @@
+POST http://www.rsk.ck.aplus.pl/index.php?p=nowywpis HTTP/1.1
+Host: www.rsk.ck.aplus.pl
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Referer: http://www.rsk.ck.aplus.pl/index.php?p=nowywpis
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 130
+Cookie: PHPSESSID=8897foau6puraj5pneqi6da1j4; __utma=6898737.1490047991.1539432893.1539432893.1539432893.1; __utmb=6898737.41.10.1539432893; __utmc=6898737; __utmz=6898737.1539432893.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmt_~1=1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+autorKsiega=john&emailKsiega=johnsmith%40gmail.com&ggKsiega=none&wwwKsiega=beeg.com&trescKsiega=Interesting+site.&submit=ADD+ENTRY

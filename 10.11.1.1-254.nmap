@@ -1,0 +1,3208 @@
+# Nmap 7.70SVN scan initiated Sat Oct 13 12:17:19 2018 as: nmap -n -v -A -sS -oA 10.11.1.1-254 --top-ports 20 10.11.1.1-254
+Nmap scan report for 10.11.1.1 [host down]
+Nmap scan report for 10.11.1.2 [host down]
+Nmap scan report for 10.11.1.3 [host down]
+Nmap scan report for 10.11.1.4 [host down]
+Nmap scan report for 10.11.1.6 [host down]
+Nmap scan report for 10.11.1.9 [host down]
+Nmap scan report for 10.11.1.11 [host down]
+Nmap scan report for 10.11.1.12 [host down]
+Nmap scan report for 10.11.1.15 [host down]
+Nmap scan report for 10.11.1.16 [host down]
+Nmap scan report for 10.11.1.17 [host down]
+Nmap scan report for 10.11.1.18 [host down]
+Nmap scan report for 10.11.1.19 [host down]
+Nmap scan report for 10.11.1.20 [host down]
+Nmap scan report for 10.11.1.21 [host down]
+Nmap scan report for 10.11.1.23 [host down]
+Nmap scan report for 10.11.1.25 [host down]
+Nmap scan report for 10.11.1.26 [host down]
+Nmap scan report for 10.11.1.27 [host down]
+Nmap scan report for 10.11.1.28 [host down]
+Nmap scan report for 10.11.1.29 [host down]
+Nmap scan report for 10.11.1.30 [host down]
+Nmap scan report for 10.11.1.32 [host down]
+Nmap scan report for 10.11.1.33 [host down]
+Nmap scan report for 10.11.1.34 [host down]
+Nmap scan report for 10.11.1.36 [host down]
+Nmap scan report for 10.11.1.37 [host down]
+Nmap scan report for 10.11.1.38 [host down]
+Nmap scan report for 10.11.1.40 [host down]
+Nmap scan report for 10.11.1.41 [host down]
+Nmap scan report for 10.11.1.42 [host down]
+Nmap scan report for 10.11.1.43 [host down]
+Nmap scan report for 10.11.1.45 [host down]
+Nmap scan report for 10.11.1.46 [host down]
+Nmap scan report for 10.11.1.47 [host down]
+Nmap scan report for 10.11.1.48 [host down]
+Nmap scan report for 10.11.1.51 [host down]
+Nmap scan report for 10.11.1.52 [host down]
+Nmap scan report for 10.11.1.53 [host down]
+Nmap scan report for 10.11.1.54 [host down]
+Nmap scan report for 10.11.1.55 [host down]
+Nmap scan report for 10.11.1.56 [host down]
+Nmap scan report for 10.11.1.57 [host down]
+Nmap scan report for 10.11.1.58 [host down]
+Nmap scan report for 10.11.1.59 [host down]
+Nmap scan report for 10.11.1.60 [host down]
+Nmap scan report for 10.11.1.61 [host down]
+Nmap scan report for 10.11.1.62 [host down]
+Nmap scan report for 10.11.1.63 [host down]
+Nmap scan report for 10.11.1.64 [host down]
+Nmap scan report for 10.11.1.65 [host down]
+Nmap scan report for 10.11.1.66 [host down]
+Nmap scan report for 10.11.1.67 [host down]
+Nmap scan report for 10.11.1.68 [host down]
+Nmap scan report for 10.11.1.69 [host down]
+Nmap scan report for 10.11.1.70 [host down]
+Nmap scan report for 10.11.1.74 [host down]
+Nmap scan report for 10.11.1.75 [host down]
+Nmap scan report for 10.11.1.76 [host down]
+Nmap scan report for 10.11.1.77 [host down]
+Nmap scan report for 10.11.1.78 [host down]
+Nmap scan report for 10.11.1.79 [host down]
+Nmap scan report for 10.11.1.80 [host down]
+Nmap scan report for 10.11.1.81 [host down]
+Nmap scan report for 10.11.1.82 [host down]
+Nmap scan report for 10.11.1.83 [host down]
+Nmap scan report for 10.11.1.84 [host down]
+Nmap scan report for 10.11.1.85 [host down]
+Nmap scan report for 10.11.1.86 [host down]
+Nmap scan report for 10.11.1.87 [host down]
+Nmap scan report for 10.11.1.88 [host down]
+Nmap scan report for 10.11.1.89 [host down]
+Nmap scan report for 10.11.1.90 [host down]
+Nmap scan report for 10.11.1.91 [host down]
+Nmap scan report for 10.11.1.92 [host down]
+Nmap scan report for 10.11.1.93 [host down]
+Nmap scan report for 10.11.1.94 [host down]
+Nmap scan report for 10.11.1.95 [host down]
+Nmap scan report for 10.11.1.96 [host down]
+Nmap scan report for 10.11.1.97 [host down]
+Nmap scan report for 10.11.1.98 [host down]
+Nmap scan report for 10.11.1.99 [host down]
+Nmap scan report for 10.11.1.100 [host down]
+Nmap scan report for 10.11.1.101 [host down]
+Nmap scan report for 10.11.1.102 [host down]
+Nmap scan report for 10.11.1.103 [host down]
+Nmap scan report for 10.11.1.104 [host down]
+Nmap scan report for 10.11.1.105 [host down]
+Nmap scan report for 10.11.1.106 [host down]
+Nmap scan report for 10.11.1.107 [host down]
+Nmap scan report for 10.11.1.108 [host down]
+Nmap scan report for 10.11.1.109 [host down]
+Nmap scan report for 10.11.1.110 [host down]
+Nmap scan report for 10.11.1.111 [host down]
+Nmap scan report for 10.11.1.112 [host down]
+Nmap scan report for 10.11.1.113 [host down]
+Nmap scan report for 10.11.1.114 [host down]
+Nmap scan report for 10.11.1.117 [host down]
+Nmap scan report for 10.11.1.118 [host down]
+Nmap scan report for 10.11.1.119 [host down]
+Nmap scan report for 10.11.1.120 [host down]
+Nmap scan report for 10.11.1.121 [host down]
+Nmap scan report for 10.11.1.122 [host down]
+Nmap scan report for 10.11.1.123 [host down]
+Nmap scan report for 10.11.1.124 [host down]
+Nmap scan report for 10.11.1.126 [host down]
+Nmap scan report for 10.11.1.127 [host down]
+Nmap scan report for 10.11.1.129 [host down]
+Nmap scan report for 10.11.1.130 [host down]
+Nmap scan report for 10.11.1.131 [host down]
+Nmap scan report for 10.11.1.132 [host down]
+Nmap scan report for 10.11.1.134 [host down]
+Nmap scan report for 10.11.1.135 [host down]
+Nmap scan report for 10.11.1.137 [host down]
+Nmap scan report for 10.11.1.138 [host down]
+Nmap scan report for 10.11.1.139 [host down]
+Nmap scan report for 10.11.1.140 [host down]
+Nmap scan report for 10.11.1.142 [host down]
+Nmap scan report for 10.11.1.143 [host down]
+Nmap scan report for 10.11.1.144 [host down]
+Nmap scan report for 10.11.1.147 [host down]
+Nmap scan report for 10.11.1.148 [host down]
+Nmap scan report for 10.11.1.149 [host down]
+Nmap scan report for 10.11.1.150 [host down]
+Nmap scan report for 10.11.1.151 [host down]
+Nmap scan report for 10.11.1.152 [host down]
+Nmap scan report for 10.11.1.153 [host down]
+Nmap scan report for 10.11.1.154 [host down]
+Nmap scan report for 10.11.1.155 [host down]
+Nmap scan report for 10.11.1.156 [host down]
+Nmap scan report for 10.11.1.157 [host down]
+Nmap scan report for 10.11.1.158 [host down]
+Nmap scan report for 10.11.1.159 [host down]
+Nmap scan report for 10.11.1.160 [host down]
+Nmap scan report for 10.11.1.161 [host down]
+Nmap scan report for 10.11.1.162 [host down]
+Nmap scan report for 10.11.1.163 [host down]
+Nmap scan report for 10.11.1.164 [host down]
+Nmap scan report for 10.11.1.165 [host down]
+Nmap scan report for 10.11.1.166 [host down]
+Nmap scan report for 10.11.1.167 [host down]
+Nmap scan report for 10.11.1.168 [host down]
+Nmap scan report for 10.11.1.169 [host down]
+Nmap scan report for 10.11.1.170 [host down]
+Nmap scan report for 10.11.1.171 [host down]
+Nmap scan report for 10.11.1.172 [host down]
+Nmap scan report for 10.11.1.173 [host down]
+Nmap scan report for 10.11.1.174 [host down]
+Nmap scan report for 10.11.1.175 [host down]
+Nmap scan report for 10.11.1.176 [host down]
+Nmap scan report for 10.11.1.177 [host down]
+Nmap scan report for 10.11.1.178 [host down]
+Nmap scan report for 10.11.1.179 [host down]
+Nmap scan report for 10.11.1.180 [host down]
+Nmap scan report for 10.11.1.181 [host down]
+Nmap scan report for 10.11.1.182 [host down]
+Nmap scan report for 10.11.1.183 [host down]
+Nmap scan report for 10.11.1.184 [host down]
+Nmap scan report for 10.11.1.185 [host down]
+Nmap scan report for 10.11.1.186 [host down]
+Nmap scan report for 10.11.1.187 [host down]
+Nmap scan report for 10.11.1.188 [host down]
+Nmap scan report for 10.11.1.189 [host down]
+Nmap scan report for 10.11.1.190 [host down]
+Nmap scan report for 10.11.1.191 [host down]
+Nmap scan report for 10.11.1.192 [host down]
+Nmap scan report for 10.11.1.193 [host down]
+Nmap scan report for 10.11.1.194 [host down]
+Nmap scan report for 10.11.1.195 [host down]
+Nmap scan report for 10.11.1.196 [host down]
+Nmap scan report for 10.11.1.197 [host down]
+Nmap scan report for 10.11.1.198 [host down]
+Nmap scan report for 10.11.1.199 [host down]
+Nmap scan report for 10.11.1.200 [host down]
+Nmap scan report for 10.11.1.201 [host down]
+Nmap scan report for 10.11.1.203 [host down]
+Nmap scan report for 10.11.1.204 [host down]
+Nmap scan report for 10.11.1.205 [host down]
+Nmap scan report for 10.11.1.206 [host down]
+Nmap scan report for 10.11.1.207 [host down]
+Nmap scan report for 10.11.1.208 [host down]
+Nmap scan report for 10.11.1.210 [host down]
+Nmap scan report for 10.11.1.211 [host down]
+Nmap scan report for 10.11.1.212 [host down]
+Nmap scan report for 10.11.1.213 [host down]
+Nmap scan report for 10.11.1.214 [host down]
+Nmap scan report for 10.11.1.215 [host down]
+Nmap scan report for 10.11.1.216 [host down]
+Nmap scan report for 10.11.1.222 [host down]
+Nmap scan report for 10.11.1.224 [host down]
+Nmap scan report for 10.11.1.225 [host down]
+Nmap scan report for 10.11.1.228 [host down]
+Nmap scan report for 10.11.1.231 [host down]
+Nmap scan report for 10.11.1.232 [host down]
+Nmap scan report for 10.11.1.233 [host down]
+Nmap scan report for 10.11.1.235 [host down]
+Nmap scan report for 10.11.1.236 [host down]
+Nmap scan report for 10.11.1.239 [host down]
+Nmap scan report for 10.11.1.240 [host down]
+Nmap scan report for 10.11.1.241 [host down]
+Nmap scan report for 10.11.1.242 [host down]
+Nmap scan report for 10.11.1.243 [host down]
+Nmap scan report for 10.11.1.244 [host down]
+Nmap scan report for 10.11.1.245 [host down]
+Nmap scan report for 10.11.1.246 [host down]
+Nmap scan report for 10.11.1.248 [host down]
+Nmap scan report for 10.11.1.249 [host down]
+Nmap scan report for 10.11.1.250 [host down]
+Nmap scan report for 10.11.1.253 [host down]
+Nmap scan report for 10.11.1.254 [host down]
+Nmap scan report for 10.11.1.5
+Host is up (0.17s latency).
+
+PORT     STATE  SERVICE        VERSION
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc          Microsoft Windows RPC
+139/tcp  open   netbios-ssn    Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   microsoft-ds   Microsoft Windows XP microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp open   ms-wbt-server?
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.70SVN%I=7%D=10/13%Time=5BC1D45B%P=x86_64-unknown-linux
+SF:-gnu%r(TerminalServerCookie,B,"\x03\0\0\x0b\x06\xd0\0\0\x124\0");
+MAC Address: 00:50:56:89:04:02 (VMware)
+Device type: general purpose
+Running: Microsoft Windows XP
+OS CPE: cpe:/o:microsoft:windows_xp
+OS details: Microsoft Windows XP
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=144 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: mean: -8s, deviation: 0s, median: -8s
+| nbstat: NetBIOS name: ALICE, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:04:02 (VMware)
+| Names:
+|   ALICE<00>            Flags: <unique><active>
+|   THINC<00>            Flags: <group><active>
+|   ALICE<03>            Flags: <unique><active>
+|   ALICE<20>            Flags: <unique><active>
+|_  THINC<1e>            Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   170.51 ms 10.11.1.5
+
+Nmap scan report for 10.11.1.7
+Host is up (0.18s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ms-wbt-server Microsoft Terminal Service
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:1A:CD (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|general purpose
+Running (JUST GUESSING): Apple embedded (90%), Microsoft Windows XP (88%), FreeBSD 6.X (85%)
+OS CPE: cpe:/h:apple:airport_extreme cpe:/o:microsoft:windows_xp cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Apple AirPort Extreme WAP (90%), Microsoft Windows XP (88%), FreeBSD 6.2-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   177.83 ms 10.11.1.7
+
+Nmap scan report for 10.11.1.8
+Host is up (0.18s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     ftp           vsftpd 2.0.1
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: ERROR
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 10.11.0.48
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 3
+|      vsFTPd 2.0.1 - secure, fast, stable
+|_End of status
+22/tcp   open     ssh           OpenSSH 3.9p1 (protocol 1.99)
+| ssh-hostkey: 
+|   1024 89:94:af:2e:5d:c1:da:84:25:11:2c:12:45:c6:70:ac (RSA1)
+|   1024 c1:c5:d1:83:0f:4d:d8:9e:8f:82:4c:be:53:4b:6e:14 (DSA)
+|_  1024 bc:e1:e6:dd:ab:5e:fd:d1:21:2e:11:7c:d5:b2:03:52 (RSA)
+|_sshv1: Server supports SSHv1
+23/tcp   filtered telnet
+25/tcp   closed   smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Apache httpd 2.0.52 ((CentOS))
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 2 disallowed entries 
+|_/internal/  /tmp/ 
+|_http-server-header: Apache/2.0.52 (CentOS)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+110/tcp  filtered pop3
+111/tcp  open     rpcbind       2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100024  1            844/udp  status
+|_  100024  1            847/tcp  status
+135/tcp  filtered msrpc
+139/tcp  open     netbios-ssn   Samba smbd 3.X - 4.X (workgroup: MYGROUP)
+143/tcp  filtered imap
+443/tcp  open     ssl/http      Apache httpd 2.0.52 ((CentOS))
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 2 disallowed entries 
+|_/internal/  /tmp/ 
+|_http-server-header: Apache/2.0.52 (CentOS)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Issuer: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: md5WithRSAEncryption
+| Not valid before: 2009-09-16T14:03:22
+| Not valid after:  2010-09-16T14:03:22
+| MD5:   1a3c 055e bd46 ad3f 7031 3690 caf7 be26
+|_SHA-1: ef51 f052 448c f74c af1a 9897 b1b1 2292 06e6 d77e
+|_ssl-date: 2018-10-13T11:24:12+00:00; -17s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+445/tcp  open     netbios-ssn   Samba smbd 3.0.33-0.17.el4 (workgroup: MYGROUP)
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp open     mysql?
+|_mysql-info: ERROR: Script execution failed (use -d to debug)
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:40:08 (VMware)
+Device type: firewall|general purpose|proxy server|WAP|PBX|media device
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (93%), Cisco embedded (93%), Riverbed embedded (93%), Ruckus embedded (93%), FreeBSD 6.X (89%), Sony embedded (89%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:cisco:sa520 cpe:/o:linux:linux_kernel:2.6.28 cpe:/h:riverbed:steelhead_200 cpe:/h:ruckus:7363 cpe:/h:cisco:uc320w cpe:/o:freebsd:freebsd:6.2 cpe:/o:linux:linux_kernel:2.4.20
+Aggressive OS guesses: Cisco SA520 firewall (Linux 2.6) (93%), Linux 2.6.28 (93%), Linux 2.6.9 - 2.6.27 (93%), Riverbed Steelhead 200 proxy server (93%), Ruckus 7363 WAP (93%), Linux 2.6.9 (93%), Linux 2.6.30 (92%), Linux 2.6.9 (CentOS 4.4) (92%), Linux 2.6.18 (91%), Linux 2.6.11 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.874 days (since Fri Oct 12 16:11:02 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=201 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Unix
+
+Host script results:
+|_clock-skew: mean: 1h19m43s, deviation: 2h18m34s, median: -17s
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.33-0.17.el4)
+|   Computer name: phoenix
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: phoenix
+|_  System time: 2018-10-13T07:21:16-04:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   184.98 ms 10.11.1.8
+
+Nmap scan report for 10.11.1.10
+Host is up (0.18s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Microsoft IIS httpd 6.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Under Construction
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:36:D8 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|WAP
+Running (JUST GUESSING): Microsoft Windows XP|2003|2000 (93%), Apple embedded (86%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_server_2003::sp2 cpe:/h:apple:airport_extreme cpe:/o:microsoft:windows_2000::sp4
+Aggressive OS guesses: Microsoft Windows XP (93%), Microsoft Windows Server 2003 SP2 (89%), Microsoft Windows Server 2003 (88%), Microsoft Windows XP SP3 (87%), Apple AirPort Extreme WAP (86%), Microsoft Windows 2000 SP4 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   176.72 ms 10.11.1.10
+
+Nmap scan report for 10.11.1.13
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE      VERSION
+21/tcp   open     ftp          Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 01-17-07  07:42PM       <DIR>          AdminScripts
+| 01-17-07  07:43PM       <DIR>          ftproot
+| 01-17-07  07:43PM       <DIR>          iissamples
+| 01-17-07  07:43PM       <DIR>          Scripts
+| 10-13-18  03:00AM                38486 shell2.asp
+|_10-13-18  12:20PM       <DIR>          wwwroot
+| ftp-syst: 
+|_  SYST: Windows_NT
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http     Microsoft IIS httpd 5.1
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT POST
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/5.1
+|_http-title: Site doesn't have a title (text/html).
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/5.1
+|   Server Date: Sat, 13 Oct 2018 11:23:25 GMT
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     tcpwrapped
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:7C:AF (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (96%)
+OS CPE: cpe:/o:microsoft:windows_xp
+Aggressive OS guesses: Microsoft Windows XP (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=136 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   189.52 ms 10.11.1.13
+
+Nmap scan report for 10.11.1.14
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   open     ftp            Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 01-17-07  07:42PM       <DIR>          AdminScripts
+| 01-17-07  07:43PM       <DIR>          ftproot
+| 01-17-07  07:43PM       <DIR>          iissamples
+| 01-17-07  07:43PM       <DIR>          Scripts
+|_04-16-16  10:42AM       <DIR>          wwwroot
+| ftp-syst: 
+|_  SYST: Windows_NT
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http       Microsoft IIS httpd 5.1
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT POST
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/5.1
+|_http-title: Site doesn't have a title (text/html).
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/5.1
+|   Server Date: Sat, 13 Oct 2018 11:22:40 GMT
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ms-wbt-server?
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.70SVN%I=7%D=10/13%Time=5BC1D45B%P=x86_64-unknown-linux
+SF:-gnu%r(TerminalServerCookie,B,"\x03\0\0\x0b\x06\xd0\0\0\x124\0");
+MAC Address: 00:50:56:89:4D:DE (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (96%)
+OS CPE: cpe:/o:microsoft:windows_xp
+Aggressive OS guesses: Microsoft Windows XP (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=142 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   190.25 ms 10.11.1.14
+
+Nmap scan report for 10.11.1.22
+Host is up (0.17s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp?
+22/tcp   open   ssh           OpenSSH 3.1p1 (protocol 1.99)
+| ssh-hostkey: 
+|   1024 4a:e3:f8:07:d5:d6:b1:b5:bf:54:ac:e7:17:36:7e:e8 (RSA1)
+|   1024 77:67:f2:2c:3d:7c:45:24:fe:5e:0f:de:07:65:b3:57 (DSA)
+|_  1024 42:b1:48:0b:41:f8:a9:12:cc:9b:c4:ed:26:74:64:2c (RSA)
+|_sshv1: Server supports SSHv1
+23/tcp   open   telnet?
+25/tcp   open   smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 1.3.23 ((Unix)  (Red-Hat/Linux) mod_python/2.7.6 Python/1.5.2 mod_ssl/2.8.7 OpenSSL/0.9.6b DAV/1.0.3 PHP/4.1.2 mod_perl/1.26 mod_throttle/3.1.2)
+| http-methods: 
+|   Supported Methods: GET HEAD POST PUT DELETE CONNECT OPTIONS PATCH PROPFIND PROPPATCH MKCOL COPY MOVE LOCK UNLOCK TRACE
+|_  Potentially risky methods: PUT DELETE CONNECT PATCH PROPFIND PROPPATCH MKCOL COPY MOVE LOCK UNLOCK TRACE
+|_http-server-header: Apache/1.3.23 (Unix)  (Red-Hat/Linux) mod_python/2.7.6 Python/1.5.2 mod_ssl/2.8.7 OpenSSL/0.9.6b DAV/1.0.3 PHP/4.1.2 mod_perl/1.26 mod_throttle/3.1.2
+|_http-title: Test Page for the Apache Web Server on Red Hat Linux
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100024  1          32768/tcp  status
+|_  100024  1          32768/udp  status
+135/tcp  closed msrpc
+139/tcp  open   netbios-ssn   Samba smbd (workgroup: MYGROUP)
+143/tcp  closed imap
+443/tcp  open   ssl/https     Apache/1.3.23 (Unix)  (Red-Hat/Linux) mod_python/2.7.6 Python/1.5.2 mod_ssl/2.8.
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: Apache/1.3.23 (Unix)  (Red-Hat/Linux) mod_python/2.7.6 Python/1.5.2 mod_ssl/2.8.7 OpenSSL/0.9.6b DAV/1.0.3 PHP/4.1.2 mod_perl/1.26 mod_throttle/3.1.2
+|_http-title: 400 Bad Request
+|_ssl-date: 2018-10-13T11:24:29+00:00; -8s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  open   ssl/pop3s?
+|_ssl-date: 2018-10-13T11:24:16+00:00; -8s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:72:34 (VMware)
+Device type: general purpose|WAP|router|remote management|switch|specialized
+Running (JUST GUESSING): Linux 2.4.X|2.6.X (98%), Acorp embedded (94%), Meru embedded (94%), OpenBSD 4.X (93%), AVM embedded (92%), Dell embedded (92%), Extreme Networks ExtremeXOS 12.X|15.X (92%), Google embedded (92%)
+OS CPE: cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:openbsd:openbsd:4.0 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:avm:fritz%21box_fon_wlan_7170 cpe:/o:extremenetworks:extremexos:12.5.4 cpe:/o:extremenetworks:extremexos:15.3
+Aggressive OS guesses: Linux 2.4.20 (98%), Acorp W400G or W422G wireless ADSL modem (MontaVista embedded Linux 2.4.17) (94%), MontaVista embedded Linux 2.4.17 (94%), Meru MC1000 wireless LAN controller (94%), OpenBSD 4.0 (93%), Linux 2.6.18 (93%), Linux 2.6.9 (93%), Linux 2.6.9 (CentOS 4.4) (93%), AVM FRITZ!Box FON WLAN 7170 WAP (92%), Dell Integrated Remote Access Controller (iDRAC) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Host script results:
+|_clock-skew: mean: -8s, deviation: 0s, median: -8s
+| nbstat: NetBIOS name: BARRY, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   BARRY<00>            Flags: <unique><active>
+|   BARRY<03>            Flags: <unique><active>
+|   BARRY<20>            Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   MYGROUP<00>          Flags: <group><active>
+|   MYGROUP<1d>          Flags: <unique><active>
+|_  MYGROUP<1e>          Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   167.48 ms 10.11.1.22
+
+Nmap scan report for 10.11.1.24
+Host is up (0.19s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 4.6p1 Debian 5build1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 f3:6e:87:04:ea:2d:b3:60:ff:42:ad:26:67:17:94:d5 (DSA)
+|_  2048 bb:03:ce:ed:13:f1:9a:9e:36:03:e2:af:ca:b2:35:04 (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.4 ((Ubuntu) PHP/5.2.3-1ubuntu6)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.4 (Ubuntu) PHP/5.2.3-1ubuntu6
+|_http-title: CS-Cart. Powerful PHP shopping cart software
+110/tcp  open   pop3          Dovecot pop3d
+|_pop3-capabilities: SASL RESP-CODES STLS TOP CAPA UIDL PIPELINING
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Issuer: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2008-04-25T02:02:48
+| Not valid after:  2008-05-25T02:02:48
+| MD5:   90db 2a9a 2d86 29dc f047 d19d c636 9c8e
+|_SHA-1: 1bde 08b6 86fc 9892 33c9 7bd4 0125 c572 5b32 d829
+|_ssl-date: 2018-10-13T11:24:26+00:00; +2s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  open   netbios-ssn   Samba smbd 3.X - 4.X (workgroup: MSHOME)
+143/tcp  open   imap          Dovecot imapd
+|_imap-capabilities: Capability LOGINDISABLEDA0001 THREAD=REFERENCES LOGIN-REFERRALS STARTTLS LITERAL+ NAMESPACE OK CHILDREN IDLE UNSELECT completed SASL-IR MULTIAPPEND IMAP4rev1 SORT
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Issuer: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2008-04-25T02:02:48
+| Not valid after:  2008-05-25T02:02:48
+| MD5:   90db 2a9a 2d86 29dc f047 d19d c636 9c8e
+|_SHA-1: 1bde 08b6 86fc 9892 33c9 7bd4 0125 c572 5b32 d829
+|_ssl-date: 2018-10-13T11:24:26+00:00; +2s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+443/tcp  closed https
+445/tcp  open   netbios-ssn   Samba smbd 3.0.26a (workgroup: MSHOME)
+993/tcp  open   ssl/imap      Dovecot imapd
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Issuer: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2008-04-25T02:02:48
+| Not valid after:  2008-05-25T02:02:48
+| MD5:   90db 2a9a 2d86 29dc f047 d19d c636 9c8e
+|_SHA-1: 1bde 08b6 86fc 9892 33c9 7bd4 0125 c572 5b32 d829
+|_ssl-date: 2018-10-13T11:24:26+00:00; +2s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+995/tcp  open   ssl/pop3      Dovecot pop3d
+|_pop3-capabilities: SASL(PLAIN) RESP-CODES USER TOP CAPA UIDL PIPELINING
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Issuer: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2008-04-25T02:02:48
+| Not valid after:  2008-05-25T02:02:48
+| MD5:   90db 2a9a 2d86 29dc f047 d19d c636 9c8e
+|_SHA-1: 1bde 08b6 86fc 9892 33c9 7bd4 0125 c572 5b32 d829
+|_ssl-date: 2018-10-13T11:24:20+00:00; +2s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:56:69 (VMware)
+Device type: general purpose|remote management|switch|WAP|specialized|print server|media device
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (95%), Dell embedded (94%), Extreme Networks ExtremeXOS 12.X|15.X (94%), AVM embedded (93%), Google embedded (93%), HP embedded (93%), Philips embedded (93%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:dell:remote_access_card:6 cpe:/o:extremenetworks:extremexos:12.5.4 cpe:/o:linux:linux_kernel:2.4.20 cpe:/h:avm:fritz%21box_fon_wlan_7170 cpe:/o:extremenetworks:extremexos:15.3
+Aggressive OS guesses: Linux 2.6.22 (95%), Dell Remote Access Controller (DRAC 6) (94%), Extreme Networks ExtremeXOS 12.5.4 (94%), DD-WRT v24-presp2 (Linux 2.6.34) (94%), Linux 2.6.29 (Gentoo) (94%), Linux 2.4.20 (94%), AVM FRITZ!Box FON WLAN 7170 WAP (93%), Dell Integrated Remote Access Controller (iDRAC) (93%), Dell Integrated Remote Access Controller (iDRAC9) (93%), Dell Remote Access Controller 5/I (DRAC 5/I) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.959 days (since Fri Oct 12 14:08:21 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=214 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 40m10s, deviation: 1h38m20s, median: 1s
+| nbstat: NetBIOS name: PAYDAY, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   PAYDAY<00>           Flags: <unique><active>
+|   PAYDAY<03>           Flags: <unique><active>
+|   PAYDAY<20>           Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   MSHOME<1d>           Flags: <unique><active>
+|   MSHOME<1e>           Flags: <group><active>
+|_  MSHOME<00>           Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.26a)
+|   Computer name: payday
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: payday
+|_  System time: 2018-10-13T07:22:26-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   191.64 ms 10.11.1.24
+
+Nmap scan report for 10.11.1.31
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Microsoft IIS httpd 6.0
+| http-cookie-flags: 
+|   /: 
+|     ASPSESSIONIDSQCCRRQB: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Login
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc         Microsoft Windows RPC
+139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   microsoft-ds  Windows Server 2003 3790 Service Pack 1 microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp open   ms-wbt-server Microsoft Terminal Service
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:51:86 (VMware)
+Device type: general purpose|media device|specialized
+Running (JUST GUESSING): Microsoft Windows 2003|XP|PocketPC/CE|2000 (94%), Motorola embedded (89%), Beat embedded (87%)
+OS CPE: cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_ce:5.0 cpe:/h:motorola:vip1216 cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_ce:6.0
+Aggressive OS guesses: Microsoft Windows Server 2003 SP2 (94%), Microsoft Windows XP SP3 (93%), Microsoft Windows XP (92%), Microsoft Windows Server 2003 (92%), Microsoft Windows Server 2003 SP0 - SP2 (91%), Microsoft Windows Server 2003 SP1 or SP2 (91%), Microsoft Windows 2003 (90%), Microsoft Windows Server 2003 SP1 (90%), Microsoft Windows Server 2003 SP0 or Windows XP SP2 (89%), Microsoft Windows XP Professional SP3 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Host script results:
+|_clock-skew: mean: 2h30m30s, deviation: 3h32m44s, median: 4s
+| ms-sql-info: 
+|   Windows server name: RALPH
+|   10.11.1.31\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2000 SP3a
+|       number: 8.00.766.00
+|       Product: Microsoft SQL Server 2000
+|       Service pack level: SP3a
+|       Post-SP patches applied: false
+|     TCP port: 1433
+|     Named pipe: \\10.11.1.31\pipe\sql\query
+|_    Clustered: false
+| nbstat: NetBIOS name: RALPH, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:51:86 (VMware)
+| Names:
+|   RALPH<00>            Flags: <unique><active>
+|   THINC<00>            Flags: <group><active>
+|   RALPH<1f>            Flags: <unique><active>
+|   RALPH<03>            Flags: <unique><active>
+|   RALPH<20>            Flags: <unique><active>
+|   THINC<1e>            Flags: <group><active>
+|   THINC<1d>            Flags: <unique><active>
+|_  \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp1
+|   Computer name: ralph
+|   NetBIOS computer name: RALPH\x00
+|   Workgroup: THINC\x00
+|_  System time: 2018-10-13T06:22:30-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   150.62 ms 10.11.1.31
+
+Nmap scan report for 10.11.1.35
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   open     ssh           OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 ab:a7:86:a8:a0:39:c6:0a:81:0b:f9:ae:6f:4b:51:79 (DSA)
+|_  2048 8b:a5:11:b8:ca:75:9e:8c:a7:17:2c:a3:c9:90:1e:87 (RSA)
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  open     ssl/http      Apache httpd 2.2.3 ((CentOS))
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.2.3 (CentOS)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=pain/organizationName=Thinc LTD/stateOrProvinceName=Pain/countryName=US
+| Issuer: commonName=pain/organizationName=Thinc LTD/stateOrProvinceName=Pain/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2016-01-07T12:46:17
+| Not valid after:  2017-01-06T12:46:17
+| MD5:   f06b 588b f6f3 94f7 26bc 151f 8144 add9
+|_SHA-1: d276 955d 1b77 454c 3ca0 7f8e b965 01f7 c271 e0d3
+|_ssl-date: 2018-10-13T11:24:13+00:00; -5s from scanner time.
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:79:6A (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Cisco SA520 firewall (Linux 2.6) (91%), Linux 2.6.28 (91%), Linux 2.6.9 (CentOS 4.4) (91%), Linux 2.6.9 - 2.6.27 (91%), Riverbed Steelhead 200 proxy server (91%), ZoneAlarm Z100G WAP (91%), Ruckus 7363 WAP (91%), Linux 2.6.9 (91%), Linux 2.6.30 (89%), Linux 2.6.18 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 2.945 days (since Wed Oct 10 14:29:46 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=200 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Host script results:
+|_clock-skew: mean: -5s, deviation: 0s, median: -5s
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   200.92 ms 10.11.1.35
+
+Nmap scan report for 10.11.1.39
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   open     ssh           OpenSSH 6.6.1 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5e:c1:7e:d2:f9:20:f9:11:ea:4b:02:68:07:3f:54:f2 (RSA)
+|   256 36:ef:27:31:a2:fd:4a:e3:d2:4e:12:58:1f:7a:03:58 (ECDSA)
+|_  256 2c:70:9c:c9:4c:50:61:d2:51:43:d5:67:d1:d0:39:de (ED25519)
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      nginx 1.6.3
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: nginx/1.6.3
+|_http-title: Apache HTTP Server Test Page powered by CentOS
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp open     mysql         MariaDB (unauthorized)
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:38:11 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X|4.X|2.6.X (91%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4.4 cpe:/o:linux:linux_kernel:2.6
+Aggressive OS guesses: Linux 3.10 - 3.12 (91%), Linux 4.4 (91%), Linux 4.9 (91%), Linux 2.6.18 - 2.6.22 (86%), Linux 3.10 (86%), Linux 3.10 - 3.16 (86%), Linux 3.10 - 4.11 (85%), Linux 3.11 - 4.1 (85%), Linux 3.2 - 4.9 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 1.190 days (since Fri Oct 12 08:36:44 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   201.92 ms 10.11.1.39
+
+Nmap scan report for 10.11.1.44
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 65:63:69:c9:8b:96:b1:fb:be:d5:5c:f8:1e:7b:de:8f (DSA)
+|_  2048 28:99:c0:51:20:9b:31:e1:a4:fb:9a:17:46:52:cf:fc (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:5A:E4 (VMware)
+Aggressive OS guesses: Linux 2.6.32 (94%), IPFire 2.11 firewall (Linux 2.6.32) (94%), DD-WRT v24-sp1 (Linux 2.4) (93%), HP MSM410 WAP (93%), Linux 2.6.35 (93%), IGEL UD3 thin client (Linux 2.6) (93%), Kyocera CopyStar CS-2560 printer (91%), QNAP NAS Firmware 3.8.3 (Linux 3.X) (91%), Linux 3.11 - 4.1 (91%), Linux 3.2 - 3.8 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 1.636 days (since Thu Oct 11 21:54:10 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   152.11 ms 10.11.1.44
+
+Nmap scan report for 10.11.1.49
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Microsoft IIS httpd 8.5
+|_http-favicon: ERROR: Script execution failed (use -d to debug)
+|_http-generator: Drupal 7 (http://drupal.org)
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 36 disallowed entries (15 shown)
+| /includes/ /misc/ /modules/ /profiles/ /scripts/ 
+| /themes/ /CHANGELOG.txt /cron.php /INSTALL.mysql.txt 
+| /INSTALL.pgsql.txt /INSTALL.sqlite.txt /install.php /INSTALL.txt 
+|_/LICENSE.txt /MAINTAINERS.txt
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: Welcome to Bethany&#039;s Page | Bethany&#039;s Page
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:6E:65 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 1.166 days (since Fri Oct 12 09:10:14 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+|_smb2-security-mode: SMB: Couldn't find a NetBIOS name that works for the server. Sorry!
+|_smb2-time: ERROR: Script execution failed (use -d to debug)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   189.66 ms 10.11.1.49
+
+Nmap scan report for 10.11.1.50
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Microsoft IIS httpd 8.5
+|_http-favicon: ERROR: Script execution failed (use -d to debug)
+|_http-generator: Drupal 7 (http://drupal.org)
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 36 disallowed entries (15 shown)
+| /includes/ /misc/ /modules/ /profiles/ /scripts/ 
+| /themes/ /CHANGELOG.txt /cron.php /INSTALL.mysql.txt 
+| /INSTALL.pgsql.txt /INSTALL.sqlite.txt /install.php /INSTALL.txt 
+|_/LICENSE.txt /MAINTAINERS.txt
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: Welcome to Bethany&#039;s Page | Bethany&#039;s Page
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:12:DE (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone
+Running (JUST GUESSING): Microsoft Windows 7|2008|Vista|Phone|8.1 (98%)
+OS CPE: cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_8.1
+Aggressive OS guesses: Microsoft Windows 7 (98%), Microsoft Windows 7 or Windows Server 2008 R2 (96%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (91%), Microsoft Windows 8.1 Update 1 (89%), Microsoft Windows Phone 7.5 or 8.0 (89%), Microsoft Windows Server 2008 R2 (88%), Microsoft Windows Server 2008 R2 or Windows 8.1 (88%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (88%), Microsoft Windows 7 Professional or Windows 8 (88%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 1.521 days (since Fri Oct 12 00:39:38 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+|_smb2-security-mode: SMB: Couldn't find a NetBIOS name that works for the server. Sorry!
+|_smb2-time: ERROR: Script execution failed (use -d to debug)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   201.03 ms 10.11.1.50
+
+Nmap scan report for 10.11.1.71
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh?
+| fingerprint-strings: 
+|   NULL: 
+|     Content-Length: 0
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 69
+|     Connection: close
+|     Content-Type: text/html
+|_    Couldn't open reverse shell to 10.11.0.205:9002: No route to host<p>
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.4.7 ((Ubuntu))
+|_http-auth: ERROR: Script execution failed (use -d to debug)
+|_http-cookie-flags: ERROR: Script execution failed (use -d to debug)
+|_http-favicon: ERROR: Script execution failed (use -d to debug)
+|_http-generator: ERROR: Script execution failed (use -d to debug)
+|_http-ls: ERROR: Script execution failed (use -d to debug)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: ERROR: Script execution failed (use -d to debug)
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port22-TCP:V=7.70SVN%I=7%D=10/13%Time=5BC1D466%P=x86_64-unknown-linux-g
+SF:nu%r(NULL,C8,"Content-Length:\x200\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text/html\r\n\r\nContent-Length:\x2069\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/html\r\n\r\nCouldn't\x20open\x20reverse\x20she
+SF:ll\x20to\x2010\.11\.0\.205:9002:\x20No\x20route\x20to\x20host<p>\n");
+MAC Address: 00:50:56:89:10:E8 (VMware)
+Aggressive OS guesses: Linux 3.11 - 4.1 (94%), Linux 3.16 (94%), Linux 4.4 (93%), Linux 3.13 (91%), Linux 3.2 - 3.8 (91%), WatchGuard Fireware 11.8 (91%), Linux 3.18 (90%), Linux 3.5 (90%), Linux 3.8 (90%), Linux 3.10 - 3.16 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 2.690 days (since Wed Oct 10 20:35:40 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   151.90 ms 10.11.1.71
+
+Nmap scan report for 10.11.1.72
+Host is up (0.20s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 5.8p1 Debian 7ubuntu1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 d3:2e:10:0d:48:90:ce:9a:33:fb:66:3f:a0:a6:94:48 (DSA)
+|   2048 ef:0a:3b:8e:3f:92:a4:5e:f0:ab:e7:7d:75:f0:de:0e (RSA)
+|_  256 15:3a:65:3b:97:ed:e0:fc:85:bc:4b:53:48:22:61:b1 (ECDSA)
+23/tcp   closed telnet
+25/tcp   open   smtp          JAMES smtpd 2.3.2
+|_smtp-commands: beta Hello nmap.scanme.org (geri-XPS-13-9360.local [10.11.0.48]), 
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.20 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.20 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  open   pop3          JAMES pop3d 2.3.2
+111/tcp  open   rpcbind       2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100003  2,3,4       2049/tcp  nfs
+|   100003  2,3,4       2049/udp  nfs
+|   100005  1,2,3      36112/tcp  mountd
+|   100005  1,2,3      49159/udp  mountd
+|   100021  1,3,4      59294/tcp  nlockmgr
+|   100021  1,3,4      60922/udp  nlockmgr
+|   100024  1          41363/tcp  status
+|   100024  1          51039/udp  status
+|   100227  2,3         2049/tcp  nfs_acl
+|_  100227  2,3         2049/udp  nfs_acl
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:4A:75 (VMware)
+Aggressive OS guesses: Linux 3.2 - 3.8 (95%), Linux 3.8 (95%), WatchGuard Fireware 11.8 (95%), Linux 3.1 - 3.2 (94%), Linux 2.6.32 - 2.6.39 (93%), Linux 3.5 (92%), Linux 3.0 - 3.2 (92%), Grandstream GXV3275 video phone (91%), Linux 2.6.32 (91%), Linux 2.6.39 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 1.588 days (since Thu Oct 11 23:03:05 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: beta; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   196.57 ms 10.11.1.72
+
+Nmap scan report for 10.11.1.73
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  open     microsoft-ds  Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp open     mysql         MySQL (unauthorized; French)
+3389/tcp open     ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=gamma
+| Issuer: commonName=gamma
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-10-04T05:27:50
+| Not valid after:  2019-04-05T05:27:50
+| MD5:   61ab e5dc d5db c3e9 9c94 90e0 fb75 1881
+|_SHA-1: f188 fa30 b295 914c c095 2a92 0bbf 52c6 9d91 9e9c
+|_ssl-date: 2018-10-13T11:24:11+00:00; -9s from scanner time.
+5900/tcp open     vnc           VNC (protocol 3.8)
+|_ssl-cert: ERROR: Script execution failed (use -d to debug)
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+|_sslv2: ERROR: Script execution failed (use -d to debug)
+|_tls-alpn: ERROR: Script execution failed (use -d to debug)
+|_tls-nextprotoneg: ERROR: Script execution failed (use -d to debug)
+|_vnc-info: ERROR: Script execution failed (use -d to debug)
+8080/tcp open     ssl/http      Apache httpd 2.4.9 ((Win32) PHP/5.5.12)
+|_http-favicon: Unknown favicon MD5: 79E32EEA338FA735AD22D36104C4337A
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-open-proxy: Proxy might be redirecting requests
+| http-robots.txt: 1 disallowed entry 
+|_/testmysql.php
+|_http-server-header: Apache/2.4.9 (Win32) PHP/5.5.12
+|_http-title: Site doesn't have a title (text/html).
+MAC Address: 00:50:56:89:0A:BB (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 1.193 days (since Fri Oct 12 08:31:43 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: Host: GAMMA; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h45m11s, deviation: 3h30m40s, median: -9s
+| nbstat: NetBIOS name: GAMMA, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:0a:bb (VMware)
+| Names:
+|   GAMMA<00>            Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   GAMMA<20>            Flags: <unique><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: gamma
+|   NetBIOS computer name: GAMMA\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T04:22:45-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-13T11:22:45
+|_  start_date: 2018-10-12T07:32:37
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   203.45 ms 10.11.1.73
+
+Nmap scan report for 10.11.1.115
+Host is up (0.20s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           vsftpd 1.1.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 0        0            4096 Feb 28  2003 pub
+22/tcp   open   ssh           OpenSSH 3.5p1 (protocol 1.99)
+| ssh-hostkey: 
+|   1024 36:70:a4:9f:32:47:ac:57:3f:ef:a1:ec:0b:ba:44:1b (RSA1)
+|   1024 64:79:7d:c6:a2:63:32:54:f0:d9:2b:f3:5d:c7:d2:69 (DSA)
+|_  1024 48:fb:39:3d:30:82:50:de:66:69:c5:ca:45:62:c0:dc (RSA)
+|_sshv1: Server supports SSHv1
+23/tcp   closed telnet
+25/tcp   open   smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.0.40 ((Red Hat Linux))
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.0.40 (Red Hat Linux)
+|_http-title: Test Page for the Apache Web Server on Red Hat Linux
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100024  1          32768/tcp  status
+|   100024  1          32768/udp  status
+|_  391002  2          32769/tcp  sgi_fam
+135/tcp  closed msrpc
+139/tcp  open   netbios-ssn   Samba smbd (workgroup: MYGROUP)
+143/tcp  open   imap          UW imapd 2001.315rh
+|_imap-capabilities: IMAP4REV1 THREAD=REFERENCES LOGIN-REFERRALS CAPABILITY OK NAMESPACE STARTTLS AUTH=LOGINA0001 IDLE MULTIAPPEND completed MAILBOX-REFERRALS THREAD=ORDEREDSUBJECT SCAN SORT
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Issuer: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: md5WithRSAEncryption
+| Not valid before: 2007-01-16T06:07:45
+| Not valid after:  2008-01-16T06:07:45
+| MD5:   1be1 70c2 4561 74a1 f44e e3bf f085 614d
+|_SHA-1: 720d 54ef be48 1888 7d60 2aef f869 6756 fc10 ee89
+|_ssl-date: 2018-10-13T11:23:52+00:00; -41s from scanner time.
+443/tcp  open   ssl/http      Apache httpd 2.0.40 ((Red Hat Linux))
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.0.40 (Red Hat Linux)
+|_http-title: Test Page for the Apache Web Server on Red Hat Linux
+| ssl-cert: Subject: commonName=redhat/organizationName=ACME LOCAL LTD/stateOrProvinceName=Berkshire/countryName=GB
+| Issuer: commonName=redhat/organizationName=ACME LOCAL LTD/stateOrProvinceName=Berkshire/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: md5WithRSAEncryption
+| Not valid before: 2007-01-16T14:54:43
+| Not valid after:  2008-01-16T14:54:43
+| MD5:   e900 ada0 dfea 0408 06cd ddee 15fd 7d8b
+|_SHA-1: 3b9a 70e7 870e 11b8 a221 5af7 bae9 dd03 ce90 3cbc
+|_ssl-date: 2018-10-13T11:23:50+00:00; -41s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp open   mysql         MySQL (unauthorized)
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:08:3B (VMware)
+Device type: general purpose
+Running: Linux 2.4.X
+OS CPE: cpe:/o:linux:linux_kernel:2.4.20
+OS details: Linux 2.4.20
+Uptime guess: 3.692 days (since Tue Oct  9 20:33:24 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=204 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: tophat.acme.local; OS: Unix
+
+Host script results:
+|_clock-skew: mean: -41s, deviation: 0s, median: -41s
+| nbstat: NetBIOS name: TOPHAT, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   TOPHAT<00>           Flags: <unique><active>
+|   TOPHAT<03>           Flags: <unique><active>
+|   TOPHAT<20>           Flags: <unique><active>
+|   MYGROUP<00>          Flags: <group><active>
+|_  MYGROUP<1e>          Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   200.65 ms 10.11.1.115
+
+Nmap scan report for 10.11.1.116
+Host is up (0.18s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp?
+22/tcp   open   ssh           OpenSSH 5.8p2_hpn13v11 (FreeBSD 20110503; protocol 2.0)
+| ssh-hostkey: 
+|   1024 75:e8:80:6f:6c:2f:d2:51:1a:d6:c9:9e:e4:a2:4c:2f (DSA)
+|   2048 28:43:26:62:1d:07:f9:e3:9f:0b:1a:94:98:1a:74:45 (RSA)
+|_  256 50:2f:db:dd:1a:8e:22:23:f8:dc:7b:65:c9:fc:8e:df (ECDSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.4.6 ((FreeBSD) PHP/5.4.23)
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.6 (FreeBSD) PHP/5.4.23
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  open   tcpwrapped
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  open   tcpwrapped
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp open   mysql         MySQL (unauthorized)
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:60:20 (VMware)
+Device type: general purpose
+Running: FreeBSD 9.X
+OS CPE: cpe:/o:freebsd:freebsd:9.0
+OS details: FreeBSD 9.0-RELEASE
+Uptime guess: 0.034 days (since Sat Oct 13 12:21:05 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   177.75 ms 10.11.1.116
+
+Nmap scan report for 10.11.1.125
+Host is up (0.18s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     ftp           Acritum Femitter Server ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| drw-rw-rw-   1 ftp      ftp            0 Sep 23  2015 . [NSE: writeable]
+| drw-rw-rw-   1 ftp      ftp            0 Sep 23  2015 .. [NSE: writeable]
+| -rw-rw-rw-   1 ftp      ftp        11164 Dec 26  2006 house.jpg [NSE: writeable]
+| -rw-rw-rw-   1 ftp      ftp          920 Jan 03  2007 index.htm [NSE: writeable]
+|_drw-rw-rw-   1 ftp      ftp            0 Oct 13 04:08 Upload [NSE: writeable]
+|_ftp-bounce: bounce working!
+| ftp-syst: 
+|_  SYST: Internet Component Suite
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:6A:74 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|general purpose|media device
+Running (JUST GUESSING): Apple embedded (90%), Microsoft Windows XP|2003|2000 (89%), RIM Tablet OS 2.X (87%)
+OS CPE: cpe:/h:apple:airport_extreme cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_server_2003::- cpe:/o:microsoft:windows_2000::sp4 cpe:/o:rim:tablet_os:2
+Aggressive OS guesses: Apple AirPort Extreme WAP (90%), Microsoft Windows Server 2003 SP0 or Windows XP SP2 (89%), Microsoft Windows XP SP2 (89%), Microsoft Windows XP SP3 (89%), Microsoft Windows 2000 SP4 (88%), Microsoft Windows XP SP3 or Small Business Server 2003 (88%), Microsoft Windows XP (88%), Microsoft Windows XP Professional SP2 (French) (87%), BlackBerry Tablet OS 2 (87%), Microsoft Windows Server 2003 SP2 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   183.85 ms 10.11.1.125
+
+Nmap scan report for 10.11.1.128
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           Microsoft ftpd 5.0
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   open   smtp          Microsoft ESMTP 5.0.2195.6713
+| smtp-commands: dj.acme.local Hello [10.11.0.48], AUTH GSSAPI NTLM LOGIN, AUTH=LOGIN, TURN, ATRN, SIZE 2097152, ETRN, PIPELINING, DSN, ENHANCEDSTATUSCODES, 8bitmime, BINARYMIME, CHUNKING, VRFY, OK, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH TURN ATRN ETRN BDAT VRFY 
+| smtp-ntlm-info: 
+|   Target_Name: DJ
+|   NetBIOS_Domain_Name: DJ
+|   NetBIOS_Computer_Name: DJ
+|   DNS_Domain_Name: dj.acme.local
+|   DNS_Computer_Name: dj.acme.local
+|_  Product_Version: 5.0.2195
+53/tcp   closed domain
+80/tcp   open   ssl/http      Microsoft IIS httpd 5.0
+| http-cookie-flags: 
+|   /: 
+|     ASPSESSIONIDQAASCCCB: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/5.0
+|_http-title: Login
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc         Microsoft Windows RPC
+139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  open   https?
+445/tcp  open   microsoft-ds  Windows 2000 microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp open   vnc           VNC (protocol 3.8)
+|_ssl-cert: ERROR: Script execution failed (use -d to debug)
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+|_sslv2: ERROR: Script execution failed (use -d to debug)
+|_tls-nextprotoneg: ERROR: Script execution failed (use -d to debug)
+|_vnc-info: ERROR: Script execution failed (use -d to debug)
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:38:C1 (VMware)
+Device type: general purpose|specialized|power-device
+Running (JUST GUESSING): Microsoft Windows XP|2000|2003|7 (98%), Belkin embedded (89%), SMA embedded (89%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_2000::sp4:server cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows XP (98%), Microsoft Windows XP SP3 (91%), Microsoft Windows 2000 Server SP4 or Windows XP Professional SP3 (91%), Microsoft Windows XP SP2 (91%), Microsoft Windows 2000 SP4 (90%), Microsoft Windows Server 2003 SP2 (90%), Belkin OmniView KVM switch or SMA Sunny WebBox solar panel monitor (89%), Microsoft Windows 7 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: dj.acme.local; OSs: Windows, Windows 2000; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_2000
+
+Host script results:
+|_clock-skew: mean: -59m24s, deviation: 1h23m53s, median: -1h58m44s
+| ms-sql-info: 
+|   Windows server name: DJ
+|   10.11.1.128\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2000 RTM
+|       number: 8.00.194.00
+|       Product: Microsoft SQL Server 2000
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|     TCP port: 27900
+|     Named pipe: \\10.11.1.128\pipe\sql\query
+|_    Clustered: false
+| nbstat: NetBIOS name: DJ, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:38:c1 (VMware)
+| Names:
+|   DJ<00>               Flags: <unique><active>
+|   DJ<20>               Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+|   DJ<03>               Flags: <unique><active>
+|   INet~Services<1c>    Flags: <group><active>
+|_  IS~DJ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00<00>  Flags: <unique><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: dj
+|   NetBIOS computer name: DJ\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T13:22:50+02:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   205.09 ms 10.11.1.128
+
+Nmap scan report for 10.11.1.133
+Host is up (0.18s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  closed   rpcbind
+135/tcp  filtered msrpc
+139/tcp  closed   netbios-ssn
+143/tcp  closed   imap
+443/tcp  closed   https
+445/tcp  closed   microsoft-ds
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1723/tcp filtered pptp
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+8080/tcp closed   http-proxy
+MAC Address: 00:50:56:89:0D:09 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 3.X, Microsoft Windows 2008
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008
+OS details: Linux 3.0 - 3.2, Microsoft Windows Server 2008 or 2008 Beta 3
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   179.54 ms 10.11.1.133
+
+Nmap scan report for 10.11.1.136
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 4.3p2 Debian 9 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 88:23:98:0d:9d:8a:20:59:35:b8:14:12:14:d5:d0:44 (DSA)
+|_  2048 6b:5d:04:71:76:78:56:96:56:92:a8:02:30:73:ee:fa (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  open   netbios-ssn   Samba smbd 3.X - 4.X (workgroup: LOCAL)
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   netbios-ssn   Samba smbd 3.0.24 (workgroup: LOCAL)
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:47:B7 (VMware)
+Aggressive OS guesses: Extreme Networks ExtremeXOS 12.5.4 (94%), Linux 2.6.15 (Ubuntu) (94%), Linux 2.6.15 - 2.6.26 (likely embedded) (94%), Linux 2.6.16 (94%), Barracuda Web Application Firewall 460 (94%), Kyocera CopyStar CS-2560 printer (93%), Linux 2.6.26 (93%), Linux 2.6.32 (92%), Barracuda Web Filter (92%), Linux 2.6.22 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.724 days (since Fri Oct 12 19:47:29 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=197 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 2h01m10s, deviation: 2h50m40s, median: 29s
+| nbstat: NetBIOS name: SUFFERANCE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   SUFFERANCE<00>       Flags: <unique><active>
+|   SUFFERANCE<03>       Flags: <unique><active>
+|   SUFFERANCE<20>       Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   THINC.LOCAL<1d>      Flags: <unique><active>
+|   THINC.LOCAL<1e>      Flags: <group><active>
+|_  THINC.LOCAL<00>      Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.24)
+|   NetBIOS computer name: 
+|   Workgroup: THINC.LOCAL\x00
+|_  System time: 2018-10-13T07:23:26-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: share (dangerous)
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   150.42 ms 10.11.1.136
+
+Nmap scan report for 10.11.1.141
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 4.0 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 fe:cd:bb:f6:36:d4:59:62:92:b4:10:e4:75:04:43:54 (DSA)
+|_  1024 9a:99:25:75:ac:04:e5:f9:f7:21:c6:f5:88:4f:12:6a (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|_  100000  2            111/udp  rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:56:41 (VMware)
+Aggressive OS guesses: Linux 2.6.18 (94%), Linux 2.6.11 (93%), Linux 2.6.9 - 2.6.27 (93%), Linux 2.6.9 (92%), Cisco SA520 firewall (Linux 2.6) (90%), Linux 2.6.28 (90%), Linux 2.6.30 (90%), Linux 2.6.32 (90%), Linux 2.6.9 (CentOS 4.4) (90%), Riverbed Steelhead 200 proxy server (90%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 1.117 days (since Fri Oct 12 10:21:57 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=196 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   152.38 ms 10.11.1.141
+
+Nmap scan report for 10.11.1.145
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE            VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc              Microsoft Windows RPC
+139/tcp  open     netbios-ssn        Microsoft Windows netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  open     microsoft-ds       Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=HELPDESK
+| Issuer: commonName=HELPDESK
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-10-11T20:14:10
+| Not valid after:  2019-04-12T20:14:10
+| MD5:   b9c0 f300 ef9d d6d4 6619 fe17 5862 807a
+|_SHA-1: ca6f bf67 e2ee 4a8c 31e1 f848 a1bd 454b bb5f 0c17
+|_ssl-date: 2018-10-13T11:23:19+00:00; -1m15s from scanner time.
+5900/tcp filtered vnc
+8080/tcp open     ssl/http           Apache Tomcat/Coyote JSP engine 1.1
+| http-cookie-flags: 
+|   /: 
+|     JSESSIONID: 
+|_      httponly flag not set
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: ManageEngine ServiceDesk Plus
+MAC Address: 00:50:56:89:56:E3 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 1.163 days (since Fri Oct 12 09:15:00 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: HELPDESK; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+
+Host script results:
+|_clock-skew: mean: 2h19m12s, deviation: 4h03m16s, median: -1m15s
+| nbstat: NetBIOS name: HELPDESK, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:56:e3 (VMware)
+| Names:
+|   HELPDESK<00>         Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|_  HELPDESK<20>         Flags: <unique><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: HELPDESK
+|   NetBIOS computer name: HELPDESK\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T04:21:41-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   189.77 ms 10.11.1.145
+
+Nmap scan report for 10.11.1.146
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           ProFTPD 1.3.3a
+22/tcp   open   ssh           OpenSSH 5.5p1 Debian 6 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 bb:1e:db:11:2a:c7:90:96:e8:0f:f1:ce:aa:14:6a:c1 (DSA)
+|_  2048 67:62:39:ab:ef:7b:2d:e2:70:18:fd:7d:3d:65:bf:c7 (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:55:BC (VMware)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Uptime guess: 1.449 days (since Fri Oct 12 02:23:37 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=201 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   153.96 ms 10.11.1.146
+
+Nmap scan report for 10.11.1.202
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           Microsoft ftpd 5.0
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|_  SYST: Windows_NT version 5.0
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Microsoft IIS httpd 5.0
+| http-cookie-flags: 
+|   /: 
+|     ASPSESSIONIDAARSADRS: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT POST MOVE MKCOL PROPPATCH
+|_  Potentially risky methods: TRACE COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT MOVE MKCOL PROPPATCH
+| http-ntlm-info: 
+|   Target_Name: ACME
+|   NetBIOS_Domain_Name: ACME
+|   NetBIOS_Computer_Name: ORACLE
+|   DNS_Domain_Name: acme.local
+|   DNS_Computer_Name: oracle.acme.local
+|_  Product_Version: 5.0.2195
+|_http-server-header: Microsoft-IIS/5.0
+|_http-title: Under Construction
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/5.0
+|   Server Date: Sat, 13 Oct 2018 11:21:45 GMT
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc         Microsoft Windows RPC
+139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  open   https?
+445/tcp  open   microsoft-ds  Windows 2000 microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp open   ms-wbt-server Microsoft Terminal Service
+5900/tcp closed vnc
+8080/tcp open   ssl/http      Oracle XML DB Enterprise Edition httpd 9.2.0.1.0 (Oracle9i Enterprise Edition Release)
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=XDB
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Oracle XML DB/Oracle9i Enterprise Edition Release 9.2.0.1.0 - Production
+|_http-title: 400 Bad Request
+MAC Address: 00:50:56:89:66:78 (VMware)
+Device type: general purpose|specialized|power-device
+Running (JUST GUESSING): Microsoft Windows XP|2000|2003|7 (98%), Belkin embedded (89%), SMA embedded (89%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_2000::sp4:server cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows XP (98%), Microsoft Windows XP SP3 (91%), Microsoft Windows 2000 Server SP4 or Windows XP Professional SP3 (91%), Microsoft Windows 2000 SP4 (90%), Microsoft Windows XP SP2 (90%), Microsoft Windows Server 2003 SP2 (89%), Belkin OmniView KVM switch or SMA Sunny WebBox solar panel monitor (89%), Microsoft Windows 7 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows 2000; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_2000
+
+Host script results:
+|_clock-skew: mean: -59m26s, deviation: 1h23m52s, median: -1h58m45s
+| nbstat: NetBIOS name: ORACLE, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:66:78 (VMware)
+| Names:
+|   ORACLE<00>           Flags: <unique><active>
+|   ACME<00>             Flags: <group><active>
+|   ORACLE<03>           Flags: <unique><active>
+|   ORACLE<20>           Flags: <unique><active>
+|   ACME<1e>             Flags: <group><active>
+|   INet~Services<1c>    Flags: <group><active>
+|   IS~ORACLE\x00\x00\x00\x00\x00\x00<00>  Flags: <unique><active>
+|   ACME<1d>             Flags: <unique><active>
+|_  \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: oracle
+|   NetBIOS computer name: ORACLE\x00
+|   Domain name: acme.local
+|   FQDN: oracle.acme.local
+|_  System time: 2018-10-13T13:22:49+02:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   154.63 ms 10.11.1.202
+
+Nmap scan report for 10.11.1.209
+Host is up (0.16s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           SunSSH 1.1.5 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 b0:d1:14:4f:d2:43:20:e4:90:f7:ca:e3:8a:36:39:86 (DSA)
+|_  1024 dd:36:f6:09:23:4c:c4:c3:44:d6:6e:2f:6a:ff:b3:12 (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 1.3.41 ((Unix) mod_perl/1.31)
+| http-methods: 
+|   Supported Methods: GET HEAD OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/1.3.41 (Unix) mod_perl/1.31
+|_http-title: Test Page for the SSL/TLS-aware Apache Installation on Web Site
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2-4 (RPC #100000)
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp open   ssl/http      Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/5.5.35
+MAC Address: 00:50:56:89:11:24 (VMware)
+Device type: general purpose
+Running: Sun SunOS 10
+OS CPE: cpe:/o:sun:sunos:10
+OS details: Sun Solaris 10
+Uptime guess: 1.193 days (since Fri Oct 12 08:31:42 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=154 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   155.32 ms 10.11.1.209
+
+Nmap scan report for 10.11.1.217
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 1a:f6:e5:4c:f5:65:5c:a3:79:ce:e1:30:f9:5a:9c:af (DSA)
+|_  2048 b1:9e:c8:ea:eb:4c:fc:55:cb:1e:4d:4c:40:6e:80:f2 (RSA)
+23/tcp   closed telnet
+25/tcp   open   smtp?
+|_smtp-commands: hotline.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, 
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.3
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.3 (CentOS)
+|_http-title: Did not follow redirect to https://10.11.1.217/
+110/tcp  open   pop3?
+111/tcp  open   rpcbind       2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100024  1            885/udp  status
+|_  100024  1            888/tcp  status
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  open   imap?
+443/tcp  open   ssl/http      Apache httpd 2.2.3 ((CentOS))
+|_http-favicon: Unknown favicon MD5: 80DCC71362B27C7D0E608B0890C05E9F
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache/2.2.3 (CentOS)
+|_http-title: Elastix - Login page
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Issuer: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2012-03-23T19:29:13
+| Not valid after:  2013-03-23T19:29:13
+| MD5:   f41c e874 ef3c f28d dd80 9345 c005 3209
+|_SHA-1: c443 1924 35ea d598 03bf cc15 40e9 8611 5e84 5491
+|_ssl-date: 2018-10-13T11:24:44+00:00; +4s from scanner time.
+445/tcp  closed microsoft-ds
+993/tcp  open   imaps?
+995/tcp  open   pop3s?
+1723/tcp closed pptp
+3306/tcp open   mysql?
+|_mysql-info: ERROR: Script execution failed (use -d to debug)
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:1C:31 (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70SVN%E=4%D=10/13%OT=22%CT=21%CU=30893%PV=Y%DS=1%DC=D%G=Y%M=005
+OS:056%TM=5BC1E095%P=x86_64-unknown-linux-gnu)SEQ(SP=CB%GCD=1%ISR=CF%TI=Z%T
+OS:S=A)SEQ(SP=CD%GCD=1%ISR=D2%TI=Z%II=I%TS=A)OPS(O1=M529ST11NW7%O2=M529ST11
+OS:NW7%O3=M529NNT11NW7%O4=M529ST11NW7%O5=M529ST11NW7%O6=M529ST11)WIN(W1=16A
+OS:0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M52
+OS:9NNSNW7%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(
+OS:R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%D
+OS:F=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=4
+OS:0%CD=S)
+
+Uptime guess: 2.186 days (since Thu Oct 11 08:41:25 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=205 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: 127.0.0.1
+
+Host script results:
+|_clock-skew: mean: 3s, deviation: 0s, median: 3s
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   153.85 ms 10.11.1.217
+
+Nmap scan report for 10.11.1.218
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  open     microsoft-ds  Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: THINC)
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:46:20 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 0.991 days (since Fri Oct 12 13:23:01 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: OBSERVER; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1750d01h05m13s, deviation: 4h37m55s, median: -1750d03h45m41s
+| nbstat: NetBIOS name: OBSERVER, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:46:20 (VMware)
+| Names:
+|   OBSERVER<20>         Flags: <unique><active>
+|   OBSERVER<00>         Flags: <unique><active>
+|   THINC<00>            Flags: <group><active>
+|_  THINC<1e>            Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: observer
+|   NetBIOS computer name: OBSERVER\x00
+|   Domain name: thinc.local
+|   Forest name: thinc.local
+|   FQDN: observer.thinc.local
+|_  System time: 2013-12-27T23:37:17-08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2013-12-28T07:37:17
+|_  start_date: 2013-12-28T07:37:51
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   197.64 ms 10.11.1.218
+
+Nmap scan report for 10.11.1.219
+Host is up (0.20s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Apache httpd
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache
+|_http-title: Apache2 Ubuntu Default Page: It works
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:39:66 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X|4.X (90%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+Aggressive OS guesses: Linux 3.10 - 3.16 (90%), Linux 3.11 - 4.1 (89%), Linux 3.16 (89%), Linux 4.4 (89%), Linux 3.2.0 (87%), Linux 3.13 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.381 days (since Sat Oct 13 04:01:03 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   198.26 ms 10.11.1.219
+
+Nmap scan report for 10.11.1.220
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           FileZilla ftpd 0.9.34 beta
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   open   domain        Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB1446A)
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc         Microsoft Windows RPC
+139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   microsoft-ds  Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: THINC)
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp open   ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=master.thinc.local
+| Issuer: commonName=master.thinc.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2013-12-27T07:37:00
+| Not valid after:  2014-06-28T07:37:00
+| MD5:   0aea cdfd 24e7 e164 054d bb29 9b78 4fcb
+|_SHA-1: 410f 7b9d 991f 97a3 2c9d 10d8 3005 93a3 9cf4 a975
+|_ssl-date: 2013-12-28T07:37:28+00:00; -4y289d03h46m58s from scanner time.
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:31:CC (VMware)
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 0.148 days (since Sat Oct 13 09:36:36 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: MASTER; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+Host script results:
+|_clock-skew: mean: -1750d01h45m38s, deviation: 4h00m42s, median: -1750d03h45m59s
+| nbstat: NetBIOS name: MASTER, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:31:cc (VMware)
+| Names:
+|   MASTER<00>           Flags: <unique><active>
+|   THINC<00>            Flags: <group><active>
+|   THINC<1c>            Flags: <group><active>
+|   MASTER<20>           Flags: <unique><active>
+|_  THINC<1b>            Flags: <unique><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: master
+|   NetBIOS computer name: MASTER\x00
+|   Domain name: thinc.local
+|   Forest name: thinc.local
+|   FQDN: master.thinc.local
+|_  System time: 2013-12-27T23:37:00-08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2013-12-28T07:37:58
+|_  start_date: 2014-01-14T09:46:50
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   211.95 ms 10.11.1.220
+
+Nmap scan report for 10.11.1.221
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE            VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   open     domain             Microsoft DNS 6.0.6001 (17714650) (Windows Server 2008 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.0.6001 (17714650)
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc              Microsoft Windows RPC
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=slave.thinc.local
+| Issuer: commonName=slave.thinc.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2013-12-26T21:08:51
+| Not valid after:  2014-06-27T21:08:51
+| MD5:   7497 ea3d a2eb 1024 985b cd6f 3da9 a328
+|_SHA-1: 6651 22ed 3481 a56f c06d 1f97 3d15 78c6 770d caf3
+|_ssl-date: 2013-12-28T07:37:21+00:00; -4y289d03h47m03s from scanner time.
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:46:D7 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 0.837 days (since Fri Oct 12 17:04:56 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008::sp1, cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1750d03h47m03s, deviation: 0s, median: -1750d03h47m03s
+| nbstat: NetBIOS name: SLAVE, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:46:d7 (VMware)
+| Names:
+|   SLAVE<00>            Flags: <unique><active>
+|   THINC<00>            Flags: <group><active>
+|_  SLAVE<20>            Flags: <unique><active>
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   163.97 ms 10.11.1.221
+
+Nmap scan report for 10.11.1.223
+Host is up (0.16s latency).
+
+PORT     STATE  SERVICE            VERSION
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http           Apache httpd 2.2.14 ((Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1)
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1
+|_http-title: Index of /
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc              Microsoft Windows RPC
+139/tcp  open   netbios-ssn        Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  open   ssl/http           Apache httpd 2.2.14 ((Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1)
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1
+| ssl-cert: Subject: commonName=localhost
+| Issuer: commonName=localhost
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2009-11-10T23:48:47
+| Not valid after:  2019-11-08T23:48:47
+| MD5:   a0a4 4cc9 9e84 b26f 9e63 9f9e d229 dee0
+|_SHA-1: b023 8c54 7a90 5bfa 119c 4e8b acca eacf 3649 1ff6
+|_ssl-date: 2018-10-13T11:24:27+00:00; +3s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+445/tcp  open   microsoft-ds       Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp open   mysql              MySQL (unauthorized)
+3389/tcp open   ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=Jeff
+| Issuer: commonName=Jeff
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-10-12T03:36:20
+| Not valid after:  2019-04-13T03:36:20
+| MD5:   0f46 d0c0 f001 17d3 4f92 e2dc 25fa 3557
+|_SHA-1: 3647 f5e3 0597 7007 5c0f 541f 2d8b cbf1 cb87 cc83
+|_ssl-date: 2018-10-13T11:24:28+00:00; +3s from scanner time.
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:3D:7B (VMware)
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 0.357 days (since Sat Oct 13 04:35:31 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: JEFF; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+
+Host script results:
+|_clock-skew: mean: 1h24m19s, deviation: 3h08m27s, median: 2s
+| nbstat: NetBIOS name: JEFF, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:3d:7b (VMware)
+| Names:
+|   JEFF<00>             Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|_  JEFF<20>             Flags: <unique><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: Jeff
+|   NetBIOS computer name: JEFF\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T04:23:03-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-13T11:23:09
+|_  start_date: 2018-10-13T03:36:14
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   160.89 ms 10.11.1.223
+
+Nmap scan report for 10.11.1.226
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     ftp           GuildFTPd
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:7A:23 (VMware)
+Device type: general purpose|WAP
+Running (JUST GUESSING): Microsoft Windows XP|2003|2000 (94%), Apple embedded (89%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_server_2003::sp2 cpe:/h:apple:airport_extreme cpe:/o:microsoft:windows_2000::sp4 cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Microsoft Windows XP (94%), Microsoft Windows Server 2003 SP2 (92%), Microsoft Windows Server 2003 (91%), Apple AirPort Extreme WAP (89%), Microsoft Windows XP SP3 (89%), Microsoft Windows 2000 SP4 (88%), Microsoft Windows Server 2003 SP1 (86%), Microsoft Windows Server 2003 SP0 - SP2 (86%), Microsoft Windows Server 2003 SP1 or SP2 (86%), Microsoft Windows Server 2003 2 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   191.54 ms 10.11.1.226
+
+Nmap scan report for 10.11.1.227
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           Microsoft ftpd 5.0
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|_  SYST: Windows_NT version 5.0
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   open   smtp          Microsoft ESMTP 5.0.2195.5329
+| smtp-commands: jd.acme.local Hello [10.11.0.48], AUTH GSSAPI NTLM LOGIN, AUTH=LOGIN, TURN, ATRN, SIZE 2097152, ETRN, PIPELINING, DSN, ENHANCEDSTATUSCODES, 8bitmime, BINARYMIME, CHUNKING, VRFY, OK, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH TURN ATRN ETRN BDAT VRFY 
+| smtp-ntlm-info: 
+|   Target_Name: JD
+|   NetBIOS_Domain_Name: JD
+|   NetBIOS_Computer_Name: JD
+|   DNS_Domain_Name: jd.acme.local
+|   DNS_Computer_Name: jd.acme.local
+|_  Product_Version: 5.0.2195
+53/tcp   closed domain
+80/tcp   open   ssl/http      Microsoft IIS httpd 5.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT POST MOVE MKCOL PROPPATCH
+|_  Potentially risky methods: TRACE COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT MOVE MKCOL PROPPATCH
+|_http-server-header: Microsoft-IIS/5.0
+|_http-title: Directory Listing Denied
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/5.0
+|   Server Date: Sat, 13 Oct 2018 11:21:31 GMT
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc         Microsoft Windows RPC
+139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  open   https?
+445/tcp  open   microsoft-ds  Windows 2000 microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp open   vnc           VNC (protocol 3.8)
+|_ssl-cert: ERROR: Script execution failed (use -d to debug)
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+|_sslv2: ERROR: Script execution failed (use -d to debug)
+|_vnc-info: ERROR: Script execution failed (use -d to debug)
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:5B:D6 (VMware)
+Device type: general purpose|specialized|power-device
+Running (JUST GUESSING): Microsoft Windows XP|2000|2003|7 (98%), Belkin embedded (89%), SMA embedded (89%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_2000::sp4:server cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows XP (98%), Microsoft Windows 2000 Server SP4 or Windows XP Professional SP3 (91%), Microsoft Windows XP SP2 (91%), Microsoft Windows 2000 SP4 (90%), Microsoft Windows XP SP3 (90%), Microsoft Windows Server 2003 SP2 (89%), Belkin OmniView KVM switch or SMA Sunny WebBox solar panel monitor (89%), Microsoft Windows 7 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: jd.acme.local; OSs: Windows, Windows 2000; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_2000
+
+Host script results:
+|_clock-skew: mean: -59m20s, deviation: 1h23m47s, median: -1h58m35s
+| ms-sql-info: 
+|   Windows server name: JD
+|   10.11.1.227\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2000 RTM
+|       number: 8.00.194.00
+|       Product: Microsoft SQL Server 2000
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|     TCP port: 27900
+|     Named pipe: \\10.11.1.227\pipe\sql\query
+|_    Clustered: false
+| nbstat: NetBIOS name: JD, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:5b:d6 (VMware)
+| Names:
+|   JD<00>               Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   JD<20>               Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+|   JD<03>               Flags: <unique><active>
+|   INet~Services<1c>    Flags: <group><active>
+|_  IS~JD\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00<00>  Flags: <unique><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: jd
+|   NetBIOS computer name: JD\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T13:23:01+02:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   150.73 ms 10.11.1.227
+
+Nmap scan report for 10.11.1.229
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     tcpwrapped
+22/tcp   filtered ssh
+23/tcp   closed   telnet
+25/tcp   open     smtp          hMailServer smtpd
+| smtp-commands: MAIL, SIZE 20480000, AUTH LOGIN, 
+|_ 211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY 
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Microsoft IIS httpd 6.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT POST
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: 10.11.1.229 - /
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/6.0
+|   Server Date: Sat, 13 Oct 2018 11:21:33 GMT
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+110/tcp  open     pop3          hMailServer pop3d
+|_pop3-capabilities: ERROR: Script execution failed (use -d to debug)
+111/tcp  filtered rpcbind
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Windows Server 2003 3790 Service Pack 1 netbios-ssn
+143/tcp  open     imap          hMailServer imapd
+|_imap-capabilities: RIGHTS=texkA0001 QUOTA IMAP4 NAMESPACE CHILDREN IDLE CAPABILITY completed OK ACL IMAP4rev1 SORT
+443/tcp  closed   https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ms-wbt-server Microsoft Terminal Service
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:30:8F (VMware)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|2003|2000 (95%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_2000::sp4
+Aggressive OS guesses: Microsoft Windows XP (95%), Microsoft Windows Server 2003 SP2 (93%), Microsoft Windows XP SP3 (90%), Microsoft Windows 2000 SP4 (88%), Microsoft Windows Server 2003 (88%), Microsoft Windows Server 2003 SP1 (87%), Microsoft Windows Server 2003 SP0 - SP2 (87%), Microsoft Windows Server 2003 SP1 or SP2 (87%), Microsoft Windows Server 2003 2 (87%), Microsoft Windows 2003 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: MAIL; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2h30m16s, deviation: 3h33m09s, median: -27s
+| nbstat: NetBIOS name: MAIL, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:30:8f (VMware)
+| Names:
+|   MAIL<00>             Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   MAIL<1f>             Flags: <unique><active>
+|   MAIL<03>             Flags: <unique><active>
+|   MAIL<20>             Flags: <unique><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp1
+|   Computer name: mail
+|   NetBIOS computer name: MAIL\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T06:22:37-05:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   158.66 ms 10.11.1.229
+
+Nmap scan report for 10.11.1.230
+Host is up (0.16s latency).
+
+PORT     STATE  SERVICE            VERSION
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  open   msrpc              Microsoft Windows RPC
+139/tcp  open   netbios-ssn        Microsoft Windows netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   microsoft-ds       Windows 7 Ultimate N 7600 microsoft-ds (workgroup: WORKGROUP)
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp open   ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=kevin
+| Issuer: commonName=kevin
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-10-08T17:29:23
+| Not valid after:  2019-04-09T17:29:23
+| MD5:   3bf1 aaff e2ec c734 d250 64f1 62d8 42b0
+|_SHA-1: 76c2 1e79 28c9 0c19 cd50 8be8 77b7 3406 dfb9 3c19
+|_ssl-date: 2018-10-13T11:24:59+00:00; +29s from scanner time.
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:44:90 (VMware)
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7 or Windows Server 2008 R2
+Uptime guess: 1.204 days (since Fri Oct 12 08:15:45 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: KEVIN; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h45m50s, deviation: 3h30m42s, median: 28s
+| nbstat: NetBIOS name: KEVIN, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:89:44:90 (VMware)
+| Names:
+|   KEVIN<00>            Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   KEVIN<20>            Flags: <unique><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+|_p2p-conficker: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate N 7600 (Windows 7 Ultimate N 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::-
+|   Computer name: kevin
+|   NetBIOS computer name: KEVIN\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-13T04:23:33-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-13T11:23:34
+|_  start_date: 2018-10-12T07:17:15
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   158.32 ms 10.11.1.230
+
+Nmap scan report for 10.11.1.234
+Host is up (0.17s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 5.3p1 Debian 3ubuntu3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 2c:83:67:02:29:20:87:99:87:55:95:92:6c:8d:a4:a3 (DSA)
+|_  2048 6b:91:08:a8:c0:90:ac:68:bd:c9:cd:9c:be:69:2b:ac (RSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.14 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.14 (Ubuntu)
+|_http-title: Business Statistics | New Server for Thinc&#039;s Business Sta...
+110/tcp  closed pop3
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:75:BC (VMware)
+Device type: general purpose|terminal|WAP|firewall|security-misc|switch
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (95%), IGEL embedded (95%), HP embedded (94%), IPFire 2.X (93%), Fortinet FortiOS 5.X (92%), Check Point embedded (91%), Extreme Networks ExtremeXOS 12.X (91%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:2.6 cpe:/h:igel:ud3 cpe:/h:hp:msm410 cpe:/o:ipfire:ipfire:2.11 cpe:/o:linux:linux_kernel:2.4 cpe:/o:fortinet:fortios:5.0.6 cpe:/o:extremenetworks:extremexos:12.5.4
+Aggressive OS guesses: Linux 2.6.32 (95%), IGEL UD3 thin client (Linux 2.6) (95%), HP MSM410 WAP (94%), Linux 2.6.35 (94%), IPFire 2.11 firewall (Linux 2.6.32) (93%), DD-WRT v24-sp1 (Linux 2.4) (92%), Fortinet FortiOS 5.0.6 (92%), Linux 2.6.31 - 2.6.32 (92%), Check Point UTM-1 Edge X firewall (91%), Extreme Networks ExtremeXOS 12.5.4 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 2.466 days (since Thu Oct 11 01:59:13 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=203 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   165.27 ms 10.11.1.234
+
+Nmap scan report for 10.11.1.237
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 6.0p1 Debian 4 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 fc:89:ba:50:c2:ea:2d:ab:b9:19:f1:f9:0a:b4:c0:5a (DSA)
+|   2048 de:2d:b8:bd:43:8a:c3:28:2b:d3:22:84:d0:6c:e0:9d (RSA)
+|_  256 a5:58:4d:9d:e8:61:de:55:83:e2:71:6b:5d:ad:83:e2 (ECDSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.22 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          45007/tcp  status
+|_  100024  1          52725/udp  status
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  open   ssl/http      Apache httpd 2.2.22 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=localhost
+| Issuer: commonName=localhost
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2013-12-26T16:25:05
+| Not valid after:  2023-12-24T16:25:05
+| MD5:   7ccb cc7f 3cd8 df1a 0ee9 0fe0 d5a6 1a8b
+|_SHA-1: 3a52 a856 cb8c 1391 4f2f 9192 9554 c3d5 0653 9a14
+|_ssl-date: 2018-10-13T11:24:32+00:00; -7s from scanner time.
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:13:F0 (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70SVN%E=4%D=10/13%OT=22%CT=21%CU=30702%PV=Y%DS=1%DC=D%G=Y%M=005
+OS:056%TM=5BC1E095%P=x86_64-unknown-linux-gnu)SEQ(SP=102%GCD=1%ISR=103%TI=Z
+OS:%II=I%TS=8)OPS(O1=M529ST11NW3%O2=M529ST11NW3%O3=M529NNT11NW3%O4=M529ST11
+OS:NW3%O5=M529ST11NW3%O6=M529ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=38
+OS:90%W6=3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M529NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=4
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.116 days (since Sat Oct 13 10:23:09 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: -7s, deviation: 0s, median: -7s
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   151.18 ms 10.11.1.237
+
+Nmap scan report for 10.11.1.238
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh           OpenSSH 6.0p1 Debian 4 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 fc:89:ba:50:c2:ea:2d:ab:b9:19:f1:f9:0a:b4:c0:5a (DSA)
+|   2048 de:2d:b8:bd:43:8a:c3:28:2b:d3:22:84:d0:6c:e0:9d (RSA)
+|_  256 a5:58:4d:9d:e8:61:de:55:83:e2:71:6b:5d:ad:83:e2 (ECDSA)
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   ssl/http      Apache httpd 2.2.22 ((Debian))
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  closed pop3
+111/tcp  open   rpcbind       2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          39122/udp  status
+|_  100024  1          40912/tcp  status
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+143/tcp  closed imap
+443/tcp  open   ssl/http      Apache httpd 2.2.22 ((Debian))
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=localhost
+| Issuer: commonName=localhost
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2013-12-26T16:25:05
+| Not valid after:  2023-12-24T16:25:05
+| MD5:   7ccb cc7f 3cd8 df1a 0ee9 0fe0 d5a6 1a8b
+|_SHA-1: 3a52 a856 cb8c 1391 4f2f 9192 9554 c3d5 0653 9a14
+|_ssl-date: 2018-10-13T11:25:06+00:00; +30s from scanner time.
+445/tcp  closed microsoft-ds
+993/tcp  closed imaps
+995/tcp  closed pop3s
+1723/tcp closed pptp
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+MAC Address: 00:50:56:89:0C:91 (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70SVN%E=4%D=10/13%OT=22%CT=21%CU=37087%PV=Y%DS=1%DC=D%G=Y%M=005
+OS:056%TM=5BC1E095%P=x86_64-unknown-linux-gnu)SEQ(SP=107%GCD=1%ISR=10B%TI=Z
+OS:%II=I%TS=8)OPS(O1=M529ST11NW3%O2=M529ST11NW3%O3=M529NNT11NW3%O4=M529ST11
+OS:NW3%O5=M529ST11NW3%O6=M529ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=38
+OS:90%W6=3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M529NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=4
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.880 days (since Fri Oct 12 16:02:29 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 29s, deviation: 0s, median: 29s
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   153.71 ms 10.11.1.238
+
+Nmap scan report for 10.11.1.247
+Host is up (0.17s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp open     ms-wbt-server?
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.70SVN%I=7%D=10/13%Time=5BC1D4C9%P=x86_64-unknown-linux
+SF:-gnu%r(TerminalServerCookie,B,"\x03\0\0\x0b\x06\xd0\0\0\x124\0");
+MAC Address: 00:50:56:89:5A:F6 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|WAP
+Running (JUST GUESSING): Microsoft Windows XP|2000|2003 (96%), Apple embedded (90%)
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/h:apple:airport_extreme cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_server_2003
+Aggressive OS guesses: Microsoft Windows XP (96%), Apple AirPort Extreme WAP (90%), Microsoft Windows XP SP3 (89%), Microsoft Windows 2000 SP4 (88%), Microsoft Windows Server 2003 (87%), Microsoft Windows Server 2003 SP2 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   170.29 ms 10.11.1.247
+
+Nmap scan report for 10.11.1.251
+Host is up (0.17s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   open     ssh           OpenSSH 5.1p1 Debian 5ubuntu1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 fd:35:c0:66:fc:2a:d0:76:c0:33:55:21:cb:70:55:54 (DSA)
+|_  2048 bf:e1:ee:61:60:a5:3d:28:0f:af:7d:85:0c:19:c5:8d (RSA)
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     ssl/http      Apache httpd 2.2.11 ((Ubuntu) PHP/5.2.6-3ubuntu4.4 with Suhosin-Patch)
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.4 with Suhosin-Patch
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:59:09 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|broadband router|switch|remote management|firewall|printer|phone|security-misc
+Running (JUST GUESSING): Linux 2.6.X|3.X (92%), D-Link embedded (89%), Extreme Networks ExtremeXOS 12.X (89%), HP embedded (89%), Barracuda Networks embedded (89%), Canon embedded (87%), Linksys embedded (87%), Nokia Symbian OS (87%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:dlink:dsl-2540b cpe:/o:extremenetworks:extremexos:12.5.4 cpe:/a:hp:onboard_administrator:2.04 cpe:/h:canon:imagerunner_advance_c5051 cpe:/h:linksys:wrv200 cpe:/o:nokia:symbian_os cpe:/o:linux:linux_kernel:3.2.0
+Aggressive OS guesses: Linux 2.6.32 (92%), Linux 2.6.23 (90%), Linux 2.6.22 (Debian 4.0) (90%), Linux 2.6.24 (Debian) (90%), Linux 2.6.26 (90%), D-Link DSL-2540B ADSL router (89%), Extreme Networks ExtremeXOS 12.5.4 (89%), HP Onboard Administrator 2.04 (89%), HP Onboard Administrator 2.25 - 3.31 (89%), Linux 2.6.15 (Ubuntu) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.143 days (since Sat Oct 13 09:43:22 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=201 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   172.12 ms 10.11.1.251
+
+Nmap scan report for 10.11.1.252
+Host is up (0.15s latency).
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   filtered http
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+MAC Address: 00:50:56:89:02:EA (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   151.34 ms 10.11.1.252
+
+Post-scan script results:
+| clock-skew: 
+|   -8s: 
+|     10.11.1.5
+|     10.11.1.22
+|   2h01m10s: 
+|     10.11.1.136
+|_    10.11.1.238
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 fc:89:ba:50:c2:ea:2d:ab:b9:19:f1:f9:0a:b4:c0:5a (DSA) used by:
+|   10.11.1.237
+|   10.11.1.238
+| Key 2048 de:2d:b8:bd:43:8a:c3:28:2b:d3:22:84:d0:6c:e0:9d (RSA) used by:
+|   10.11.1.237
+|   10.11.1.238
+| Key 256 a5:58:4d:9d:e8:61:de:55:83:e2:71:6b:5d:ad:83:e2 (ECDSA) used by:
+|   10.11.1.237
+|_  10.11.1.238
+Read data files from: /usr/local/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 13 13:09:57 2018 -- 254 IP addresses (44 hosts up) scanned in 3158.60 seconds

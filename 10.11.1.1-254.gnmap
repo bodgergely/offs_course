@@ -1,0 +1,301 @@
+# Nmap 7.70SVN scan initiated Sat Oct 13 12:17:19 2018 as: nmap -n -v -A -sS -oA 10.11.1.1-254 --top-ports 20 10.11.1.1-254
+# Ports scanned: TCP(20;21-23,25,53,80,110-111,135,139,143,443,445,993,995,1723,3306,3389,5900,8080) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.11.1.1 ()	Status: Down
+Host: 10.11.1.2 ()	Status: Down
+Host: 10.11.1.3 ()	Status: Down
+Host: 10.11.1.4 ()	Status: Down
+Host: 10.11.1.6 ()	Status: Down
+Host: 10.11.1.9 ()	Status: Down
+Host: 10.11.1.11 ()	Status: Down
+Host: 10.11.1.12 ()	Status: Down
+Host: 10.11.1.15 ()	Status: Down
+Host: 10.11.1.16 ()	Status: Down
+Host: 10.11.1.17 ()	Status: Down
+Host: 10.11.1.18 ()	Status: Down
+Host: 10.11.1.19 ()	Status: Down
+Host: 10.11.1.20 ()	Status: Down
+Host: 10.11.1.21 ()	Status: Down
+Host: 10.11.1.23 ()	Status: Down
+Host: 10.11.1.25 ()	Status: Down
+Host: 10.11.1.26 ()	Status: Down
+Host: 10.11.1.27 ()	Status: Down
+Host: 10.11.1.28 ()	Status: Down
+Host: 10.11.1.29 ()	Status: Down
+Host: 10.11.1.30 ()	Status: Down
+Host: 10.11.1.32 ()	Status: Down
+Host: 10.11.1.33 ()	Status: Down
+Host: 10.11.1.34 ()	Status: Down
+Host: 10.11.1.36 ()	Status: Down
+Host: 10.11.1.37 ()	Status: Down
+Host: 10.11.1.38 ()	Status: Down
+Host: 10.11.1.40 ()	Status: Down
+Host: 10.11.1.41 ()	Status: Down
+Host: 10.11.1.42 ()	Status: Down
+Host: 10.11.1.43 ()	Status: Down
+Host: 10.11.1.45 ()	Status: Down
+Host: 10.11.1.46 ()	Status: Down
+Host: 10.11.1.47 ()	Status: Down
+Host: 10.11.1.48 ()	Status: Down
+Host: 10.11.1.51 ()	Status: Down
+Host: 10.11.1.52 ()	Status: Down
+Host: 10.11.1.53 ()	Status: Down
+Host: 10.11.1.54 ()	Status: Down
+Host: 10.11.1.55 ()	Status: Down
+Host: 10.11.1.56 ()	Status: Down
+Host: 10.11.1.57 ()	Status: Down
+Host: 10.11.1.58 ()	Status: Down
+Host: 10.11.1.59 ()	Status: Down
+Host: 10.11.1.60 ()	Status: Down
+Host: 10.11.1.61 ()	Status: Down
+Host: 10.11.1.62 ()	Status: Down
+Host: 10.11.1.63 ()	Status: Down
+Host: 10.11.1.64 ()	Status: Down
+Host: 10.11.1.65 ()	Status: Down
+Host: 10.11.1.66 ()	Status: Down
+Host: 10.11.1.67 ()	Status: Down
+Host: 10.11.1.68 ()	Status: Down
+Host: 10.11.1.69 ()	Status: Down
+Host: 10.11.1.70 ()	Status: Down
+Host: 10.11.1.74 ()	Status: Down
+Host: 10.11.1.75 ()	Status: Down
+Host: 10.11.1.76 ()	Status: Down
+Host: 10.11.1.77 ()	Status: Down
+Host: 10.11.1.78 ()	Status: Down
+Host: 10.11.1.79 ()	Status: Down
+Host: 10.11.1.80 ()	Status: Down
+Host: 10.11.1.81 ()	Status: Down
+Host: 10.11.1.82 ()	Status: Down
+Host: 10.11.1.83 ()	Status: Down
+Host: 10.11.1.84 ()	Status: Down
+Host: 10.11.1.85 ()	Status: Down
+Host: 10.11.1.86 ()	Status: Down
+Host: 10.11.1.87 ()	Status: Down
+Host: 10.11.1.88 ()	Status: Down
+Host: 10.11.1.89 ()	Status: Down
+Host: 10.11.1.90 ()	Status: Down
+Host: 10.11.1.91 ()	Status: Down
+Host: 10.11.1.92 ()	Status: Down
+Host: 10.11.1.93 ()	Status: Down
+Host: 10.11.1.94 ()	Status: Down
+Host: 10.11.1.95 ()	Status: Down
+Host: 10.11.1.96 ()	Status: Down
+Host: 10.11.1.97 ()	Status: Down
+Host: 10.11.1.98 ()	Status: Down
+Host: 10.11.1.99 ()	Status: Down
+Host: 10.11.1.100 ()	Status: Down
+Host: 10.11.1.101 ()	Status: Down
+Host: 10.11.1.102 ()	Status: Down
+Host: 10.11.1.103 ()	Status: Down
+Host: 10.11.1.104 ()	Status: Down
+Host: 10.11.1.105 ()	Status: Down
+Host: 10.11.1.106 ()	Status: Down
+Host: 10.11.1.107 ()	Status: Down
+Host: 10.11.1.108 ()	Status: Down
+Host: 10.11.1.109 ()	Status: Down
+Host: 10.11.1.110 ()	Status: Down
+Host: 10.11.1.111 ()	Status: Down
+Host: 10.11.1.112 ()	Status: Down
+Host: 10.11.1.113 ()	Status: Down
+Host: 10.11.1.114 ()	Status: Down
+Host: 10.11.1.117 ()	Status: Down
+Host: 10.11.1.118 ()	Status: Down
+Host: 10.11.1.119 ()	Status: Down
+Host: 10.11.1.120 ()	Status: Down
+Host: 10.11.1.121 ()	Status: Down
+Host: 10.11.1.122 ()	Status: Down
+Host: 10.11.1.123 ()	Status: Down
+Host: 10.11.1.124 ()	Status: Down
+Host: 10.11.1.126 ()	Status: Down
+Host: 10.11.1.127 ()	Status: Down
+Host: 10.11.1.129 ()	Status: Down
+Host: 10.11.1.130 ()	Status: Down
+Host: 10.11.1.131 ()	Status: Down
+Host: 10.11.1.132 ()	Status: Down
+Host: 10.11.1.134 ()	Status: Down
+Host: 10.11.1.135 ()	Status: Down
+Host: 10.11.1.137 ()	Status: Down
+Host: 10.11.1.138 ()	Status: Down
+Host: 10.11.1.139 ()	Status: Down
+Host: 10.11.1.140 ()	Status: Down
+Host: 10.11.1.142 ()	Status: Down
+Host: 10.11.1.143 ()	Status: Down
+Host: 10.11.1.144 ()	Status: Down
+Host: 10.11.1.147 ()	Status: Down
+Host: 10.11.1.148 ()	Status: Down
+Host: 10.11.1.149 ()	Status: Down
+Host: 10.11.1.150 ()	Status: Down
+Host: 10.11.1.151 ()	Status: Down
+Host: 10.11.1.152 ()	Status: Down
+Host: 10.11.1.153 ()	Status: Down
+Host: 10.11.1.154 ()	Status: Down
+Host: 10.11.1.155 ()	Status: Down
+Host: 10.11.1.156 ()	Status: Down
+Host: 10.11.1.157 ()	Status: Down
+Host: 10.11.1.158 ()	Status: Down
+Host: 10.11.1.159 ()	Status: Down
+Host: 10.11.1.160 ()	Status: Down
+Host: 10.11.1.161 ()	Status: Down
+Host: 10.11.1.162 ()	Status: Down
+Host: 10.11.1.163 ()	Status: Down
+Host: 10.11.1.164 ()	Status: Down
+Host: 10.11.1.165 ()	Status: Down
+Host: 10.11.1.166 ()	Status: Down
+Host: 10.11.1.167 ()	Status: Down
+Host: 10.11.1.168 ()	Status: Down
+Host: 10.11.1.169 ()	Status: Down
+Host: 10.11.1.170 ()	Status: Down
+Host: 10.11.1.171 ()	Status: Down
+Host: 10.11.1.172 ()	Status: Down
+Host: 10.11.1.173 ()	Status: Down
+Host: 10.11.1.174 ()	Status: Down
+Host: 10.11.1.175 ()	Status: Down
+Host: 10.11.1.176 ()	Status: Down
+Host: 10.11.1.177 ()	Status: Down
+Host: 10.11.1.178 ()	Status: Down
+Host: 10.11.1.179 ()	Status: Down
+Host: 10.11.1.180 ()	Status: Down
+Host: 10.11.1.181 ()	Status: Down
+Host: 10.11.1.182 ()	Status: Down
+Host: 10.11.1.183 ()	Status: Down
+Host: 10.11.1.184 ()	Status: Down
+Host: 10.11.1.185 ()	Status: Down
+Host: 10.11.1.186 ()	Status: Down
+Host: 10.11.1.187 ()	Status: Down
+Host: 10.11.1.188 ()	Status: Down
+Host: 10.11.1.189 ()	Status: Down
+Host: 10.11.1.190 ()	Status: Down
+Host: 10.11.1.191 ()	Status: Down
+Host: 10.11.1.192 ()	Status: Down
+Host: 10.11.1.193 ()	Status: Down
+Host: 10.11.1.194 ()	Status: Down
+Host: 10.11.1.195 ()	Status: Down
+Host: 10.11.1.196 ()	Status: Down
+Host: 10.11.1.197 ()	Status: Down
+Host: 10.11.1.198 ()	Status: Down
+Host: 10.11.1.199 ()	Status: Down
+Host: 10.11.1.200 ()	Status: Down
+Host: 10.11.1.201 ()	Status: Down
+Host: 10.11.1.203 ()	Status: Down
+Host: 10.11.1.204 ()	Status: Down
+Host: 10.11.1.205 ()	Status: Down
+Host: 10.11.1.206 ()	Status: Down
+Host: 10.11.1.207 ()	Status: Down
+Host: 10.11.1.208 ()	Status: Down
+Host: 10.11.1.210 ()	Status: Down
+Host: 10.11.1.211 ()	Status: Down
+Host: 10.11.1.212 ()	Status: Down
+Host: 10.11.1.213 ()	Status: Down
+Host: 10.11.1.214 ()	Status: Down
+Host: 10.11.1.215 ()	Status: Down
+Host: 10.11.1.216 ()	Status: Down
+Host: 10.11.1.222 ()	Status: Down
+Host: 10.11.1.224 ()	Status: Down
+Host: 10.11.1.225 ()	Status: Down
+Host: 10.11.1.228 ()	Status: Down
+Host: 10.11.1.231 ()	Status: Down
+Host: 10.11.1.232 ()	Status: Down
+Host: 10.11.1.233 ()	Status: Down
+Host: 10.11.1.235 ()	Status: Down
+Host: 10.11.1.236 ()	Status: Down
+Host: 10.11.1.239 ()	Status: Down
+Host: 10.11.1.240 ()	Status: Down
+Host: 10.11.1.241 ()	Status: Down
+Host: 10.11.1.242 ()	Status: Down
+Host: 10.11.1.243 ()	Status: Down
+Host: 10.11.1.244 ()	Status: Down
+Host: 10.11.1.245 ()	Status: Down
+Host: 10.11.1.246 ()	Status: Down
+Host: 10.11.1.248 ()	Status: Down
+Host: 10.11.1.249 ()	Status: Down
+Host: 10.11.1.250 ()	Status: Down
+Host: 10.11.1.253 ()	Status: Down
+Host: 10.11.1.254 ()	Status: Down
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 21/closed/tcp//ftp///, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/open/tcp//microsoft-ds//Microsoft Windows XP microsoft-ds/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/open/tcp//ms-wbt-server?///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Microsoft Windows XP	Seq Index: 144	IP ID Seq: Incremental
+Host: 10.11.1.7 ()	Status: Up
+Host: 10.11.1.7 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 21/open/tcp//ftp//vsftpd 2.0.1/, 22/open/tcp//ssh//OpenSSH 3.9p1 (protocol 1.99)/, 23/filtered/tcp//telnet///, 25/closed/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.0.52 ((CentOS))/, 110/filtered/tcp//pop3///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 135/filtered/tcp//msrpc///, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: MYGROUP)/, 143/filtered/tcp//imap///, 443/open/tcp//ssl|http//Apache httpd 2.0.52 ((CentOS))/, 445/open/tcp//netbios-ssn//Samba smbd 3.0.33-0.17.el4 (workgroup: MYGROUP)/, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/open/tcp//mysql?///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 201	IP ID Seq: All zeros
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 6.0/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 5.1/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//tcpwrapped///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 136	IP ID Seq: Incremental
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 5.1/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ms-wbt-server?///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 142	IP ID Seq: Incremental
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 21/open/tcp//ftp?///, 22/open/tcp//ssh//OpenSSH 3.1p1 (protocol 1.99)/, 23/open/tcp//telnet?///, 25/open/tcp//smtp?///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 1.3.23 ((Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8.7 OpenSSL|0.9.6b DAV|1.0.3 PHP|4.1.2 mod_perl|1.26 mod_throttle|3.1.2)/, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/open/tcp//netbios-ssn//Samba smbd (workgroup: MYGROUP)/, 143/closed/tcp//imap///, 443/open/tcp//ssl|https//Apache|1.3.23 (Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8./, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/open/tcp//ssl|pop3s?///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 4.6p1 Debian 5build1 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.4 ((Ubuntu) PHP|5.2.3-1ubuntu6)/, 110/open/tcp//pop3//Dovecot pop3d/, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: MSHOME)/, 143/open/tcp//imap//Dovecot imapd/, 443/closed/tcp//https///, 445/open/tcp//netbios-ssn//Samba smbd 3.0.26a (workgroup: MSHOME)/, 993/open/tcp//ssl|imap//Dovecot imapd/, 995/open/tcp//ssl|pop3//Dovecot pop3d/, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 214	IP ID Seq: All zeros
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 21/closed/tcp//ftp///, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 6.0/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/open/tcp//microsoft-ds//Windows Server 2003 3790 Service Pack 1 microsoft-ds/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 264	IP ID Seq: Incremental
+Host: 10.11.1.35 ()	Status: Up
+Host: 10.11.1.35 ()	Ports: 21/filtered/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/open/tcp//ssl|http//Apache httpd 2.2.3 ((CentOS))/, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 200	IP ID Seq: All zeros
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 21/filtered/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 6.6.1 (protocol 2.0)/, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//nginx 1.6.3/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/open/tcp//mysql//MariaDB (unauthorized)/, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 254	IP ID Seq: All zeros
+Host: 10.11.1.44 ()	Status: Up
+Host: 10.11.1.44 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 259	IP ID Seq: All zeros
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 8.5/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 260	IP ID Seq: Incremental
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 8.5/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 257	IP ID Seq: Incremental
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh?///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.4.7 ((Ubuntu))/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 256	IP ID Seq: All zeros
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 5.8p1 Debian 7ubuntu1 (Ubuntu Linux; protocol 2.0)/, 23/closed/tcp//telnet///, 25/open/tcp//smtp//JAMES smtpd 2.3.2/, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.20 ((Ubuntu))/, 110/open/tcp//pop3//JAMES pop3d 2.3.2/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 261	IP ID Seq: All zeros
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/open/tcp//mysql//MySQL (unauthorized; French)/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/open/tcp//vnc//VNC (protocol 3.8)/, 8080/open/tcp//ssl|http//Apache httpd 2.4.9 ((Win32) PHP|5.5.12)/	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 261	IP ID Seq: Busy server or unknown class
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 21/open/tcp//ftp//vsftpd 1.1.3/, 22/open/tcp//ssh//OpenSSH 3.5p1 (protocol 1.99)/, 23/closed/tcp//telnet///, 25/open/tcp//smtp?///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.0.40 ((Red Hat Linux))/, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/open/tcp//netbios-ssn//Samba smbd (workgroup: MYGROUP)/, 143/open/tcp//imap//UW imapd 2001.315rh/, 443/open/tcp//ssl|http//Apache httpd 2.0.40 ((Red Hat Linux))/, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Linux 2.4.20	Seq Index: 204	IP ID Seq: All zeros
+Host: 10.11.1.116 ()	Status: Up
+Host: 10.11.1.116 ()	Ports: 21/open/tcp//ftp?///, 22/open/tcp//ssh//OpenSSH 5.8p2_hpn13v11 (FreeBSD 20110503; protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.4.6 ((FreeBSD) PHP|5.4.23)/, 110/open/tcp//tcpwrapped///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/open/tcp//tcpwrapped///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: FreeBSD 9.0-RELEASE	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.125 ()	Status: Up
+Host: 10.11.1.125 ()	Ports: 21/open/tcp//ftp//Acritum Femitter Server ftpd/, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 264	IP ID Seq: Incremental
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/open/tcp//smtp//Microsoft ESMTP 5.0.2195.6713/, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 5.0/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/open/tcp//https?///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/open/tcp//vnc//VNC (protocol 3.8)/, 8080/closed/tcp//http-proxy///	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Linux 3.0 - 3.2|Microsoft Windows Server 2008 or 2008 Beta 3
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 4.3p2 Debian 9 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: LOCAL)/, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/open/tcp//netbios-ssn//Samba smbd 3.0.24 (workgroup: LOCAL)/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 197	IP ID Seq: All zeros
+Host: 10.11.1.141 ()	Status: Up
+Host: 10.11.1.141 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 4.0 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 196	IP ID Seq: All zeros
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ssl|ms-wbt-server?///, 5900/filtered/tcp//vnc///, 8080/open/tcp//ssl|http//Apache Tomcat|Coyote JSP engine 1.1/	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 258	IP ID Seq: Incremental
+Host: 10.11.1.146 ()	Status: Up
+Host: 10.11.1.146 ()	Ports: 21/open/tcp//ftp//ProFTPD 1.3.3a/, 22/open/tcp//ssh//OpenSSH 5.5p1 Debian 6 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Linux 2.6.32	Seq Index: 201	IP ID Seq: All zeros
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 5.0/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/open/tcp//https?///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/closed/tcp//vnc///, 8080/open/tcp//ssl|http//Oracle XML DB Enterprise Edition httpd 9.2.0.1.0 (Oracle9i Enterprise Edition Release)/	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//SunSSH 1.1.5 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 1.3.41 ((Unix) mod_perl|1.31)/, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/open/tcp//ssl|http//Apache Tomcat|Coyote JSP engine 1.1/	OS: Sun Solaris 10	Seq Index: 154	IP ID Seq: Incremental
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/open/tcp//smtp?///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.3/, 110/open/tcp//pop3?///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/open/tcp//imap?///, 443/open/tcp//ssl|http//Apache httpd 2.2.3 ((CentOS))/, 445/closed/tcp//microsoft-ds///, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///, 1723/closed/tcp//pptp///, 3306/open/tcp//mysql?///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 205	IP ID Seq: All zeros
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: THINC)/, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 258	IP ID Seq: All zeros
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 21/open/tcp//ftp//FileZilla ftpd 0.9.34 beta/, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/open/tcp//domain//Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)/, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/open/tcp//microsoft-ds//Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: THINC)/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 258	IP ID Seq: Incremental
+Host: 10.11.1.221 ()	Status: Up
+Host: 10.11.1.221 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/open/tcp//domain//Microsoft DNS 6.0.6001 (17714650) (Windows Server 2008 SP1)/, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ssl|ms-wbt-server?///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 21/closed/tcp//ftp///, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.14 ((Win32) DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/open/tcp//ssl|http//Apache httpd 2.2.14 ((Win32) DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 3389/open/tcp//ssl|ms-wbt-server?///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 262	IP ID Seq: Incremental
+Host: 10.11.1.226 ()	Status: Up
+Host: 10.11.1.226 ()	Ports: 21/open/tcp//ftp//GuildFTPd/, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/open/tcp//smtp//Microsoft ESMTP 5.0.2195.5329/, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 5.0/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/open/tcp//https?///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/open/tcp//vnc//VNC (protocol 3.8)/, 8080/closed/tcp//http-proxy///	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 21/open/tcp//tcpwrapped///, 22/filtered/tcp//ssh///, 23/closed/tcp//telnet///, 25/open/tcp//smtp//hMailServer smtpd/, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Microsoft IIS httpd 6.0/, 110/open/tcp//pop3//hMailServer pop3d/, 111/filtered/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Windows Server 2003 3790 Service Pack 1 netbios-ssn/, 143/open/tcp//imap//hMailServer imapd/, 443/closed/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 21/closed/tcp//ftp///, 22/closed/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/closed/tcp//http///, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/open/tcp//microsoft-ds//Windows 7 Ultimate N 7600 microsoft-ds (workgroup: WORKGROUP)/, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/open/tcp//ssl|ms-wbt-server?///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 265	IP ID Seq: Incremental
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 5.3p1 Debian 3ubuntu3 (Ubuntu Linux; protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.14 ((Ubuntu))/, 110/closed/tcp//pop3///, 111/closed/tcp//rpcbind///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 203	IP ID Seq: All zeros
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 6.0p1 Debian 4 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 257	IP ID Seq: All zeros
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 21/closed/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 6.0p1 Debian 4 (protocol 2.0)/, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 53/closed/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/, 110/closed/tcp//pop3///, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 443/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/, 445/closed/tcp//microsoft-ds///, 993/closed/tcp//imaps///, 995/closed/tcp//pop3s///, 1723/closed/tcp//pptp///, 3306/closed/tcp//mysql///, 3389/closed/tcp//ms-wbt-server///, 5900/closed/tcp//vnc///, 8080/closed/tcp//http-proxy///	Seq Index: 263	IP ID Seq: All zeros
+Host: 10.11.1.247 ()	Status: Up
+Host: 10.11.1.247 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/open/tcp//ms-wbt-server?///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 258	IP ID Seq: Incremental
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 21/filtered/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 5.1p1 Debian 5ubuntu1 (Ubuntu Linux; protocol 2.0)/, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/open/tcp//ssl|http//Apache httpd 2.2.11 ((Ubuntu) PHP|5.2.6-3ubuntu4.4 with Suhosin-Patch)/, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///	Seq Index: 201	IP ID Seq: All zeros
+Host: 10.11.1.252 ()	Status: Up
+Host: 10.11.1.252 ()	Ports: 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 53/filtered/tcp//domain///, 80/filtered/tcp//http///, 110/filtered/tcp//pop3///, 111/filtered/tcp//rpcbind///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/filtered/tcp//imap///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1723/filtered/tcp//pptp///, 3306/filtered/tcp//mysql///, 3389/filtered/tcp//ms-wbt-server///, 5900/filtered/tcp//vnc///, 8080/filtered/tcp//http-proxy///
+# Nmap done at Sat Oct 13 13:09:57 2018 -- 254 IP addresses (44 hosts up) scanned in 3158.60 seconds
