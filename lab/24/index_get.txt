@@ -1,0 +1,13 @@
+POST http://10.11.1.24/index.php HTTP/1.1
+Host: 10.11.1.24
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://10.11.1.24/index.php?target=auth&mode=login_form
+Cookie: csid=76e7441653b623b2cdc4d4cb169c377e; cart_languageC=EN; secondary_currencyC=usd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 113
+
+target=auth&mode=login&csid=76e7441653b623b2cdc4d4cb169c377e&redirect_url=index.php&user_login=mimi&password=Pipi

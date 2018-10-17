@@ -1,0 +1,35 @@
+
+How do I get CPE points for PWK?
+If you have passed your OSCP exam, you may qualify for 40 CPE points, which you must submit yourself via the ISC² members site.
+If you have not passed the exam, or opted not to take it, you must submit your lab documentation in the form of a penetration test report to challenges@offensive-security.com for review to qualify for the CPE points.
+In case of an ISC² audit, we will provide you with a formal letter of attendance.
+
+
+How should I be managing the documentation and reporting in PWK?
+
+You can find information on the reporting, including downloadable templates and an example report, at the following URL: https://support.offensive-security.c...k-reporting.md
+
+What machines should I attack? What are the lab ranges?
+PWK Lab IP Assignments
+
+We host several separate PWK labs to avoid congestion of students in any single lab.
+The PWK network structure is as follows:
+
+PWK LAB - 10.11.0.0/16 network
+
+The machines you should be targeting are :
+
+PWK LAB - 10.11.1.1 - 10.11.1.254
+
+
+PLEASE DO NOT SCAN OR ATTACK MACHINES OUTSIDE YOUR RANGE.
+
+Please note that all the machines in the lab range ARE vulnerable to some type of attack/exploit.
+Remember that there are several vulnerable machines within this range which act as routers, and lead to additional vulnerable networks. Check your pdf guide for lab layout. Other departments have no restricted ranges for attacking and the whole /24 network is allowed to be targeted.
+
+
+
+I've found some .txt files, what are they?
+Some vulnerable machines contain "network-secret.txt" files in the administrative desktop or /root directory. These files contain codes that unlock the revert option for additional IP ranges in your control panel.
+
+There are also a number of lab systems that contain a proof.txt file. This file does not unlock any additional networks but can be added to your documentation as proof of exploitation.

