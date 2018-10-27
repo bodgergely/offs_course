@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.11.1.223</title>
+</head><body>The website seems very amateurish. Lots of login pages on it.<br/>
+<br/>
+https://www.exploit-db.com/exploits/11515/<br/>
+<br/>
+http://10.11.1.223/flatfilelogin/userlist.txt<br/>
+43cc1406555a57043b2730e6fda3a9e41admin<br/>
+<br/>
+If we look at the flatfilelogin source code we can see that login.php then validate.php will look into userlist.txt<br/>
+and validate for username the index 33.. of "43cc1406555a57043b2730e6fda3a9e41admin" and md5 hash &nbsp;of 0-31.<br/>
+the index 32 is not used.<br/>
+<br/>
+<br/>
+User: admin<br/>
+Password md5 hash: 43cc1406555a57043b2730e6fda3a9e4<br/>
+<br/>
+use hashcat with rockyou.txt wordlist:<br/>
+<br/>
+$ hashcat -m 0 hashmd5 /usr/share/wordlists/rockyou.txt --force<br/>
+<br/>
+<span style="color: #ff0000">user: &nbsp; &nbsp; admin<br/>
+password: coffeelover<br/>
+</span><br/>
+<br/>
+<b>Niky:</b> Hello, please leave me a message on this board. I monitor this page frequently and will reply as soon as it is possible. Your messages will be deleted from the board after I have viewed it and every time you log in (due to privacy settings). Attention Jeff: I have changed my IP to 10.1.1.224 Thank you for the suggestion. <br/>
+<br/>
+It has a shoutbox page. Since it is a shoutbox maybe we could do cross site scripting or some sort to make the visiting user download some malicious code. <br/>
+Posssible that we can get inside 10.1.1.224<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Server: Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1<br/>
+<br/>
+Hosts<br/>
+=====<br/>
+<br/>
+address &nbsp; &nbsp; &nbsp;mac &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name &nbsp;os_name &nbsp; &nbsp; &nbsp; os_flavor &nbsp;os_sp &nbsp;purpose &nbsp;info &nbsp;comments<br/>
+------- &nbsp; &nbsp; &nbsp;--- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- &nbsp;------- &nbsp; &nbsp; &nbsp; --------- &nbsp;----- &nbsp;------- &nbsp;---- &nbsp;--------<br/>
+10.11.1.223 &nbsp;00:50:56:89:3d:7b &nbsp; &nbsp; &nbsp; &nbsp;Windows 2008 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;server<br/>
+<br/>
+<br/>
+Services<br/>
+========<br/>
+<br/>
+host &nbsp; &nbsp; &nbsp; &nbsp; port &nbsp; proto &nbsp;name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; state &nbsp;info<br/>
+---- &nbsp; &nbsp; &nbsp; &nbsp; ---- &nbsp; ----- &nbsp;---- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ----- &nbsp;----<br/>
+10.11.1.223 &nbsp;80 &nbsp; &nbsp; tcp &nbsp; &nbsp;http &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; open &nbsp; Apache httpd 2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1<br/>
+10.11.1.223 &nbsp;135 &nbsp; &nbsp;tcp &nbsp; &nbsp;msrpc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;open &nbsp; Microsoft Windows RPC<br/>
+10.11.1.223 &nbsp;139 &nbsp; &nbsp;tcp &nbsp; &nbsp;netbios-ssn &nbsp; &nbsp;open &nbsp; Microsoft Windows netbios-ssn<br/>
+10.11.1.223 &nbsp;443 &nbsp; &nbsp;tcp &nbsp; &nbsp;https &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;445 &nbsp; &nbsp;tcp &nbsp; &nbsp;microsoft-ds &nbsp; open &nbsp; Microsoft Windows Server 2008 R2 microsoft-ds workgroup: WORKGROUP<br/>
+10.11.1.223 &nbsp;3306 &nbsp; tcp &nbsp; &nbsp;mysql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;open &nbsp; Error: \x04Host '10.11.0.48' is not allowed to connect to this MySQL server<br/>
+10.11.1.223 &nbsp;3389 &nbsp; tcp &nbsp; &nbsp;ms-wbt-server &nbsp;open<br/>
+10.11.1.223 &nbsp;49152 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;49153 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;49154 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;49155 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;49156 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.223 &nbsp;49157 &nbsp;tcp &nbsp; &nbsp;unknown &nbsp; &nbsp; &nbsp; &nbsp;open<br/>
+<br/>
+<br/>
+[*] exec: nbtscan -r 10.11.1.223<br/>
+<br/>
+Doing NBT name scan for addresses from 10.11.1.223<br/>
+<br/>
+IP address &nbsp; &nbsp; &nbsp; NetBIOS Name &nbsp; &nbsp; Server &nbsp; &nbsp;User &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MAC address<br/>
+------------------------------------------------------------------------------<br/>
+10.11.1.223 &nbsp; &nbsp; &nbsp;JEFF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;server&gt; &nbsp;&lt;unknown&gt; &nbsp; &nbsp; &nbsp; &nbsp;00:50:56:89:3d:7b<br/>
+<br/>
+<br/>
+PORT &nbsp; &nbsp;STATE SERVICE<br/>
+139/tcp open &nbsp;netbios-ssn<br/>
+445/tcp open &nbsp;microsoft-ds<br/>
+MAC Address: 00:50:56:89:3D:7B (VMware)<br/>
+<br/>
+<br/>
+Host script results:<br/>
+| smb-os-discovery:<br/>
+| &nbsp; OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)<br/>
+| &nbsp; OS CPE: cpe:/o:microsoft:windows_server_2008::sp1<br/>
+| &nbsp; Computer name: Jeff<br/>
+| &nbsp; NetBIOS computer name: JEFF\x00<br/>
+| &nbsp; Workgroup: WORKGROUP\x00<br/>
+|_ &nbsp;System time: 2018-10-16T16:06:45-07:00<br/>
+<br/>
+<br/>
+Vulnerability scan <br/>
+===========<br/>
+smb-vuln-ms17-010:<br/>
+| &nbsp; VULNERABLE:<br/>
+| &nbsp; Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)<br/>
+| &nbsp; &nbsp; State: VULNERABLE<br/>
+| &nbsp; &nbsp; IDs: &nbsp;CVE:CVE-2017-0143<br/>
+| &nbsp; &nbsp; Risk factor: HIGH<br/>
+| &nbsp; &nbsp; &nbsp; A critical remote code execution vulnerability exists in Microsoft SMBv1<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp;servers (ms17-010).<br/>
+|<br/>
+| &nbsp; &nbsp; Disclosure date: 2017-03-14<br/>
+| &nbsp; &nbsp; References:<br/>
+| &nbsp; &nbsp; &nbsp; https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143<br/>
+| &nbsp; &nbsp; &nbsp; https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/<br/>
+|_ &nbsp; &nbsp; &nbsp;https://technet.microsoft.com/en-us/library/security/ms17-010.aspx<br/>
+<br/>
+<br/>
+We now have a candidate to exploit. The CVE-2017-0143 has some metasploit modules, scanners, exploits.<br/>
+(Failed the exploit it.)!!!!<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body></html>

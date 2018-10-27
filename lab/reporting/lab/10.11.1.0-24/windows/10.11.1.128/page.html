@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.11.1.128</title>
+</head><body>Old Microsoft IIS server with asp.<br/>
+Windows 2000 <br/>
+<br/>
+https://www.cvedetails.com/cve/CVE-2009-3023/<br/>
+www.exploit-db.com/exploits/9541<br/>
+https://www.exploit-db.com/exploits/9559/<br/>
+<br/>
+Computer name: DJ<br/>
+<br/>
+<br/>
+| smb-os-discovery: <br/>
+| &nbsp; OS: Windows 2000 (Windows 2000 LAN Manager)<br/>
+| &nbsp; OS CPE: cpe:/o:microsoft:windows_2000::-<br/>
+| &nbsp; Computer name: dj<br/>
+| &nbsp; NetBIOS computer name: DJ\x00<br/>
+| &nbsp; Workgroup: WORKGROUP\x00<br/>
+|_ &nbsp;System time: 2018-10-18T19:21:22+02:00<br/>
+<br/>
+<br/>
+<br/>
+host &nbsp; &nbsp; &nbsp; &nbsp; port &nbsp;proto &nbsp;name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;state &nbsp;info<br/>
+---- &nbsp; &nbsp; &nbsp; &nbsp; ---- &nbsp;----- &nbsp;---- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;----- &nbsp;----<br/>
+10.11.1.128 &nbsp;21 &nbsp; &nbsp;tcp &nbsp; &nbsp;ftp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; open &nbsp; Microsoft ftpd 5.0 (220 dj Microsoft FTP Service (Version 5.0).)<br/>
+10.11.1.128 &nbsp;25 &nbsp; &nbsp;tcp &nbsp; &nbsp;smtp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;open &nbsp; Microsoft ESMTP 5.0.2195.6713<br/>
+10.11.1.128 &nbsp;80 &nbsp; &nbsp;tcp &nbsp; &nbsp;http &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;open &nbsp; Microsoft IIS httpd 5.0<br/>
+10.11.1.128 &nbsp;135 &nbsp; tcp &nbsp; &nbsp;msrpc &nbsp; &nbsp; &nbsp; &nbsp; open &nbsp; Microsoft Windows RPC<br/>
+10.11.1.128 &nbsp;139 &nbsp; tcp &nbsp; &nbsp;netbios-ssn &nbsp; open &nbsp; Microsoft Windows netbios-ssn<br/>
+10.11.1.128 &nbsp;443 &nbsp; tcp &nbsp; &nbsp;https &nbsp; &nbsp; &nbsp; &nbsp; open<br/>
+10.11.1.128 &nbsp;445 &nbsp; tcp &nbsp; &nbsp;microsoft-ds &nbsp;open &nbsp; Microsoft Windows 2000 microsoft-ds<br/>
+10.11.1.128 &nbsp;1025 &nbsp;tcp &nbsp; &nbsp;msrpc &nbsp; &nbsp; &nbsp; &nbsp; open &nbsp; Microsoft Windows RPC<br/>
+10.11.1.128 &nbsp;5900 &nbsp;tcp &nbsp; &nbsp;vnc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; open &nbsp; VNC protocol 3.8<br/>
+<br/>
+<br/>
+Nothing but a login page.<br/>
+<br/>
+============<br/>
+username&#09;&#09;|<br/>
+-------------&#09;&#09;|<br/>
+password&#09;&#09;|<br/>
+-------------&#09;&#09;|<br/>
+============<br/>
+<br/>
+<br/>
+POST http://10.11.1.128/login-off.asp HTTP/1.1<br/>
+Host: 10.11.1.128<br/>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0<br/>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br/>
+Accept-Language: en-US,en;q=0.5<br/>
+Referer: http://10.11.1.128/<br/>
+Cookie: ASPSESSIONIDQARBSBCC=JGHDBDNDHANCELMKNECDEKEB<br/>
+Connection: keep-alive<br/>
+Upgrade-Insecure-Requests: 1<br/>
+Content-Type: application/x-www-form-urlencoded<br/>
+Content-Length: 48<br/>
+<br/>
+txtLoginID=Pipi&amp;txtPassword=Muka&amp;cmdSubmit=Login<br/>
+<br/>
+<br/>
+<br/>
+VNC (TightVNC)<br/>
+=========<br/>
+<br/>
+port: 5900<br/>
+<br/>
+oot@kali:~/Desktop/lab# vncviewer<br/>
+Connected to RFB server, using protocol version 3.8<br/>
+Enabling TightVNC protocol extensions<br/>
+Performing standard VNC authentication<br/>
+<br/>
+TightVNC - Authentication Failure Integer Overflow (PoC) &nbsp; &nbsp; &nbsp; &nbsp;| exploits/windows/dos/8024.py<br/>
+UltraVNC/TightVNC (Multiple VNC Clients) - Multiple Integer Ove | exploits/windows/dos/7990.py<br/>
+</body></html>

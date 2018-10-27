@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.11.1.229</title>
+</head><body>http://10.11.1.229<br/>
+<br/>
+10.11.1.229 - /<hr/>&nbsp; Monday, February 18, 2008 9:23 AM &lt;dir&gt; <a href="http://10.11.1.229/_private/">_private</a><br/>
+&nbsp;Monday, February 18, 2008 9:23 AM &lt;dir&gt; <a href="http://10.11.1.229/_vti_log/">_vti_log</a><br/>
+&nbsp;Monday, February 18, 2008 9:23 AM &lt;dir&gt; <a href="http://10.11.1.229/aspnet_client/">aspnet_client</a><br/>
+&nbsp;Friday, October 19, 2018 10:24 AM &lt;dir&gt; <a href="http://10.11.1.229/DavTestDir_gpaxh9uuT/">DavTestDir_gpaxh9uuT</a><br/>
+&nbsp;Monday, February 18, 2008 9:23 AM &lt;dir&gt; <a href="http://10.11.1.229/images/">images</a><br/>
+<br/>
+<br/>
+Vulerable to PUT/DELETE http methods:<br/>
+<br/>
+I can create a new file on the server like this:<br/>
+<br/>
+PUT http://10.11.1.229/neh.html HTTP/1.1<br/>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0<br/>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br/>
+Accept-Language: en-US,en;q=0.5<br/>
+Connection: keep-alive<br/>
+Upgrade-Insecure-Requests: 1<br/>
+Content-Length: 11<br/>
+Host: 10.11.1.229<br/>
+<br/>
+&lt;p&gt;Mimi&lt;/p&gt;<br/>
+<br/>
+<br/>
+We could use VBscript in the body to create a shell.<br/>
+<br/>
+<br/>
+| smb-os-discovery:<br/>
+| &nbsp; OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)<br/>
+| &nbsp; OS CPE: cpe:/o:microsoft:windows_server_2003::sp1<br/>
+| &nbsp; Computer name: mail<br/>
+| &nbsp; NetBIOS computer name: MAIL\x00<br/>
+| &nbsp; Workgroup: WORKGROUP\x00<br/>
+|_ &nbsp;System time: 2018-10-18T12:22:35-05:00<br/>
+<br/>
+<br/>
+Nmap reports 2 vulnerabilities: (They dont work because this server only has 139 open and 445 is required)<br/>
+<br/>
+<br/>
+Use this to crash the server:<br/>
+https://www.exploit-db.com/exploits/18606/<br/>
+<br/>
+<br/>
+<br/>
+| smb-vuln-cve2009-3103:<br/>
+| &nbsp; VULNERABLE:<br/>
+| &nbsp; SMBv2 exploit (CVE-2009-3103, Microsoft Security Advisory 975497)<br/>
+| &nbsp; &nbsp; State: VULNERABLE<br/>
+| &nbsp; &nbsp; IDs: &nbsp;CVE:CVE-2009-3103<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2,<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location,<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; aka "SMBv2 Negotiation Vulnerability."<br/>
+|<br/>
+| &nbsp; &nbsp; Disclosure date: 2009-09-08<br/>
+| &nbsp; &nbsp; References:<br/>
+| &nbsp; &nbsp; &nbsp; https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3103<br/>
+|_ &nbsp; &nbsp; &nbsp;http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3103<br/>
+<br/>
+<br/>
+&nbsp;smb-vuln-ms08-067:<br/>
+| &nbsp; VULNERABLE:<br/>
+| &nbsp; Microsoft Windows system vulnerable to remote code execution (MS08-067)<br/>
+| &nbsp; &nbsp; State: VULNERABLE<br/>
+| &nbsp; &nbsp; IDs: &nbsp;CVE:CVE-2008-4250<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2,<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary<br/>
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; code via a crafted RPC request that triggers the overflow during path canonicalization.<br/>
+|<br/>
+| &nbsp; &nbsp; Disclosure date: 2008-10-23<br/>
+| &nbsp; &nbsp; References:<br/>
+| &nbsp; &nbsp; &nbsp; https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4250<br/>
+|_ &nbsp; &nbsp; &nbsp;https://technet.microsoft.com/en-us/library/security/ms08-067.aspx<br/>
+<br/>
+</body></html>

